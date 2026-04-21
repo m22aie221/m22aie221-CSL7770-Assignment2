@@ -1,0 +1,13 @@
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+# Speaker embedding (choose one):
+speechbrain>=0.5.16        # ECAPA x-vector (best)
+resemblyzer>=0.1.1.dev0    # GE2E d-vector (alternative)
+# TTS synthesis (choose one):
+TTS>=0.22.0                # Coqui YourTTS / XTTS (best zero-shot)
+transformers>=4.35.0       # Meta MMS-TTS (Bhojpuri native)
+# Fallback
+gtts>=2.3.2
+pydub>=0.25.1
