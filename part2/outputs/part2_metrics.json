@@ -1,0 +1,22 @@
+{
+  "corpus_stats": {
+    "total_entries": 178,
+    "passes_500_req": false,
+    "threshold": 500
+  },
+  "g2p_stats": {
+    "total_words": 1112,
+    "corpus_hits": 300,
+    "english_words": 84,
+    "hindi_words": 610,
+    "corpus_coverage": 0.2698
+  },
+  "translation_stats": {
+    "total_tokens": 994,
+    "by_method": {
+      "unchanged": 659,
+      "corpus": 300,
+      "morphological": 35
+    }
+  }
+}

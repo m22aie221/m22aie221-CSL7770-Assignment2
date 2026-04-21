@@ -1,0 +1,6524 @@
+{
+  "language_pair": "hinglish → bhojpuri",
+  "total_segments": 129,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.46,
+      "original": "आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।",
+      "bhojpuri": "आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "आजो",
+          "target": "आजो",
+          "method": "unchanged"
+        },
+        {
+          "source": "कुछ",
+          "target": "कुछ",
+          "method": "corpus"
+        },
+        {
+          "source": "भी",
+          "target": "भी",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं।",
+          "target": "हैं।",
+          "method": "unchanged"
+        },
+        {
+          "source": "उसके",
+          "target": "उसके",
+          "method": "unchanged"
+        },
+        {
+          "source": "भी",
+          "target": "भी",
+          "method": "unchanged"
+        },
+        {
+          "source": "रून्स",
+          "target": "रून्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "बने",
+          "target": "बने",
+          "method": "unchanged"
+        },
+        {
+          "source": "हुए",
+          "target": "हुए",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं।",
+          "target": "हैं।",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 2.46,
+      "end": 4.48,
+      "original": "कुलम्स्लो हैं, कौस्लो हैं।",
+      "bhojpuri": "कुलम्स्लो बाड़न, कौस्लो हैं।",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "कुलम्स्लो",
+          "target": "कुलम्स्लो",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        },
+        {
+          "source": "कौस्लो",
+          "target": "कौस्लो",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं।",
+          "target": "हैं।",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 4.48,
+      "end": 7.0,
+      "original": "तो उससे हम वो सारी थीज़े समझ लेते हैं।",
+      "bhojpuri": "त उससे हम वो सारी रहलज़े समझ लेते हैं।",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "उससे",
+          "target": "उससे",
+          "method": "unchanged"
+        },
+        {
+          "source": "हम",
+          "target": "हम",
+          "method": "corpus"
+        },
+        {
+          "source": "वो",
+          "target": "वो",
+          "method": "unchanged"
+        },
+        {
+          "source": "सारी",
+          "target": "सारी",
+          "method": "unchanged"
+        },
+        {
+          "source": "थीज़े",
+          "target": "रहलज़े",
+          "method": "morphological"
+        },
+        {
+          "source": "समझ",
+          "target": "समझ",
+          "method": "unchanged"
+        },
+        {
+          "source": "लेते",
+          "target": "लेते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं।",
+          "target": "हैं।",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 7.74,
+      "end": 11.72,
+      "original": "अप्टिक्स हैं, लाइट हैं, इसके लिए भी रिफ्राक्षण के लिए हूए हूए हैं।",
+      "bhojpuri": "अप्टिक्स बाड़न, लाइट बाड़न, इसके लिए भी रिफ्राक्षण के लिए हूए हूए हैं।",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "अप्टिक्स",
+          "target": "अप्टिक्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        },
+        {
+          "source": "लाइट",
+          "target": "लाइट",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        },
+        {
+          "source": "इसके",
+          "target": "इसके",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "भी",
+          "target": "भी",
+          "method": "unchanged"
+        },
+        {
+          "source": "रिफ्राक्षण",
+          "target": "रिफ्राक्षण",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "हूए",
+          "target": "हूए",
+          "method": "unchanged"
+        },
+        {
+          "source": "हूए",
+          "target": "हूए",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं।",
+          "target": "हैं।",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 11.72,
+      "end": 13.52,
+      "original": "सब कुछ हम लोग करते हैं।",
+      "bhojpuri": "सब कुछ हम लोग करते हैं।",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "सब",
+          "target": "सब",
+          "method": "corpus"
+        },
+        {
+          "source": "कुछ",
+          "target": "कुछ",
+          "method": "corpus"
+        },
+        {
+          "source": "हम",
+          "target": "हम",
+          "method": "corpus"
+        },
+        {
+          "source": "लोग",
+          "target": "लोग",
+          "method": "unchanged"
+        },
+        {
+          "source": "करते",
+          "target": "करते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं।",
+          "target": "हैं।",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 16.68,
+      "end": 19.8,
+      "original": "तो उसको अगर हम लोग देखें,",
+      "bhojpuri": "त उसको अगर हम लोग देखें,",
+      "dominant_language": "english",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "उसको",
+          "target": "उसको",
+          "method": "unchanged"
+        },
+        {
+          "source": "अगर",
+          "target": "अगर",
+          "method": "corpus"
+        },
+        {
+          "source": "हम",
+          "target": "हम",
+          "method": "corpus"
+        },
+        {
+          "source": "लोग",
+          "target": "लोग",
+          "method": "unchanged"
+        },
+        {
+          "source": "देखें",
+          "target": "देखें",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 19.8,
+      "end": 24.98,
+      "original": "तो जो क्लासिकल फिसिक्स जिसे कहते हैं हम,",
+      "bhojpuri": "त जे क्लासिकल फिसिक्स जिसे कहते बाड़न हम,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "जो",
+          "target": "जे",
+          "method": "corpus"
+        },
+        {
+          "source": "क्लासिकल",
+          "target": "क्लासिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "फिसिक्स",
+          "target": "फिसिक्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिसे",
+          "target": "जिसे",
+          "method": "unchanged"
+        },
+        {
+          "source": "कहते",
+          "target": "कहते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        },
+        {
+          "source": "हम",
+          "target": "हम",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 4,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 27.58,
+      "end": 33.66,
+      "original": "वो दो जगे पर जो हमारी तोड़े अनुखों से पाहर की जिज़े हैं,",
+      "bhojpuri": "वो दो जगे पर जे हमारी तोड़े अनुखों से पाहर के जिज़े बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "वो",
+          "target": "वो",
+          "method": "unchanged"
+        },
+        {
+          "source": "दो",
+          "target": "दो",
+          "method": "unchanged"
+        },
+        {
+          "source": "जगे",
+          "target": "जगे",
+          "method": "unchanged"
+        },
+        {
+          "source": "पर",
+          "target": "पर",
+          "method": "corpus"
+        },
+        {
+          "source": "जो",
+          "target": "जे",
+          "method": "corpus"
+        },
+        {
+          "source": "हमारी",
+          "target": "हमारी",
+          "method": "unchanged"
+        },
+        {
+          "source": "तोड़े",
+          "target": "तोड़े",
+          "method": "unchanged"
+        },
+        {
+          "source": "अनुखों",
+          "target": "अनुखों",
+          "method": "unchanged"
+        },
+        {
+          "source": "से",
+          "target": "से",
+          "method": "corpus"
+        },
+        {
+          "source": "पाहर",
+          "target": "पाहर",
+          "method": "unchanged"
+        },
+        {
+          "source": "की",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "जिज़े",
+          "target": "जिज़े",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 5,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 33.76,
+      "end": 36.02,
+      "original": "उसमें इसमें तोड़े चेंजेस करने परता हैं,",
+      "bhojpuri": "उसमें इसमें तोड़े चेंजेस करने परता बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "उसमें",
+          "target": "उसमें",
+          "method": "unchanged"
+        },
+        {
+          "source": "इसमें",
+          "target": "इसमें",
+          "method": "unchanged"
+        },
+        {
+          "source": "तोड़े",
+          "target": "तोड़े",
+          "method": "unchanged"
+        },
+        {
+          "source": "चेंजेस",
+          "target": "चेंजेस",
+          "method": "unchanged"
+        },
+        {
+          "source": "करने",
+          "target": "करने",
+          "method": "unchanged"
+        },
+        {
+          "source": "परता",
+          "target": "परता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 36.04,
+      "end": 37.72,
+      "original": "इसे काम नहीं चलता हैं।",
+      "bhojpuri": "इसे केम ना चलता हैं।",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "इसे",
+          "target": "इसे",
+          "method": "unchanged"
+        },
+        {
+          "source": "काम",
+          "target": "केम",
+          "method": "morphological"
+        },
+        {
+          "source": "नहीं",
+          "target": "ना",
+          "method": "corpus"
+        },
+        {
+          "source": "चलता",
+          "target": "चलता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं।",
+          "target": "हैं।",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 37.72,
+      "end": 40.88,
+      "original": "तो एक तो है, जिसमें कि हम",
+      "bhojpuri": "त एक त बा, जिसमें कि हम",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "एक",
+          "target": "एक",
+          "method": "unchanged"
+        },
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "है",
+          "target": "बा",
+          "method": "corpus"
+        },
+        {
+          "source": "जिसमें",
+          "target": "जिसमें",
+          "method": "unchanged"
+        },
+        {
+          "source": "कि",
+          "target": "कि",
+          "method": "corpus"
+        },
+        {
+          "source": "हम",
+          "target": "हम",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 5,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 40.88,
+      "end": 43.88,
+      "original": "हाई स्पीट जब इनकि लिल्मॉल हो जाते हैं।",
+      "bhojpuri": "हाई स्पीट जब इनकि लिल्मॉल हो जाते हैं।",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "हाई",
+          "target": "हाई",
+          "method": "unchanged"
+        },
+        {
+          "source": "स्पीट",
+          "target": "स्पीट",
+          "method": "unchanged"
+        },
+        {
+          "source": "जब",
+          "target": "जब",
+          "method": "corpus"
+        },
+        {
+          "source": "इनकि",
+          "target": "इनकि",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिल्मॉल",
+          "target": "लिल्मॉल",
+          "method": "unchanged"
+        },
+        {
+          "source": "हो",
+          "target": "हो",
+          "method": "unchanged"
+        },
+        {
+          "source": "जाते",
+          "target": "जाते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं।",
+          "target": "हैं।",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 46.22,
+      "end": 49.66,
+      "original": "जब हम ऐसी चीजों की चर्चा करते हैं,",
+      "bhojpuri": "जब हम ऐसी चीजों के चर्चा करते बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "जब",
+          "target": "जब",
+          "method": "corpus"
+        },
+        {
+          "source": "हम",
+          "target": "हम",
+          "method": "corpus"
+        },
+        {
+          "source": "ऐसी",
+          "target": "ऐसी",
+          "method": "unchanged"
+        },
+        {
+          "source": "चीजों",
+          "target": "चीजों",
+          "method": "unchanged"
+        },
+        {
+          "source": "की",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "चर्चा",
+          "target": "चर्चा",
+          "method": "unchanged"
+        },
+        {
+          "source": "करते",
+          "target": "करते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 4,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 49.72,
+      "end": 53.2,
+      "original": "जिनकि स्पीड बहुत जादा है,",
+      "bhojpuri": "जिनकि स्पीड बहुते जादा बा,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "जिनकि",
+          "target": "जिनकि",
+          "method": "unchanged"
+        },
+        {
+          "source": "स्पीड",
+          "target": "स्पीड",
+          "method": "unchanged"
+        },
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "जादा",
+          "target": "जादा",
+          "method": "unchanged"
+        },
+        {
+          "source": "है",
+          "target": "बा",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 53.38,
+      "end": 55.62,
+      "original": "और बहुत जादा यहने कितनी जादा,",
+      "bhojpuri": "अउर बहुते जादा यहने कितनी जादा,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "जादा",
+          "target": "जादा",
+          "method": "unchanged"
+        },
+        {
+          "source": "यहने",
+          "target": "यहने",
+          "method": "unchanged"
+        },
+        {
+          "source": "कितनी",
+          "target": "कितनी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जादा",
+          "target": "जादा",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 55.66,
+      "end": 60.36,
+      "original": "तो जो प्रकाश की लाइट की जो स्पीड है वाक्यूम में,",
+      "bhojpuri": "त जे प्रकाश के लाइट के जे स्पीड बा वाक्यूम में,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "जो",
+          "target": "जे",
+          "method": "corpus"
+        },
+        {
+          "source": "प्रकाश",
+          "target": "प्रकाश",
+          "method": "unchanged"
+        },
+        {
+          "source": "की",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "लाइट",
+          "target": "लाइट",
+          "method": "unchanged"
+        },
+        {
+          "source": "की",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "जो",
+          "target": "जे",
+          "method": "corpus"
+        },
+        {
+          "source": "स्पीड",
+          "target": "स्पीड",
+          "method": "unchanged"
+        },
+        {
+          "source": "है",
+          "target": "बा",
+          "method": "corpus"
+        },
+        {
+          "source": "वाक्यूम",
+          "target": "वाक्यूम",
+          "method": "unchanged"
+        },
+        {
+          "source": "में",
+          "target": "में",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 7,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 60.36,
+      "end": 62.88,
+      "original": "उसकी अपकी, उसके खम्परेबल है,",
+      "bhojpuri": "उसकी अपकी, उसके खम्परेबल बा,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "उसकी",
+          "target": "उसकी",
+          "method": "unchanged"
+        },
+        {
+          "source": "अपकी",
+          "target": "अपकी",
+          "method": "unchanged"
+        },
+        {
+          "source": "उसके",
+          "target": "उसके",
+          "method": "unchanged"
+        },
+        {
+          "source": "खम्परेबल",
+          "target": "खम्परेबल",
+          "method": "unchanged"
+        },
+        {
+          "source": "है",
+          "target": "बा",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 62.96,
+      "end": 64.3,
+      "original": "उहां से तुल्ना करना है,",
+      "bhojpuri": "उहां से तुल्ना करल बा,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "उहां",
+          "target": "उहां",
+          "method": "unchanged"
+        },
+        {
+          "source": "से",
+          "target": "से",
+          "method": "corpus"
+        },
+        {
+          "source": "तुल्ना",
+          "target": "तुल्ना",
+          "method": "unchanged"
+        },
+        {
+          "source": "करना",
+          "target": "करल",
+          "method": "corpus"
+        },
+        {
+          "source": "है",
+          "target": "बा",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 64.52,
+      "end": 66.46,
+      "original": "उसका इतना परसेन, उसका दश परसेन,",
+      "bhojpuri": "उसका इतना परसेन, उसका दश परसेन,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "उसका",
+          "target": "उसका",
+          "method": "unchanged"
+        },
+        {
+          "source": "इतना",
+          "target": "इतना",
+          "method": "unchanged"
+        },
+        {
+          "source": "परसेन",
+          "target": "परसेन",
+          "method": "unchanged"
+        },
+        {
+          "source": "उसका",
+          "target": "उसका",
+          "method": "unchanged"
+        },
+        {
+          "source": "दश",
+          "target": "दश",
+          "method": "unchanged"
+        },
+        {
+          "source": "परसेन",
+          "target": "परसेन",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 0,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 66.46,
+      "end": 68.36,
+      "original": "उसका पाँच परसेन, उसका पचाज परसेन,",
+      "bhojpuri": "उसका पाँच परसेन, उसका पचाज परसेन,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "उसका",
+          "target": "उसका",
+          "method": "unchanged"
+        },
+        {
+          "source": "पाँच",
+          "target": "पाँच",
+          "method": "unchanged"
+        },
+        {
+          "source": "परसेन",
+          "target": "परसेन",
+          "method": "unchanged"
+        },
+        {
+          "source": "उसका",
+          "target": "उसका",
+          "method": "unchanged"
+        },
+        {
+          "source": "पचाज",
+          "target": "पचाज",
+          "method": "unchanged"
+        },
+        {
+          "source": "परसेन",
+          "target": "परसेन",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 0,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 69.06,
+      "end": 72.1,
+      "original": "उसका नब्य परसेन, उससे से तुल्ना करना हैं।",
+      "bhojpuri": "उसका नब्य परसेन, उससे से तुल्ना करल हैं।",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "उसका",
+          "target": "उसका",
+          "method": "unchanged"
+        },
+        {
+          "source": "नब्य",
+          "target": "नब्य",
+          "method": "unchanged"
+        },
+        {
+          "source": "परसेन",
+          "target": "परसेन",
+          "method": "unchanged"
+        },
+        {
+          "source": "उससे",
+          "target": "उससे",
+          "method": "unchanged"
+        },
+        {
+          "source": "से",
+          "target": "से",
+          "method": "corpus"
+        },
+        {
+          "source": "तुल्ना",
+          "target": "तुल्ना",
+          "method": "unchanged"
+        },
+        {
+          "source": "करना",
+          "target": "करल",
+          "method": "corpus"
+        },
+        {
+          "source": "हैं।",
+          "target": "हैं।",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 72.1,
+      "end": 75.4,
+      "original": "तो उससे तुल्ना करने योगी जब हो जाएं,",
+      "bhojpuri": "त उससे तुल्ना करने योगी जब हो जाएं,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "उससे",
+          "target": "उससे",
+          "method": "unchanged"
+        },
+        {
+          "source": "तुल्ना",
+          "target": "तुल्ना",
+          "method": "unchanged"
+        },
+        {
+          "source": "करने",
+          "target": "करने",
+          "method": "unchanged"
+        },
+        {
+          "source": "योगी",
+          "target": "योगी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जब",
+          "target": "जब",
+          "method": "corpus"
+        },
+        {
+          "source": "हो",
+          "target": "हो",
+          "method": "unchanged"
+        },
+        {
+          "source": "जाएं",
+          "target": "जाएं",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 75.4,
+      "end": 77.68,
+      "original": "तो हम कहते हैं, और बहुत ज़ादा स्पीर होगी है,",
+      "bhojpuri": "त हम कहते बाड़न, अउर बहुते ज़ादा स्पीर होगी बा,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "हम",
+          "target": "हम",
+          "method": "corpus"
+        },
+        {
+          "source": "कहते",
+          "target": "कहते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        },
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "ज़ादा",
+          "target": "ज़ादा",
+          "method": "unchanged"
+        },
+        {
+          "source": "स्पीर",
+          "target": "स्पीर",
+          "method": "unchanged"
+        },
+        {
+          "source": "होगी",
+          "target": "होगी",
+          "method": "unchanged"
+        },
+        {
+          "source": "है",
+          "target": "बा",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 6,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 78.3,
+      "end": 82.92,
+      "original": "वैसी हालत में जो नूटन के नियमों से हम गदियों के चर्चा करते हैं,",
+      "bhojpuri": "वैसी हालत में जे नूटन के नियमों से हम गदियों के चर्चा करते बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "वैसी",
+          "target": "वैसी",
+          "method": "unchanged"
+        },
+        {
+          "source": "हालत",
+          "target": "हालत",
+          "method": "unchanged"
+        },
+        {
+          "source": "में",
+          "target": "में",
+          "method": "corpus"
+        },
+        {
+          "source": "जो",
+          "target": "जे",
+          "method": "corpus"
+        },
+        {
+          "source": "नूटन",
+          "target": "नूटन",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "नियमों",
+          "target": "नियमों",
+          "method": "unchanged"
+        },
+        {
+          "source": "से",
+          "target": "से",
+          "method": "corpus"
+        },
+        {
+          "source": "हम",
+          "target": "हम",
+          "method": "corpus"
+        },
+        {
+          "source": "गदियों",
+          "target": "गदियों",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "चर्चा",
+          "target": "चर्चा",
+          "method": "unchanged"
+        },
+        {
+          "source": "करते",
+          "target": "करते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 7,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 83.04,
+      "end": 85.88,
+      "original": "और बहुत सटीग, बहुत अच्छी चर्चा होती हैं,",
+      "bhojpuri": "अउर बहुते सटीग, बहुते अच्छी चर्चा होती बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "सटीग",
+          "target": "सटीग",
+          "method": "unchanged"
+        },
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "अच्छी",
+          "target": "अच्छी",
+          "method": "unchanged"
+        },
+        {
+          "source": "चर्चा",
+          "target": "चर्चा",
+          "method": "unchanged"
+        },
+        {
+          "source": "होती",
+          "target": "होती",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 4,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 85.94,
+      "end": 88.78,
+      "original": "और बहुत सटीग उसके परनाम निकलते हैं,",
+      "bhojpuri": "अउर बहुते सटीग उसके परलम निकलते बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "सटीग",
+          "target": "सटीग",
+          "method": "unchanged"
+        },
+        {
+          "source": "उसके",
+          "target": "उसके",
+          "method": "unchanged"
+        },
+        {
+          "source": "परनाम",
+          "target": "परलम",
+          "method": "morphological"
+        },
+        {
+          "source": "निकलते",
+          "target": "निकलते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 88.78,
+      "end": 90.78,
+      "original": "वो यहाँ पर आकर के गर्ब राते हैं,",
+      "bhojpuri": "वो यहाँ पर आकरके के गर्ब राते बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "वो",
+          "target": "वो",
+          "method": "unchanged"
+        },
+        {
+          "source": "यहाँ",
+          "target": "यहाँ",
+          "method": "unchanged"
+        },
+        {
+          "source": "पर",
+          "target": "पर",
+          "method": "corpus"
+        },
+        {
+          "source": "आकर",
+          "target": "आकरके",
+          "method": "morphological"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "गर्ब",
+          "target": "गर्ब",
+          "method": "unchanged"
+        },
+        {
+          "source": "राते",
+          "target": "राते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 91.94,
+      "end": 96.42,
+      "original": "तो आम जंदगे में तो हमें उतने हाई स्पीट से वास्ता कम परता हैं,",
+      "bhojpuri": "त आम जंदगे में त हमें उतने हाई स्पीट से वास्ता कम परता बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "आम",
+          "target": "आम",
+          "method": "unchanged"
+        },
+        {
+          "source": "जंदगे",
+          "target": "जंदगे",
+          "method": "unchanged"
+        },
+        {
+          "source": "में",
+          "target": "में",
+          "method": "corpus"
+        },
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "हमें",
+          "target": "हमें",
+          "method": "unchanged"
+        },
+        {
+          "source": "उतने",
+          "target": "उतने",
+          "method": "unchanged"
+        },
+        {
+          "source": "हाई",
+          "target": "हाई",
+          "method": "unchanged"
+        },
+        {
+          "source": "स्पीट",
+          "target": "स्पीट",
+          "method": "unchanged"
+        },
+        {
+          "source": "से",
+          "target": "से",
+          "method": "corpus"
+        },
+        {
+          "source": "वास्ता",
+          "target": "वास्ता",
+          "method": "unchanged"
+        },
+        {
+          "source": "कम",
+          "target": "कम",
+          "method": "unchanged"
+        },
+        {
+          "source": "परता",
+          "target": "परता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 5,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 96.46,
+      "end": 98.16,
+      "original": "लाइट खुद आती हैं अपनी स्पीट से,",
+      "bhojpuri": "लाइट खुद आती बाड़न अपनी स्पीट से,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "लाइट",
+          "target": "लाइट",
+          "method": "unchanged"
+        },
+        {
+          "source": "खुद",
+          "target": "खुद",
+          "method": "unchanged"
+        },
+        {
+          "source": "आती",
+          "target": "आती",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        },
+        {
+          "source": "अपनी",
+          "target": "अपनी",
+          "method": "unchanged"
+        },
+        {
+          "source": "स्पीट",
+          "target": "स्पीट",
+          "method": "unchanged"
+        },
+        {
+          "source": "से",
+          "target": "से",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 98.38,
+      "end": 100.78,
+      "original": "वही हाई स्पीट से हमरा वास्ता परता हैं,",
+      "bhojpuri": "ऊी हाई स्पीट से हमरा वास्ता परता बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "वही",
+          "target": "ऊी",
+          "method": "morphological"
+        },
+        {
+          "source": "हाई",
+          "target": "हाई",
+          "method": "unchanged"
+        },
+        {
+          "source": "स्पीट",
+          "target": "स्पीट",
+          "method": "unchanged"
+        },
+        {
+          "source": "से",
+          "target": "से",
+          "method": "corpus"
+        },
+        {
+          "source": "हमरा",
+          "target": "हमरा",
+          "method": "unchanged"
+        },
+        {
+          "source": "वास्ता",
+          "target": "वास्ता",
+          "method": "unchanged"
+        },
+        {
+          "source": "परता",
+          "target": "परता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 102.10000000000001,
+      "end": 105.6,
+      "original": "लेकिन जो इक्सेलेरेटर्स पे कांग करते हैं,",
+      "bhojpuri": "बाकी जे इक्सेलेरेटर्स पे कांग करते बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "लेकिन",
+          "target": "बाकी",
+          "method": "corpus"
+        },
+        {
+          "source": "जो",
+          "target": "जे",
+          "method": "corpus"
+        },
+        {
+          "source": "इक्सेलेरेटर्स",
+          "target": "इक्सेलेरेटर्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "पे",
+          "target": "पे",
+          "method": "unchanged"
+        },
+        {
+          "source": "कांग",
+          "target": "कांग",
+          "method": "unchanged"
+        },
+        {
+          "source": "करते",
+          "target": "करते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 105.6,
+      "end": 110.96,
+      "original": "जो फिसिसिस्ट पार्टिकल्स को इक्सेलेरेट कराते हैं मशीनों के अंडर में,",
+      "bhojpuri": "जे फिसिसिस्ट पार्टिकल्स को इक्सेलेरेट करकेाते बाड़न मशीनों के अंडर में,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "जो",
+          "target": "जे",
+          "method": "corpus"
+        },
+        {
+          "source": "फिसिसिस्ट",
+          "target": "फिसिसिस्ट",
+          "method": "unchanged"
+        },
+        {
+          "source": "पार्टिकल्स",
+          "target": "पार्टिकल्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "को",
+          "target": "को",
+          "method": "unchanged"
+        },
+        {
+          "source": "इक्सेलेरेट",
+          "target": "इक्सेलेरेट",
+          "method": "unchanged"
+        },
+        {
+          "source": "कराते",
+          "target": "करकेाते",
+          "method": "morphological"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        },
+        {
+          "source": "मशीनों",
+          "target": "मशीनों",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "अंडर",
+          "target": "अंडर",
+          "method": "unchanged"
+        },
+        {
+          "source": "में",
+          "target": "में",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 4,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 111.1,
+      "end": 112.94,
+      "original": "वो फिर बहुत बड़ी-बड़ी वेलाफिटी से,",
+      "bhojpuri": "वो फिर बहुते बड़ी-बड़ी वेलाफिटी से,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "वो",
+          "target": "वो",
+          "method": "unchanged"
+        },
+        {
+          "source": "फिर",
+          "target": "फिर",
+          "method": "unchanged"
+        },
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "बड़ी",
+          "target": "बड़ी",
+          "method": "unchanged"
+        },
+        {
+          "source": "बड़ी",
+          "target": "बड़ी",
+          "method": "unchanged"
+        },
+        {
+          "source": "वेलाफिटी",
+          "target": "वेलाफिटी",
+          "method": "unchanged"
+        },
+        {
+          "source": "से",
+          "target": "से",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 112.98,
+      "end": 117.28,
+      "original": "बहुत बड़ी-बड़ी स्पीट के साज में आमना सामना होता हैं,",
+      "bhojpuri": "बहुते बड़ी-बड़ी स्पीट के साज में आमना सामना होता बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "बड़ी",
+          "target": "बड़ी",
+          "method": "unchanged"
+        },
+        {
+          "source": "बड़ी",
+          "target": "बड़ी",
+          "method": "unchanged"
+        },
+        {
+          "source": "स्पीट",
+          "target": "स्पीट",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "साज",
+          "target": "साज",
+          "method": "unchanged"
+        },
+        {
+          "source": "में",
+          "target": "में",
+          "method": "corpus"
+        },
+        {
+          "source": "आमना",
+          "target": "आमना",
+          "method": "unchanged"
+        },
+        {
+          "source": "सामना",
+          "target": "सामना",
+          "method": "unchanged"
+        },
+        {
+          "source": "होता",
+          "target": "होता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 4,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 117.28,
+      "end": 119.66,
+      "original": "तो वहाँ पे हाई स्पीट जब इंपाल हो,",
+      "bhojpuri": "त ऊाँ पे हाई स्पीट जब इंपाल हो,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "वहाँ",
+          "target": "ऊाँ",
+          "method": "morphological"
+        },
+        {
+          "source": "पे",
+          "target": "पे",
+          "method": "unchanged"
+        },
+        {
+          "source": "हाई",
+          "target": "हाई",
+          "method": "unchanged"
+        },
+        {
+          "source": "स्पीट",
+          "target": "स्पीट",
+          "method": "unchanged"
+        },
+        {
+          "source": "जब",
+          "target": "जब",
+          "method": "corpus"
+        },
+        {
+          "source": "इंपाल",
+          "target": "इंपाल",
+          "method": "unchanged"
+        },
+        {
+          "source": "हो",
+          "target": "हो",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 119.66,
+      "end": 122.5,
+      "original": "तो फिर चीजे कुछ पडलती हैं,",
+      "bhojpuri": "त फिर चीजे कुछ पडलती बाड़न,",
+      "dominant_language": "english",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "फिर",
+          "target": "फिर",
+          "method": "unchanged"
+        },
+        {
+          "source": "चीजे",
+          "target": "चीजे",
+          "method": "unchanged"
+        },
+        {
+          "source": "कुछ",
+          "target": "कुछ",
+          "method": "corpus"
+        },
+        {
+          "source": "पडलती",
+          "target": "पडलती",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 122.5,
+      "end": 125.1,
+      "original": "और उसमें से निकलती हैं हमारे रिलेटिविटी की थेरीज,",
+      "bhojpuri": "अउर उसमें से निकलती बाड़न हमारे रिलेटिविटी के रहलनरीज,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "उसमें",
+          "target": "उसमें",
+          "method": "unchanged"
+        },
+        {
+          "source": "से",
+          "target": "से",
+          "method": "corpus"
+        },
+        {
+          "source": "निकलती",
+          "target": "निकलती",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        },
+        {
+          "source": "हमारे",
+          "target": "हमारे",
+          "method": "unchanged"
+        },
+        {
+          "source": "रिलेटिविटी",
+          "target": "रिलेटिविटी",
+          "method": "unchanged"
+        },
+        {
+          "source": "की",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "थेरीज",
+          "target": "रहलनरीज",
+          "method": "morphological"
+        }
+      ],
+      "n_corpus_hits": 4,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 129.78,
+      "end": 132.9,
+      "original": "तो नूटन्स लौज को हमें मॉडिफाई करना होता हैं,",
+      "bhojpuri": "त नूटन्स लौज को हमें मॉडिफाई करल होता बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "नूटन्स",
+          "target": "नूटन्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "लौज",
+          "target": "लौज",
+          "method": "unchanged"
+        },
+        {
+          "source": "को",
+          "target": "को",
+          "method": "unchanged"
+        },
+        {
+          "source": "हमें",
+          "target": "हमें",
+          "method": "unchanged"
+        },
+        {
+          "source": "मॉडिफाई",
+          "target": "मॉडिफाई",
+          "method": "unchanged"
+        },
+        {
+          "source": "करना",
+          "target": "करल",
+          "method": "corpus"
+        },
+        {
+          "source": "होता",
+          "target": "होता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 132.9,
+      "end": 134.26,
+      "original": "हमें चेंज करना होता हैं,",
+      "bhojpuri": "हमें चेंज करल होता बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "हमें",
+          "target": "हमें",
+          "method": "unchanged"
+        },
+        {
+          "source": "चेंज",
+          "target": "चेंज",
+          "method": "unchanged"
+        },
+        {
+          "source": "करना",
+          "target": "करल",
+          "method": "corpus"
+        },
+        {
+          "source": "होता",
+          "target": "होता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 134.26,
+      "end": 136.66,
+      "original": "हमें लिलियर मोमेंटम अलग से डिफाइन करना होता हैं,",
+      "bhojpuri": "हमें लिलियर मोमेंटम अलग से डिफाइन करल होता बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "हमें",
+          "target": "हमें",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिलियर",
+          "target": "लिलियर",
+          "method": "unchanged"
+        },
+        {
+          "source": "मोमेंटम",
+          "target": "मोमेंटम",
+          "method": "unchanged"
+        },
+        {
+          "source": "अलग",
+          "target": "अलग",
+          "method": "unchanged"
+        },
+        {
+          "source": "से",
+          "target": "से",
+          "method": "corpus"
+        },
+        {
+          "source": "डिफाइन",
+          "target": "डिफाइन",
+          "method": "unchanged"
+        },
+        {
+          "source": "करना",
+          "target": "करल",
+          "method": "corpus"
+        },
+        {
+          "source": "होता",
+          "target": "होता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 136.66,
+      "end": 138.24,
+      "original": "तो थोड़ा परिवर्तन करना होता हैं,",
+      "bhojpuri": "त थोड़ा परिवर्तन करल होता बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "थोड़ा",
+          "target": "थोड़ा",
+          "method": "unchanged"
+        },
+        {
+          "source": "परिवर्तन",
+          "target": "परिवर्तन",
+          "method": "unchanged"
+        },
+        {
+          "source": "करना",
+          "target": "करल",
+          "method": "corpus"
+        },
+        {
+          "source": "होता",
+          "target": "होता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 138.24,
+      "end": 140.86,
+      "original": "बहुत जादा नहीं तोड़ा परिवर्तन करना होता हैं,",
+      "bhojpuri": "बहुते जादा ना तोड़ा परिवर्तन करल होता बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "जादा",
+          "target": "जादा",
+          "method": "unchanged"
+        },
+        {
+          "source": "नहीं",
+          "target": "ना",
+          "method": "corpus"
+        },
+        {
+          "source": "तोड़ा",
+          "target": "तोड़ा",
+          "method": "unchanged"
+        },
+        {
+          "source": "परिवर्तन",
+          "target": "परिवर्तन",
+          "method": "unchanged"
+        },
+        {
+          "source": "करना",
+          "target": "करल",
+          "method": "corpus"
+        },
+        {
+          "source": "होता",
+          "target": "होता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 4,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 143.48,
+      "end": 148.94,
+      "original": "स्पेस और टाइम को देखने के जो अपनी द्रिस्टी हैं,",
+      "bhojpuri": "स्पेस अउर टाइम को देखने के जे अपनी द्रिस्टी बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "स्पेस",
+          "target": "स्पेस",
+          "method": "unchanged"
+        },
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "टाइम",
+          "target": "टाइम",
+          "method": "unchanged"
+        },
+        {
+          "source": "को",
+          "target": "को",
+          "method": "unchanged"
+        },
+        {
+          "source": "देखने",
+          "target": "देखने",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "जो",
+          "target": "जे",
+          "method": "corpus"
+        },
+        {
+          "source": "अपनी",
+          "target": "अपनी",
+          "method": "unchanged"
+        },
+        {
+          "source": "द्रिस्टी",
+          "target": "द्रिस्टी",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 4,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 148.96,
+      "end": 152.52,
+      "original": "उसमें एक बहुत बढ़ा परिवर्तन इसके कारण से आगा हैं,",
+      "bhojpuri": "उसमें एक बहुते बढ़ा परिवर्तन इसके केरण से आगा बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "उसमें",
+          "target": "उसमें",
+          "method": "unchanged"
+        },
+        {
+          "source": "एक",
+          "target": "एक",
+          "method": "unchanged"
+        },
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "बढ़ा",
+          "target": "बढ़ा",
+          "method": "unchanged"
+        },
+        {
+          "source": "परिवर्तन",
+          "target": "परिवर्तन",
+          "method": "unchanged"
+        },
+        {
+          "source": "इसके",
+          "target": "इसके",
+          "method": "unchanged"
+        },
+        {
+          "source": "कारण",
+          "target": "केरण",
+          "method": "morphological"
+        },
+        {
+          "source": "से",
+          "target": "से",
+          "method": "corpus"
+        },
+        {
+          "source": "आगा",
+          "target": "आगा",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 152.52,
+      "end": 154.7,
+      "original": "हाई स्पीच की जब हम बात करते हैं,",
+      "bhojpuri": "हाई स्पीच के जब हम बात करते बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "हाई",
+          "target": "हाई",
+          "method": "unchanged"
+        },
+        {
+          "source": "स्पीच",
+          "target": "स्पीच",
+          "method": "unchanged"
+        },
+        {
+          "source": "की",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "जब",
+          "target": "जब",
+          "method": "corpus"
+        },
+        {
+          "source": "हम",
+          "target": "हम",
+          "method": "corpus"
+        },
+        {
+          "source": "बात",
+          "target": "बात",
+          "method": "unchanged"
+        },
+        {
+          "source": "करते",
+          "target": "करते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 4,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 154.7,
+      "end": 158.98,
+      "original": "तो फिर लिंट किसको कहते हैं,",
+      "bhojpuri": "त फिर लिंट किसको कहते बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "फिर",
+          "target": "फिर",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिंट",
+          "target": "लिंट",
+          "method": "unchanged"
+        },
+        {
+          "source": "किसको",
+          "target": "किसको",
+          "method": "unchanged"
+        },
+        {
+          "source": "कहते",
+          "target": "कहते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 158.98,
+      "end": 161.66,
+      "original": "और टाइम इंटर्वल्स किसको कहते हैं,",
+      "bhojpuri": "अउर टाइम इंटर्वल्स किसको कहते बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "टाइम",
+          "target": "टाइम",
+          "method": "unchanged"
+        },
+        {
+          "source": "इंटर्वल्स",
+          "target": "इंटर्वल्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "किसको",
+          "target": "किसको",
+          "method": "unchanged"
+        },
+        {
+          "source": "कहते",
+          "target": "कहते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 161.72,
+      "end": 164.34,
+      "original": "दो घत्नाएं एक साथ हो रही हैं,",
+      "bhojpuri": "दो घत्लएं एक साथ हो रही बाड़न,",
+      "dominant_language": "english",
+      "alignment": [
+        {
+          "source": "दो",
+          "target": "दो",
+          "method": "unchanged"
+        },
+        {
+          "source": "घत्नाएं",
+          "target": "घत्लएं",
+          "method": "morphological"
+        },
+        {
+          "source": "एक",
+          "target": "एक",
+          "method": "unchanged"
+        },
+        {
+          "source": "साथ",
+          "target": "साथ",
+          "method": "unchanged"
+        },
+        {
+          "source": "हो",
+          "target": "हो",
+          "method": "unchanged"
+        },
+        {
+          "source": "रही",
+          "target": "रही",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 164.42,
+      "end": 166.38,
+      "original": "ये हम किसको कहते हैं,",
+      "bhojpuri": "ये हम किसको कहते बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "ये",
+          "target": "ये",
+          "method": "unchanged"
+        },
+        {
+          "source": "हम",
+          "target": "हम",
+          "method": "corpus"
+        },
+        {
+          "source": "किसको",
+          "target": "किसको",
+          "method": "unchanged"
+        },
+        {
+          "source": "कहते",
+          "target": "कहते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 166.38,
+      "end": 169.28,
+      "original": "एक पहले हो रहे हैं, एक बादमे हो रहे हैं,",
+      "bhojpuri": "एक पहले हो रहे बाड़न, एक बादमे हो रहे बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "एक",
+          "target": "एक",
+          "method": "unchanged"
+        },
+        {
+          "source": "पहले",
+          "target": "पहले",
+          "method": "unchanged"
+        },
+        {
+          "source": "हो",
+          "target": "हो",
+          "method": "unchanged"
+        },
+        {
+          "source": "रहे",
+          "target": "रहे",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        },
+        {
+          "source": "एक",
+          "target": "एक",
+          "method": "unchanged"
+        },
+        {
+          "source": "बादमे",
+          "target": "बादमे",
+          "method": "unchanged"
+        },
+        {
+          "source": "हो",
+          "target": "हो",
+          "method": "unchanged"
+        },
+        {
+          "source": "रहे",
+          "target": "रहे",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 169.28,
+      "end": 173.02,
+      "original": "ये जो हमारी स्पेश और टाइम की जो कल्पना हैं,",
+      "bhojpuri": "ये जे हमारी स्पेश अउर टाइम के जे कल्पना बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "ये",
+          "target": "ये",
+          "method": "unchanged"
+        },
+        {
+          "source": "जो",
+          "target": "जे",
+          "method": "corpus"
+        },
+        {
+          "source": "हमारी",
+          "target": "हमारी",
+          "method": "unchanged"
+        },
+        {
+          "source": "स्पेश",
+          "target": "स्पेश",
+          "method": "unchanged"
+        },
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "टाइम",
+          "target": "टाइम",
+          "method": "unchanged"
+        },
+        {
+          "source": "की",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "जो",
+          "target": "जे",
+          "method": "corpus"
+        },
+        {
+          "source": "कल्पना",
+          "target": "कल्पना",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 5,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 173.02,
+      "end": 175.9,
+      "original": "हम अपनी आम जद्ड़ी से लेकर के आते हैं,",
+      "bhojpuri": "हम अपनी आम जद्ड़ी से लेकरके के आते बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "हम",
+          "target": "हम",
+          "method": "corpus"
+        },
+        {
+          "source": "अपनी",
+          "target": "अपनी",
+          "method": "unchanged"
+        },
+        {
+          "source": "आम",
+          "target": "आम",
+          "method": "unchanged"
+        },
+        {
+          "source": "जद्ड़ी",
+          "target": "जद्ड़ी",
+          "method": "unchanged"
+        },
+        {
+          "source": "से",
+          "target": "से",
+          "method": "corpus"
+        },
+        {
+          "source": "लेकर",
+          "target": "लेकरके",
+          "method": "morphological"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "आते",
+          "target": "आते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 4,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 175.9,
+      "end": 178.48,
+      "original": "उनमें फिर बद्लाल करना होता हैं,",
+      "bhojpuri": "उनमें फिर बद्लाल करल होता बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "उनमें",
+          "target": "उनमें",
+          "method": "unchanged"
+        },
+        {
+          "source": "फिर",
+          "target": "फिर",
+          "method": "unchanged"
+        },
+        {
+          "source": "बद्लाल",
+          "target": "बद्लाल",
+          "method": "unchanged"
+        },
+        {
+          "source": "करना",
+          "target": "करल",
+          "method": "corpus"
+        },
+        {
+          "source": "होता",
+          "target": "होता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 178.48,
+      "end": 180.72,
+      "original": "और वो चुनाओ की पून काम होता हैं,",
+      "bhojpuri": "अउर वो चुलओ के पून केम होता बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "वो",
+          "target": "वो",
+          "method": "unchanged"
+        },
+        {
+          "source": "चुनाओ",
+          "target": "चुलओ",
+          "method": "morphological"
+        },
+        {
+          "source": "की",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "पून",
+          "target": "पून",
+          "method": "unchanged"
+        },
+        {
+          "source": "काम",
+          "target": "केम",
+          "method": "morphological"
+        },
+        {
+          "source": "होता",
+          "target": "होता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 2,
+      "n_loanwords": 0
+    },
+    {
+      "start": 180.82,
+      "end": 184.7,
+      "original": "क्योंकि वहाँ पर हमारा अपना अनभाव काम नहीं आता हैं,",
+      "bhojpuri": "काहेकि ऊाँ पर हमारा अपना अनभाव केम ना आता बाड़न,",
+      "dominant_language": "english",
+      "alignment": [
+        {
+          "source": "क्योंकि",
+          "target": "काहेकि",
+          "method": "morphological"
+        },
+        {
+          "source": "वहाँ",
+          "target": "ऊाँ",
+          "method": "morphological"
+        },
+        {
+          "source": "पर",
+          "target": "पर",
+          "method": "corpus"
+        },
+        {
+          "source": "हमारा",
+          "target": "हमारा",
+          "method": "unchanged"
+        },
+        {
+          "source": "अपना",
+          "target": "अपना",
+          "method": "unchanged"
+        },
+        {
+          "source": "अनभाव",
+          "target": "अनभाव",
+          "method": "unchanged"
+        },
+        {
+          "source": "काम",
+          "target": "केम",
+          "method": "morphological"
+        },
+        {
+          "source": "नहीं",
+          "target": "ना",
+          "method": "corpus"
+        },
+        {
+          "source": "आता",
+          "target": "आता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 3,
+      "n_loanwords": 0
+    },
+    {
+      "start": 184.7,
+      "end": 186.12,
+      "original": "और इस कारण से,",
+      "bhojpuri": "अउर इस केरण से,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "इस",
+          "target": "इस",
+          "method": "unchanged"
+        },
+        {
+          "source": "कारण",
+          "target": "केरण",
+          "method": "morphological"
+        },
+        {
+          "source": "से",
+          "target": "से",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 186.12,
+      "end": 189.2,
+      "original": "हम लोग उस स्थुती के अंदर में,",
+      "bhojpuri": "हम लोग उस स्थुती के अंदर में,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "हम",
+          "target": "हम",
+          "method": "corpus"
+        },
+        {
+          "source": "लोग",
+          "target": "लोग",
+          "method": "unchanged"
+        },
+        {
+          "source": "उस",
+          "target": "उस",
+          "method": "unchanged"
+        },
+        {
+          "source": "स्थुती",
+          "target": "स्थुती",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "अंदर",
+          "target": "अंदर",
+          "method": "unchanged"
+        },
+        {
+          "source": "में",
+          "target": "में",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 189.28,
+      "end": 192.1,
+      "original": "थोड़ा चिन्तन करने के जदुरत परते हैं,",
+      "bhojpuri": "थोड़ा चिन्तन करने के जदुरत परते बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "थोड़ा",
+          "target": "थोड़ा",
+          "method": "unchanged"
+        },
+        {
+          "source": "चिन्तन",
+          "target": "चिन्तन",
+          "method": "unchanged"
+        },
+        {
+          "source": "करने",
+          "target": "करने",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "जदुरत",
+          "target": "जदुरत",
+          "method": "unchanged"
+        },
+        {
+          "source": "परते",
+          "target": "परते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 192.1,
+      "end": 196.94,
+      "original": "क्योंकि वहाँ लिकुएश्यं और फार्मुले इसके अपना काम नहीं चल्ड़ना हैं,",
+      "bhojpuri": "काहेकि ऊाँ लिकुएश्यं अउर फार्मुले इसके अपना केम ना चल्ड़ना बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "क्योंकि",
+          "target": "काहेकि",
+          "method": "morphological"
+        },
+        {
+          "source": "वहाँ",
+          "target": "ऊाँ",
+          "method": "morphological"
+        },
+        {
+          "source": "लिकुएश्यं",
+          "target": "लिकुएश्यं",
+          "method": "unchanged"
+        },
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "फार्मुले",
+          "target": "फार्मुले",
+          "method": "unchanged"
+        },
+        {
+          "source": "इसके",
+          "target": "इसके",
+          "method": "unchanged"
+        },
+        {
+          "source": "अपना",
+          "target": "अपना",
+          "method": "unchanged"
+        },
+        {
+          "source": "काम",
+          "target": "केम",
+          "method": "morphological"
+        },
+        {
+          "source": "नहीं",
+          "target": "ना",
+          "method": "corpus"
+        },
+        {
+          "source": "चल्ड़ना",
+          "target": "चल्ड़ना",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 3,
+      "n_loanwords": 0
+    },
+    {
+      "start": 196.94,
+      "end": 201.18,
+      "original": "तो वहाँ स्वाभाविक रूप से बहुत रोचक पाते होती हैं,",
+      "bhojpuri": "त ऊाँ स्वाभाविक रूप से बहुते रोचक पाते होती बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "वहाँ",
+          "target": "ऊाँ",
+          "method": "morphological"
+        },
+        {
+          "source": "स्वाभाविक",
+          "target": "स्वाभाविक",
+          "method": "unchanged"
+        },
+        {
+          "source": "रूप",
+          "target": "रूप",
+          "method": "unchanged"
+        },
+        {
+          "source": "से",
+          "target": "से",
+          "method": "corpus"
+        },
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "रोचक",
+          "target": "रोचक",
+          "method": "unchanged"
+        },
+        {
+          "source": "पाते",
+          "target": "पाते",
+          "method": "unchanged"
+        },
+        {
+          "source": "होती",
+          "target": "होती",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 4,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 201.18,
+      "end": 205.18,
+      "original": "जब जो हमारे इन्टूशन से बहर के जिसे होती हैं,",
+      "bhojpuri": "जब जे हमारे इन्टूशन से बहर के जिसे होती बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "जब",
+          "target": "जब",
+          "method": "corpus"
+        },
+        {
+          "source": "जो",
+          "target": "जे",
+          "method": "corpus"
+        },
+        {
+          "source": "हमारे",
+          "target": "हमारे",
+          "method": "unchanged"
+        },
+        {
+          "source": "इन्टूशन",
+          "target": "इन्टूशन",
+          "method": "unchanged"
+        },
+        {
+          "source": "से",
+          "target": "से",
+          "method": "corpus"
+        },
+        {
+          "source": "बहर",
+          "target": "बहर",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "जिसे",
+          "target": "जिसे",
+          "method": "unchanged"
+        },
+        {
+          "source": "होती",
+          "target": "होती",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 5,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 206.2,
+      "end": 210.02,
+      "original": "वो सच्मुच रोचक होती हैं और चादर रोचक होती हैं,",
+      "bhojpuri": "वो सच्मुच रोचक होती बाड़न अउर चादर रोचक होती बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "वो",
+          "target": "वो",
+          "method": "unchanged"
+        },
+        {
+          "source": "सच्मुच",
+          "target": "सच्मुच",
+          "method": "unchanged"
+        },
+        {
+          "source": "रोचक",
+          "target": "रोचक",
+          "method": "unchanged"
+        },
+        {
+          "source": "होती",
+          "target": "होती",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        },
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "चादर",
+          "target": "चादर",
+          "method": "unchanged"
+        },
+        {
+          "source": "रोचक",
+          "target": "रोचक",
+          "method": "unchanged"
+        },
+        {
+          "source": "होती",
+          "target": "होती",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 210.02,
+      "end": 212.12,
+      "original": "और फिर जब हम देखते हैं,",
+      "bhojpuri": "अउर फिर जब हम देखते बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "फिर",
+          "target": "फिर",
+          "method": "unchanged"
+        },
+        {
+          "source": "जब",
+          "target": "जब",
+          "method": "corpus"
+        },
+        {
+          "source": "हम",
+          "target": "हम",
+          "method": "corpus"
+        },
+        {
+          "source": "देखते",
+          "target": "देखते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 4,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 212.12,
+      "end": 216.0,
+      "original": "कि ये जो एक बहुत अलग किसम का हमने मारडल बनाया हैं,",
+      "bhojpuri": "कि ये जे एक बहुते अलग किसम के हमने मारडल बलया बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "कि",
+          "target": "कि",
+          "method": "corpus"
+        },
+        {
+          "source": "ये",
+          "target": "ये",
+          "method": "unchanged"
+        },
+        {
+          "source": "जो",
+          "target": "जे",
+          "method": "corpus"
+        },
+        {
+          "source": "एक",
+          "target": "एक",
+          "method": "unchanged"
+        },
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "अलग",
+          "target": "अलग",
+          "method": "unchanged"
+        },
+        {
+          "source": "किसम",
+          "target": "किसम",
+          "method": "unchanged"
+        },
+        {
+          "source": "का",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "हमने",
+          "target": "हमने",
+          "method": "unchanged"
+        },
+        {
+          "source": "मारडल",
+          "target": "मारडल",
+          "method": "unchanged"
+        },
+        {
+          "source": "बनाया",
+          "target": "बलया",
+          "method": "morphological"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 5,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 216.14,
+      "end": 219.28,
+      "original": "वो हमारी वास्तवीत प्रावों के सान नाच करता हैं,",
+      "bhojpuri": "वो हमारी वास्तवीत प्रावों के सान लच करता बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "वो",
+          "target": "वो",
+          "method": "unchanged"
+        },
+        {
+          "source": "हमारी",
+          "target": "हमारी",
+          "method": "unchanged"
+        },
+        {
+          "source": "वास्तवीत",
+          "target": "वास्तवीत",
+          "method": "unchanged"
+        },
+        {
+          "source": "प्रावों",
+          "target": "प्रावों",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "सान",
+          "target": "सान",
+          "method": "unchanged"
+        },
+        {
+          "source": "नाच",
+          "target": "लच",
+          "method": "morphological"
+        },
+        {
+          "source": "करता",
+          "target": "करता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 219.28,
+      "end": 222.38,
+      "original": "तो वो बड़ा आहलाद और बड़ा आहलाद होता हैं,",
+      "bhojpuri": "त वो बड़ आहलाद अउर बड़ आहलाद होता बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "वो",
+          "target": "वो",
+          "method": "unchanged"
+        },
+        {
+          "source": "बड़ा",
+          "target": "बड़",
+          "method": "corpus"
+        },
+        {
+          "source": "आहलाद",
+          "target": "आहलाद",
+          "method": "unchanged"
+        },
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "बड़ा",
+          "target": "बड़",
+          "method": "corpus"
+        },
+        {
+          "source": "आहलाद",
+          "target": "आहलाद",
+          "method": "unchanged"
+        },
+        {
+          "source": "होता",
+          "target": "होता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 5,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 222.38,
+      "end": 224.12,
+      "original": "तो वो एक साइद हैं,",
+      "bhojpuri": "त वो एक साइद बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "वो",
+          "target": "वो",
+          "method": "unchanged"
+        },
+        {
+          "source": "एक",
+          "target": "एक",
+          "method": "unchanged"
+        },
+        {
+          "source": "साइद",
+          "target": "साइद",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 224.14,
+      "end": 228.28,
+      "original": "और दोसरा साइद जहां क्लासिकल फिजिक से हमारा क्राम नहीं चलता हैं,",
+      "bhojpuri": "अउर दोसरा साइद जहां क्लासिकल फिजिक से हमारा क्राम ना चलता बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "दोसरा",
+          "target": "दोसरा",
+          "method": "unchanged"
+        },
+        {
+          "source": "साइद",
+          "target": "साइद",
+          "method": "unchanged"
+        },
+        {
+          "source": "जहां",
+          "target": "जहां",
+          "method": "unchanged"
+        },
+        {
+          "source": "क्लासिकल",
+          "target": "क्लासिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "फिजिक",
+          "target": "फिजिक",
+          "method": "unchanged"
+        },
+        {
+          "source": "से",
+          "target": "से",
+          "method": "corpus"
+        },
+        {
+          "source": "हमारा",
+          "target": "हमारा",
+          "method": "unchanged"
+        },
+        {
+          "source": "क्राम",
+          "target": "क्राम",
+          "method": "unchanged"
+        },
+        {
+          "source": "नहीं",
+          "target": "ना",
+          "method": "corpus"
+        },
+        {
+          "source": "चलता",
+          "target": "चलता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 4,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 228.38,
+      "end": 234.52,
+      "original": "वो है जब हम बहुत चोटे पार्टिकल्स के पार्टिकल्स के पार्टिकल्स हैं,",
+      "bhojpuri": "वो बा जब हम बहुते चोटे पार्टिकल्स के पार्टिकल्स के पार्टिकल्स बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "वो",
+          "target": "वो",
+          "method": "unchanged"
+        },
+        {
+          "source": "है",
+          "target": "बा",
+          "method": "corpus"
+        },
+        {
+          "source": "जब",
+          "target": "जब",
+          "method": "corpus"
+        },
+        {
+          "source": "हम",
+          "target": "हम",
+          "method": "corpus"
+        },
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "चोटे",
+          "target": "चोटे",
+          "method": "unchanged"
+        },
+        {
+          "source": "पार्टिकल्स",
+          "target": "पार्टिकल्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "पार्टिकल्स",
+          "target": "पार्टिकल्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "पार्टिकल्स",
+          "target": "पार्टिकल्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 7,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 234.52,
+      "end": 236.16,
+      "original": "तो स्मॉल पार्टिकल्स,",
+      "bhojpuri": "त स्मॉल पार्टिकल्स,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "स्मॉल",
+          "target": "स्मॉल",
+          "method": "unchanged"
+        },
+        {
+          "source": "पार्टिकल्स",
+          "target": "पार्टिकल्स",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 236.6,
+      "end": 238.52,
+      "original": "और स्मॉल याने क्या,",
+      "bhojpuri": "अउर स्मॉल याने का,",
+      "dominant_language": "english",
+      "alignment": [
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "स्मॉल",
+          "target": "स्मॉल",
+          "method": "unchanged"
+        },
+        {
+          "source": "याने",
+          "target": "याने",
+          "method": "unchanged"
+        },
+        {
+          "source": "क्या",
+          "target": "का",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 243.1,
+      "end": 245.36,
+      "original": "तो स्मॉल याने आप समझ ले,",
+      "bhojpuri": "त स्मॉल याने रउआ समझ ले,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "स्मॉल",
+          "target": "स्मॉल",
+          "method": "unchanged"
+        },
+        {
+          "source": "याने",
+          "target": "याने",
+          "method": "unchanged"
+        },
+        {
+          "source": "आप",
+          "target": "रउआ",
+          "method": "corpus"
+        },
+        {
+          "source": "समझ",
+          "target": "समझ",
+          "method": "unchanged"
+        },
+        {
+          "source": "ले",
+          "target": "ले",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 245.76,
+      "end": 247.52,
+      "original": "मॉलिकल्स हैं, आटम्स हैं,",
+      "bhojpuri": "मॉलिकल्स बाड़न, आटम्स बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "मॉलिकल्स",
+          "target": "मॉलिकल्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        },
+        {
+          "source": "आटम्स",
+          "target": "आटम्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 248.46,
+      "end": 249.64,
+      "original": "नुक्लियाम्स हैं,",
+      "bhojpuri": "नुक्लियाम्स बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "नुक्लियाम्स",
+          "target": "नुक्लियाम्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 249.66,
+      "end": 251.46,
+      "original": "प्रोटॉन्स हैं, नूट्रॉन्स हैं,",
+      "bhojpuri": "प्रोटॉन्स बाड़न, नूट्रॉन्स बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "प्रोटॉन्स",
+          "target": "प्रोटॉन्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        },
+        {
+          "source": "नूट्रॉन्स",
+          "target": "नूट्रॉन्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 251.48,
+      "end": 252.8,
+      "original": "इलिक्रॉन्स हैं,",
+      "bhojpuri": "इलिक्रॉन्स बाड़न,",
+      "dominant_language": "english",
+      "alignment": [
+        {
+          "source": "इलिक्रॉन्स",
+          "target": "इलिक्रॉन्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 252.8,
+      "end": 255.24,
+      "original": "जब चोटे पार्टिकल्स के बार करते हैं,",
+      "bhojpuri": "जब चोटे पार्टिकल्स के बार करते बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "जब",
+          "target": "जब",
+          "method": "corpus"
+        },
+        {
+          "source": "चोटे",
+          "target": "चोटे",
+          "method": "unchanged"
+        },
+        {
+          "source": "पार्टिकल्स",
+          "target": "पार्टिकल्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "बार",
+          "target": "बार",
+          "method": "unchanged"
+        },
+        {
+          "source": "करते",
+          "target": "करते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 255.24,
+      "end": 257.5,
+      "original": "तो वहाँ पर सिर हमारे ये जो",
+      "bhojpuri": "त ऊाँ पर सिर हमारे ये जे",
+      "dominant_language": "english",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "वहाँ",
+          "target": "ऊाँ",
+          "method": "morphological"
+        },
+        {
+          "source": "पर",
+          "target": "पर",
+          "method": "corpus"
+        },
+        {
+          "source": "सिर",
+          "target": "सिर",
+          "method": "unchanged"
+        },
+        {
+          "source": "हमारे",
+          "target": "हमारे",
+          "method": "unchanged"
+        },
+        {
+          "source": "ये",
+          "target": "ये",
+          "method": "unchanged"
+        },
+        {
+          "source": "जो",
+          "target": "जे",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 257.5,
+      "end": 260.24,
+      "original": "क्लैसिकल्स के अमारे रूल्स बनाए हमें,",
+      "bhojpuri": "क्लैसिकल्स के अमारे रूल्स बलए हमें,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "क्लैसिकल्स",
+          "target": "क्लैसिकल्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "अमारे",
+          "target": "अमारे",
+          "method": "unchanged"
+        },
+        {
+          "source": "रूल्स",
+          "target": "रूल्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "बनाए",
+          "target": "बलए",
+          "method": "morphological"
+        },
+        {
+          "source": "हमें",
+          "target": "हमें",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 260.84,
+      "end": 262.38,
+      "original": "लॉर्ट बनाए हमें,",
+      "bhojpuri": "लॉर्ट बलए हमें,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "लॉर्ट",
+          "target": "लॉर्ट",
+          "method": "unchanged"
+        },
+        {
+          "source": "बनाए",
+          "target": "बलए",
+          "method": "morphological"
+        },
+        {
+          "source": "हमें",
+          "target": "हमें",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 0,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 262.42,
+      "end": 264.06,
+      "original": "उनसे काम नहीं चरूता,",
+      "bhojpuri": "उनसे केम ना चरूता,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "उनसे",
+          "target": "उनसे",
+          "method": "unchanged"
+        },
+        {
+          "source": "काम",
+          "target": "केम",
+          "method": "morphological"
+        },
+        {
+          "source": "नहीं",
+          "target": "ना",
+          "method": "corpus"
+        },
+        {
+          "source": "चरूता",
+          "target": "चरूता",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 264.28,
+      "end": 266.24,
+      "original": "और यहां तो",
+      "bhojpuri": "अउर यहां त",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "यहां",
+          "target": "यहां",
+          "method": "unchanged"
+        },
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 266.24,
+      "end": 269.2,
+      "original": "आमॉल चुल परिवर्दन करना हैं वरता हैं,",
+      "bhojpuri": "आमॉल चुल परिवर्दन करल बाड़न वरता बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "आमॉल",
+          "target": "आमॉल",
+          "method": "unchanged"
+        },
+        {
+          "source": "चुल",
+          "target": "चुल",
+          "method": "unchanged"
+        },
+        {
+          "source": "परिवर्दन",
+          "target": "परिवर्दन",
+          "method": "unchanged"
+        },
+        {
+          "source": "करना",
+          "target": "करल",
+          "method": "corpus"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        },
+        {
+          "source": "वरता",
+          "target": "वरता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 269.22,
+      "end": 270.48,
+      "original": "विलिटिविटी में तोड़ा",
+      "bhojpuri": "विलिटिविटी में तोड़ा",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "विलिटिविटी",
+          "target": "विलिटिविटी",
+          "method": "unchanged"
+        },
+        {
+          "source": "में",
+          "target": "में",
+          "method": "corpus"
+        },
+        {
+          "source": "तोड़ा",
+          "target": "तोड़ा",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 270.48,
+      "end": 272.1,
+      "original": "स्पेस्टाइम को समझने में",
+      "bhojpuri": "स्पेस्टाइम को समझने में",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "स्पेस्टाइम",
+          "target": "स्पेस्टाइम",
+          "method": "unchanged"
+        },
+        {
+          "source": "को",
+          "target": "को",
+          "method": "unchanged"
+        },
+        {
+          "source": "समझने",
+          "target": "समझने",
+          "method": "unchanged"
+        },
+        {
+          "source": "में",
+          "target": "में",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 272.86,
+      "end": 275.2,
+      "original": "तोड़ा बेसिक प्रब्लेम हैं,",
+      "bhojpuri": "तोड़ा बेसिक प्रब्लेम बाड़न,",
+      "dominant_language": "english",
+      "alignment": [
+        {
+          "source": "तोड़ा",
+          "target": "तोड़ा",
+          "method": "unchanged"
+        },
+        {
+          "source": "बेसिक",
+          "target": "बेसिक",
+          "method": "unchanged"
+        },
+        {
+          "source": "प्रब्लेम",
+          "target": "प्रब्लेम",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 275.2,
+      "end": 277.7,
+      "original": "और उसको अबहलक से समझना वरता हैं,",
+      "bhojpuri": "अउर उसको अबहलक से बुझल वरता बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "उसको",
+          "target": "उसको",
+          "method": "unchanged"
+        },
+        {
+          "source": "अबहलक",
+          "target": "अबहलक",
+          "method": "unchanged"
+        },
+        {
+          "source": "से",
+          "target": "से",
+          "method": "corpus"
+        },
+        {
+          "source": "समझना",
+          "target": "बुझल",
+          "method": "corpus"
+        },
+        {
+          "source": "वरता",
+          "target": "वरता",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 4,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 277.7,
+      "end": 279.24,
+      "original": "लेकिन यहां तो पूरी की पूरी",
+      "bhojpuri": "बाकी यहां त पूरी के पूरी",
+      "dominant_language": "english",
+      "alignment": [
+        {
+          "source": "लेकिन",
+          "target": "बाकी",
+          "method": "corpus"
+        },
+        {
+          "source": "यहां",
+          "target": "यहां",
+          "method": "unchanged"
+        },
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "पूरी",
+          "target": "पूरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "की",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "पूरी",
+          "target": "पूरी",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 279.24,
+      "end": 281.1,
+      "original": "फ्लॉसर्भी ही बदल जाते हैं,",
+      "bhojpuri": "फ्लॉसर्भी ही बदल जाते बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "फ्लॉसर्भी",
+          "target": "फ्लॉसर्भी",
+          "method": "unchanged"
+        },
+        {
+          "source": "ही",
+          "target": "ही",
+          "method": "unchanged"
+        },
+        {
+          "source": "बदल",
+          "target": "बदल",
+          "method": "unchanged"
+        },
+        {
+          "source": "जाते",
+          "target": "जाते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 281.12,
+      "end": 284.0,
+      "original": "और तोब जो वो जो थ्योरी निकल करते आई हैं,",
+      "bhojpuri": "अउर तोब जे वो जे थ्योरी निकल करते आई बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "तोब",
+          "target": "तोब",
+          "method": "unchanged"
+        },
+        {
+          "source": "जो",
+          "target": "जे",
+          "method": "corpus"
+        },
+        {
+          "source": "वो",
+          "target": "वो",
+          "method": "unchanged"
+        },
+        {
+          "source": "जो",
+          "target": "जे",
+          "method": "corpus"
+        },
+        {
+          "source": "थ्योरी",
+          "target": "थ्योरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "निकल",
+          "target": "निकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "करते",
+          "target": "करते",
+          "method": "unchanged"
+        },
+        {
+          "source": "आई",
+          "target": "आई",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 4,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 284.0,
+      "end": 287.64,
+      "original": "जिससे हम उन स्माल पार्टिकल्स के बारे में,",
+      "bhojpuri": "जिससे हम उन स्माल पार्टिकल्स के बारे में,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "जिससे",
+          "target": "जिससे",
+          "method": "unchanged"
+        },
+        {
+          "source": "हम",
+          "target": "हम",
+          "method": "corpus"
+        },
+        {
+          "source": "उन",
+          "target": "उन",
+          "method": "unchanged"
+        },
+        {
+          "source": "स्माल",
+          "target": "स्माल",
+          "method": "unchanged"
+        },
+        {
+          "source": "पार्टिकल्स",
+          "target": "पार्टिकल्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "बारे",
+          "target": "बारे",
+          "method": "unchanged"
+        },
+        {
+          "source": "में",
+          "target": "में",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 287.64,
+      "end": 289.32,
+      "original": "उनके भ्यावार के बारे में,",
+      "bhojpuri": "उनके भ्यावार के बारे में,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "उनके",
+          "target": "उनके",
+          "method": "unchanged"
+        },
+        {
+          "source": "भ्यावार",
+          "target": "भ्यावार",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "बारे",
+          "target": "बारे",
+          "method": "unchanged"
+        },
+        {
+          "source": "में",
+          "target": "में",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 289.38,
+      "end": 290.94,
+      "original": "प्रेडिक्षन्स करते हैं,",
+      "bhojpuri": "प्रेडिक्षन्स करते बाड़न,",
+      "dominant_language": "english",
+      "alignment": [
+        {
+          "source": "प्रेडिक्षन्स",
+          "target": "प्रेडिक्षन्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "करते",
+          "target": "करते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 290.94,
+      "end": 292.38,
+      "original": "उसको समझते हैं,",
+      "bhojpuri": "उसको समझते बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "उसको",
+          "target": "उसको",
+          "method": "unchanged"
+        },
+        {
+          "source": "समझते",
+          "target": "समझते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 292.4,
+      "end": 293.96,
+      "original": "तो वो हैं हमारा पार्टिकल्स",
+      "bhojpuri": "त वो बाड़न हमारा पार्टिकल्स",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "वो",
+          "target": "वो",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        },
+        {
+          "source": "हमारा",
+          "target": "हमारा",
+          "method": "unchanged"
+        },
+        {
+          "source": "पार्टिकल्स",
+          "target": "पार्टिकल्स",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 303.71999999999997,
+      "end": 307.72,
+      "original": "तो एक बहुत चुनात्य पूर्ण काम होगा,",
+      "bhojpuri": "त एक बहुते चुलत्य पूर्ण केम होगा,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "एक",
+          "target": "एक",
+          "method": "unchanged"
+        },
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "चुनात्य",
+          "target": "चुलत्य",
+          "method": "morphological"
+        },
+        {
+          "source": "पूर्ण",
+          "target": "पूर्ण",
+          "method": "unchanged"
+        },
+        {
+          "source": "काम",
+          "target": "केम",
+          "method": "morphological"
+        },
+        {
+          "source": "होगा",
+          "target": "होगा",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 2,
+      "n_loanwords": 0
+    },
+    {
+      "start": 308.02,
+      "end": 310.38,
+      "original": "कि हम अपनी सारी सोच को पड़ल डाले,",
+      "bhojpuri": "कि हम अपनी सारी सोच को पड़ल डाले,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "कि",
+          "target": "कि",
+          "method": "corpus"
+        },
+        {
+          "source": "हम",
+          "target": "हम",
+          "method": "corpus"
+        },
+        {
+          "source": "अपनी",
+          "target": "अपनी",
+          "method": "unchanged"
+        },
+        {
+          "source": "सारी",
+          "target": "सारी",
+          "method": "unchanged"
+        },
+        {
+          "source": "सोच",
+          "target": "सोच",
+          "method": "unchanged"
+        },
+        {
+          "source": "को",
+          "target": "को",
+          "method": "unchanged"
+        },
+        {
+          "source": "पड़ल",
+          "target": "पड़ल",
+          "method": "unchanged"
+        },
+        {
+          "source": "डाले",
+          "target": "डाले",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 310.84,
+      "end": 312.28,
+      "original": "आसान नहीं होगा यह,",
+      "bhojpuri": "आसान ना होगा इ,",
+      "dominant_language": "english",
+      "alignment": [
+        {
+          "source": "आसान",
+          "target": "आसान",
+          "method": "unchanged"
+        },
+        {
+          "source": "नहीं",
+          "target": "ना",
+          "method": "corpus"
+        },
+        {
+          "source": "होगा",
+          "target": "होगा",
+          "method": "unchanged"
+        },
+        {
+          "source": "यह",
+          "target": "इ",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 312.28,
+      "end": 314.5,
+      "original": "और इसले बहुत सारी,",
+      "bhojpuri": "अउर इसले बहुते सारी,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "इसले",
+          "target": "इसले",
+          "method": "unchanged"
+        },
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "सारी",
+          "target": "सारी",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 314.5,
+      "end": 316.24,
+      "original": "बहुत सारी दिशकृषन्स करने होगे,",
+      "bhojpuri": "बहुते सारी दिशकृषन्स करने होगे,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "सारी",
+          "target": "सारी",
+          "method": "unchanged"
+        },
+        {
+          "source": "दिशकृषन्स",
+          "target": "दिशकृषन्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "करने",
+          "target": "करने",
+          "method": "unchanged"
+        },
+        {
+          "source": "होगे",
+          "target": "होगे",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 316.36,
+      "end": 318.26,
+      "original": "बहुत सारी बाते करनी होगी,",
+      "bhojpuri": "बहुते सारी बाते करनी होगी,",
+      "dominant_language": "english",
+      "alignment": [
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "सारी",
+          "target": "सारी",
+          "method": "unchanged"
+        },
+        {
+          "source": "बाते",
+          "target": "बाते",
+          "method": "unchanged"
+        },
+        {
+          "source": "करनी",
+          "target": "करनी",
+          "method": "unchanged"
+        },
+        {
+          "source": "होगी",
+          "target": "होगी",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 318.68,
+      "end": 320.26,
+      "original": "वाद विवाद करने होगे,",
+      "bhojpuri": "वाद विवाद करने होगे,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "वाद",
+          "target": "वाद",
+          "method": "unchanged"
+        },
+        {
+          "source": "विवाद",
+          "target": "विवाद",
+          "method": "unchanged"
+        },
+        {
+          "source": "करने",
+          "target": "करने",
+          "method": "unchanged"
+        },
+        {
+          "source": "होगे",
+          "target": "होगे",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 0,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 320.46,
+      "end": 322.96,
+      "original": "उसको सिंक करने के लिए दिवाद के अंदर में,",
+      "bhojpuri": "उसको सिंक करने के लिए दिवाद के अंदर में,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "उसको",
+          "target": "उसको",
+          "method": "unchanged"
+        },
+        {
+          "source": "सिंक",
+          "target": "सिंक",
+          "method": "unchanged"
+        },
+        {
+          "source": "करने",
+          "target": "करने",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "दिवाद",
+          "target": "दिवाद",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "अंदर",
+          "target": "अंदर",
+          "method": "unchanged"
+        },
+        {
+          "source": "में",
+          "target": "में",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 323.0,
+      "end": 324.96,
+      "original": "कि हम क्या कह रहे हैं ये सब,",
+      "bhojpuri": "कि हम का कह रहे बाड़न ये सब,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "कि",
+          "target": "कि",
+          "method": "corpus"
+        },
+        {
+          "source": "हम",
+          "target": "हम",
+          "method": "corpus"
+        },
+        {
+          "source": "क्या",
+          "target": "का",
+          "method": "corpus"
+        },
+        {
+          "source": "कह",
+          "target": "कह",
+          "method": "unchanged"
+        },
+        {
+          "source": "रहे",
+          "target": "रहे",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        },
+        {
+          "source": "ये",
+          "target": "ये",
+          "method": "unchanged"
+        },
+        {
+          "source": "सब",
+          "target": "सब",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 5,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 325.12,
+      "end": 327.26,
+      "original": "जो कि विलकुल खांटर इंटॉटिटिव है,",
+      "bhojpuri": "जे कि विलकुल खांटर इंटॉटिटिव बा,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "जो",
+          "target": "जे",
+          "method": "corpus"
+        },
+        {
+          "source": "कि",
+          "target": "कि",
+          "method": "corpus"
+        },
+        {
+          "source": "विलकुल",
+          "target": "विलकुल",
+          "method": "unchanged"
+        },
+        {
+          "source": "खांटर",
+          "target": "खांटर",
+          "method": "unchanged"
+        },
+        {
+          "source": "इंटॉटिटिव",
+          "target": "इंटॉटिटिव",
+          "method": "unchanged"
+        },
+        {
+          "source": "है",
+          "target": "बा",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 327.26,
+      "end": 329.26,
+      "original": "और अलग कसम के चीजे हैं,",
+      "bhojpuri": "अउर अलग कसम के चीजे बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "अलग",
+          "target": "अलग",
+          "method": "unchanged"
+        },
+        {
+          "source": "कसम",
+          "target": "कसम",
+          "method": "unchanged"
+        },
+        {
+          "source": "के",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "चीजे",
+          "target": "चीजे",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 330.79999999999995,
+      "end": 333.74,
+      "original": "बेसिकली हमारे जो बहुत मुल भुत सिथान्त,",
+      "bhojpuri": "बेसिकली हमारे जे बहुते मुल भुत सिरहलन्त,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "बेसिकली",
+          "target": "बेसिकली",
+          "method": "unchanged"
+        },
+        {
+          "source": "हमारे",
+          "target": "हमारे",
+          "method": "unchanged"
+        },
+        {
+          "source": "जो",
+          "target": "जे",
+          "method": "corpus"
+        },
+        {
+          "source": "बहुत",
+          "target": "बहुते",
+          "method": "corpus"
+        },
+        {
+          "source": "मुल",
+          "target": "मुल",
+          "method": "unchanged"
+        },
+        {
+          "source": "भुत",
+          "target": "भुत",
+          "method": "unchanged"
+        },
+        {
+          "source": "सिथान्त",
+          "target": "सिरहलन्त",
+          "method": "morphological"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 333.86,
+      "end": 336.46,
+      "original": "अमने अपने दिमार में बिठाये हैं,",
+      "bhojpuri": "अमने अपने दिमार में बिठाये बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "अमने",
+          "target": "अमने",
+          "method": "unchanged"
+        },
+        {
+          "source": "अपने",
+          "target": "अपने",
+          "method": "unchanged"
+        },
+        {
+          "source": "दिमार",
+          "target": "दिमार",
+          "method": "unchanged"
+        },
+        {
+          "source": "में",
+          "target": "में",
+          "method": "corpus"
+        },
+        {
+          "source": "बिठाये",
+          "target": "बिठाये",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 336.5,
+      "end": 339.2,
+      "original": "वो भी यहां बर्बरते हैं बर्बरते हैं,",
+      "bhojpuri": "वो भी यहां बर्बरते बाड़न बर्बरते बाड़न,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "वो",
+          "target": "वो",
+          "method": "unchanged"
+        },
+        {
+          "source": "भी",
+          "target": "भी",
+          "method": "unchanged"
+        },
+        {
+          "source": "यहां",
+          "target": "यहां",
+          "method": "unchanged"
+        },
+        {
+          "source": "बर्बरते",
+          "target": "बर्बरते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        },
+        {
+          "source": "बर्बरते",
+          "target": "बर्बरते",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 2,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 339.32,
+      "end": 344.44,
+      "original": "बिजान हैं, विज्यान का कोई प्रयोग करना हैं,",
+      "bhojpuri": "बिजान बाड़न, विज्यान के केई प्रयोग करल बाड़न,",
+      "dominant_language": "english",
+      "alignment": [
+        {
+          "source": "बिजान",
+          "target": "बिजान",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        },
+        {
+          "source": "विज्यान",
+          "target": "विज्यान",
+          "method": "unchanged"
+        },
+        {
+          "source": "का",
+          "target": "के",
+          "method": "corpus"
+        },
+        {
+          "source": "कोई",
+          "target": "केई",
+          "method": "morphological"
+        },
+        {
+          "source": "प्रयोग",
+          "target": "प्रयोग",
+          "method": "unchanged"
+        },
+        {
+          "source": "करना",
+          "target": "करल",
+          "method": "corpus"
+        },
+        {
+          "source": "हैं",
+          "target": "बाड़न",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 4,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 344.44,
+      "end": 346.52,
+      "original": "तो अगर आप एक प्रयोग करोगे,",
+      "bhojpuri": "त अगर रउआ एक प्रयोग करकेोगे,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "अगर",
+          "target": "अगर",
+          "method": "corpus"
+        },
+        {
+          "source": "आप",
+          "target": "रउआ",
+          "method": "corpus"
+        },
+        {
+          "source": "एक",
+          "target": "एक",
+          "method": "unchanged"
+        },
+        {
+          "source": "प्रयोग",
+          "target": "प्रयोग",
+          "method": "unchanged"
+        },
+        {
+          "source": "करोगे",
+          "target": "करकेोगे",
+          "method": "morphological"
+        }
+      ],
+      "n_corpus_hits": 3,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 346.52,
+      "end": 348.98,
+      "original": "और एक प्रिनाम मिलेगा,",
+      "bhojpuri": "अउर एक प्रिलम मिलेगा,",
+      "dominant_language": "english",
+      "alignment": [
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "एक",
+          "target": "एक",
+          "method": "unchanged"
+        },
+        {
+          "source": "प्रिनाम",
+          "target": "प्रिलम",
+          "method": "morphological"
+        },
+        {
+          "source": "मिलेगा",
+          "target": "मिलेगा",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 1,
+      "n_loanwords": 0
+    },
+    {
+      "start": 349.08,
+      "end": 352.52,
+      "original": "और उससी प्रयोग को तीक तीक उससी प्रकार होगे,",
+      "bhojpuri": "अउर उससी प्रयोग को तीक तीक उससी प्रकार होगे,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "और",
+          "target": "अउर",
+          "method": "corpus"
+        },
+        {
+          "source": "उससी",
+          "target": "उससी",
+          "method": "unchanged"
+        },
+        {
+          "source": "प्रयोग",
+          "target": "प्रयोग",
+          "method": "unchanged"
+        },
+        {
+          "source": "को",
+          "target": "को",
+          "method": "unchanged"
+        },
+        {
+          "source": "तीक",
+          "target": "तीक",
+          "method": "unchanged"
+        },
+        {
+          "source": "तीक",
+          "target": "तीक",
+          "method": "unchanged"
+        },
+        {
+          "source": "उससी",
+          "target": "उससी",
+          "method": "unchanged"
+        },
+        {
+          "source": "प्रकार",
+          "target": "प्रकार",
+          "method": "unchanged"
+        },
+        {
+          "source": "होगे",
+          "target": "होगे",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 353.32,
+      "end": 355.0,
+      "original": "तो वही प्रिनाम मिलेगा,",
+      "bhojpuri": "त ऊी प्रिलम मिलेगा,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "तो",
+          "target": "त",
+          "method": "corpus"
+        },
+        {
+          "source": "वही",
+          "target": "ऊी",
+          "method": "morphological"
+        },
+        {
+          "source": "प्रिनाम",
+          "target": "प्रिलम",
+          "method": "morphological"
+        },
+        {
+          "source": "मिलेगा",
+          "target": "मिलेगा",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 2,
+      "n_loanwords": 0
+    },
+    {
+      "start": 355.18,
+      "end": 358.52,
+      "original": "आइडिन्टिकल एकस्परिमेंट्स विल्गे लिए आप आइडिन्टिकल प्रिजाल्स,",
+      "bhojpuri": "आइडिन्टिकल एकस्परिमेंट्स विल्गे लिए रउआ आइडिन्टिकल प्रिजाल्स,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "एकस्परिमेंट्स",
+          "target": "एकस्परिमेंट्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "आप",
+          "target": "रउआ",
+          "method": "corpus"
+        },
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "प्रिजाल्स",
+          "target": "प्रिजाल्स",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 359.94,
+      "end": 366.68,
+      "original": "ये भी यहां बर साहिदी होना,",
+      "bhojpuri": "ये भी यहां बर साहिदी होखल,",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "ये",
+          "target": "ये",
+          "method": "unchanged"
+        },
+        {
+          "source": "भी",
+          "target": "भी",
+          "method": "unchanged"
+        },
+        {
+          "source": "यहां",
+          "target": "यहां",
+          "method": "unchanged"
+        },
+        {
+          "source": "बर",
+          "target": "बर",
+          "method": "unchanged"
+        },
+        {
+          "source": "साहिदी",
+          "target": "साहिदी",
+          "method": "unchanged"
+        },
+        {
+          "source": "होना",
+          "target": "होखल",
+          "method": "corpus"
+        }
+      ],
+      "n_corpus_hits": 1,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 366.68,
+      "end": 396.66,
+      "original": "आइडिन्टिकल एकस्परिमेंट्स विल्गे आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्ग",
+      "bhojpuri": "आइडिन्टिकल एकस्परिमेंट्स विल्गे आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्ग",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "एकस्परिमेंट्स",
+          "target": "एकस्परिमेंट्स",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्ग",
+          "target": "विल्ग",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 0,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 426.56,
+      "end": 426.64,
+      "original": "आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइ�",
+      "bhojpuri": "आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइ�",
+      "dominant_language": "english",
+      "alignment": [
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "आइ",
+          "target": "आइ",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 0,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 455.22,
+      "end": 456.62,
+      "original": "जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी",
+      "bhojpuri": "जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 0,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 471.78000000000003,
+      "end": 486.62,
+      "original": "विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिर",
+      "bhojpuri": "विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिर",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "लिए",
+          "target": "लिए",
+          "method": "unchanged"
+        },
+        {
+          "source": "आइडिन्टिकल",
+          "target": "आइडिन्टिकल",
+          "method": "unchanged"
+        },
+        {
+          "source": "विल्गे",
+          "target": "विल्गे",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिर",
+          "target": "जिर",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 0,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 495.02,
+      "end": 514.36,
+      "original": "जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी।",
+      "bhojpuri": "जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी।",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी",
+          "target": "जिरी",
+          "method": "unchanged"
+        },
+        {
+          "source": "जिरी।",
+          "target": "जिरी।",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 0,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 524.9200000000001,
+      "end": 531.06,
+      "original": "अपको परावर्तित बी होती हैं।",
+      "bhojpuri": "अपको परावर्तित बी होती हैं।",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "अपको",
+          "target": "अपको",
+          "method": "unchanged"
+        },
+        {
+          "source": "परावर्तित",
+          "target": "परावर्तित",
+          "method": "unchanged"
+        },
+        {
+          "source": "बी",
+          "target": "बी",
+          "method": "unchanged"
+        },
+        {
+          "source": "होती",
+          "target": "होती",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं।",
+          "target": "हैं।",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 0,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 558.48,
+      "end": 562.78,
+      "original": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "bhojpuri": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "dominant_language": "english",
+      "alignment": [
+        {
+          "source": "अपको",
+          "target": "अपको",
+          "method": "unchanged"
+        },
+        {
+          "source": "परावर्तित",
+          "target": "परावर्तित",
+          "method": "unchanged"
+        },
+        {
+          "source": "बीन",
+          "target": "बीन",
+          "method": "unchanged"
+        },
+        {
+          "source": "परावर्तित",
+          "target": "परावर्तित",
+          "method": "unchanged"
+        },
+        {
+          "source": "होती",
+          "target": "होती",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं।",
+          "target": "हैं।",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 0,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 578.72,
+      "end": 580.62,
+      "original": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "bhojpuri": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "अपको",
+          "target": "अपको",
+          "method": "unchanged"
+        },
+        {
+          "source": "परावर्तित",
+          "target": "परावर्तित",
+          "method": "unchanged"
+        },
+        {
+          "source": "बीन",
+          "target": "बीन",
+          "method": "unchanged"
+        },
+        {
+          "source": "परावर्तित",
+          "target": "परावर्तित",
+          "method": "unchanged"
+        },
+        {
+          "source": "होती",
+          "target": "होती",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं।",
+          "target": "हैं।",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 0,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 581.2,
+      "end": 585.76,
+      "original": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "bhojpuri": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "अपको",
+          "target": "अपको",
+          "method": "unchanged"
+        },
+        {
+          "source": "परावर्तित",
+          "target": "परावर्तित",
+          "method": "unchanged"
+        },
+        {
+          "source": "बीन",
+          "target": "बीन",
+          "method": "unchanged"
+        },
+        {
+          "source": "परावर्तित",
+          "target": "परावर्तित",
+          "method": "unchanged"
+        },
+        {
+          "source": "होती",
+          "target": "होती",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं।",
+          "target": "हैं।",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 0,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 585.76,
+      "end": 588.86,
+      "original": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "bhojpuri": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "अपको",
+          "target": "अपको",
+          "method": "unchanged"
+        },
+        {
+          "source": "परावर्तित",
+          "target": "परावर्तित",
+          "method": "unchanged"
+        },
+        {
+          "source": "बीन",
+          "target": "बीन",
+          "method": "unchanged"
+        },
+        {
+          "source": "परावर्तित",
+          "target": "परावर्तित",
+          "method": "unchanged"
+        },
+        {
+          "source": "होती",
+          "target": "होती",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं।",
+          "target": "हैं।",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 0,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 588.86,
+      "end": 593.84,
+      "original": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "bhojpuri": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "अपको",
+          "target": "अपको",
+          "method": "unchanged"
+        },
+        {
+          "source": "परावर्तित",
+          "target": "परावर्तित",
+          "method": "unchanged"
+        },
+        {
+          "source": "बीन",
+          "target": "बीन",
+          "method": "unchanged"
+        },
+        {
+          "source": "परावर्तित",
+          "target": "परावर्तित",
+          "method": "unchanged"
+        },
+        {
+          "source": "होती",
+          "target": "होती",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं।",
+          "target": "हैं।",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 0,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 593.84,
+      "end": 596.62,
+      "original": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "bhojpuri": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "dominant_language": "english",
+      "alignment": [
+        {
+          "source": "अपको",
+          "target": "अपको",
+          "method": "unchanged"
+        },
+        {
+          "source": "परावर्तित",
+          "target": "परावर्तित",
+          "method": "unchanged"
+        },
+        {
+          "source": "बीन",
+          "target": "बीन",
+          "method": "unchanged"
+        },
+        {
+          "source": "परावर्तित",
+          "target": "परावर्तित",
+          "method": "unchanged"
+        },
+        {
+          "source": "होती",
+          "target": "होती",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं।",
+          "target": "हैं।",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 0,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    },
+    {
+      "start": 598.3,
+      "end": 599.98,
+      "original": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "bhojpuri": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "dominant_language": "hindi",
+      "alignment": [
+        {
+          "source": "अपको",
+          "target": "अपको",
+          "method": "unchanged"
+        },
+        {
+          "source": "परावर्तित",
+          "target": "परावर्तित",
+          "method": "unchanged"
+        },
+        {
+          "source": "बीन",
+          "target": "बीन",
+          "method": "unchanged"
+        },
+        {
+          "source": "परावर्तित",
+          "target": "परावर्तित",
+          "method": "unchanged"
+        },
+        {
+          "source": "होती",
+          "target": "होती",
+          "method": "unchanged"
+        },
+        {
+          "source": "हैं।",
+          "target": "हैं।",
+          "method": "unchanged"
+        }
+      ],
+      "n_corpus_hits": 0,
+      "n_morph_rules": 0,
+      "n_loanwords": 0
+    }
+  ]
+}

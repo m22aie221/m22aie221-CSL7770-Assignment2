@@ -1,0 +1,28 @@
+cpu-bind=MASK - cn25, task  0  0 [2892710]: mask 0x6000000000000000000000006000000000000 set
+Starting Part 2 at Tue Apr 21 07:08:04 IST 2026
+2026-04-21 07:08:04,861 [INFO] Corpus saved (178 entries): corpus/hinglish_bhojpuri_corpus.json
+2026-04-21 07:08:04,864 [INFO] Loaded transcript: 129 segments
+2026-04-21 07:08:04,866 [INFO] Running Task 2.1: Hinglish → IPA conversion...
+2026-04-21 07:08:04,881 [INFO] IPA transcript saved: outputs/ipa_transcript.json, outputs/ipa_transcript.txt
+2026-04-21 07:08:04,881 [INFO] Running Task 2.2: Hinglish → Bhojpuri translation...
+2026-04-21 07:08:04,897 [INFO] Bhojpuri translation saved: outputs/bhojpuri_translation.json, outputs/bhojpuri_translation.txt
+2026-04-21 07:08:04,897 [INFO] Translation stats — Corpus hits: 300, Morphological: 35
+2026-04-21 07:08:04,897 [INFO] ============================================================
+2026-04-21 07:08:04,897 [INFO] PART 2 METRICS
+2026-04-21 07:08:04,897 [INFO] ============================================================
+2026-04-21 07:08:04,897 [INFO]   Corpus size    :  178 entries  (≥500 required)       ❌ FAIL
+2026-04-21 07:08:04,897 [INFO]   G2P coverage   : 27.0% words from corpus
+2026-04-21 07:08:04,897 [INFO]   English words  : 84
+2026-04-21 07:08:04,897 [INFO]   Hindi words    : 610
+2026-04-21 07:08:04,897 [INFO]   Corpus hits    : 300
+2026-04-21 07:08:04,897 [INFO]   Translation    : {'unchanged': 659, 'corpus': 300, 'morphological': 35}
+2026-04-21 07:08:04,897 [INFO] ============================================================
+2026-04-21 07:08:04,898 [INFO] Part 2 metrics saved: outputs/part2_metrics.json
+2026-04-21 07:08:04,898 [INFO] ============================================================
+2026-04-21 07:08:04,898 [INFO] PART 2 COMPLETE
+2026-04-21 07:08:04,898 [INFO]   IPA transcript      : outputs/ipa_transcript.txt
+2026-04-21 07:08:04,898 [INFO]   Bhojpuri translation: outputs/bhojpuri_translation.txt
+2026-04-21 07:08:04,898 [INFO]   Corpus              : corpus/hinglish_bhojpuri_corpus.json
+2026-04-21 07:08:04,898 [INFO]   Metrics             : outputs/part2_metrics.json
+2026-04-21 07:08:04,898 [INFO] ============================================================
+Part 2 finished at Tue Apr 21 07:08:04 IST 2026

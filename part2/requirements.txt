@@ -1,0 +1,2 @@
+# Part 2 requirements — all pure Python, no GPU needed
+regex>=2022.0.0

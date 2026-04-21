@@ -1,0 +1,714 @@
+{
+  "quantum": {
+    "bhojpuri": "क्वांटम",
+    "ipa": "kʷɑːntəm"
+  },
+  "physics": {
+    "bhojpuri": "भौतिकी",
+    "ipa": "bʱɔːtɪkiː"
+  },
+  "energy": {
+    "bhojpuri": "ऊर्जा",
+    "ipa": "uːrd͡ʒɑː"
+  },
+  "particle": {
+    "bhojpuri": "कण",
+    "ipa": "kəɳ"
+  },
+  "wave": {
+    "bhojpuri": "लहर",
+    "ipa": "ləɦər"
+  },
+  "frequency": {
+    "bhojpuri": "आवृत्ति",
+    "ipa": "ɑːʋr̩ttɪ"
+  },
+  "wavelength": {
+    "bhojpuri": "तरंगदैर्ध्य",
+    "ipa": "tərəŋgdɛːrd͡ʱjə"
+  },
+  "amplitude": {
+    "bhojpuri": "आयाम",
+    "ipa": "ɑːjɑːm"
+  },
+  "velocity": {
+    "bhojpuri": "वेग",
+    "ipa": "ʋeːg"
+  },
+  "acceleration": {
+    "bhojpuri": "त्वरण",
+    "ipa": "tʋərəɳ"
+  },
+  "force": {
+    "bhojpuri": "बल",
+    "ipa": "bəl"
+  },
+  "mass": {
+    "bhojpuri": "द्रव्यमान",
+    "ipa": "drəʋjəmɑːn"
+  },
+  "momentum": {
+    "bhojpuri": "संवेग",
+    "ipa": "səŋʋeːg"
+  },
+  "potential": {
+    "bhojpuri": "विभव",
+    "ipa": "ʋɪbʱəʋ"
+  },
+  "electric": {
+    "bhojpuri": "बिजुरी",
+    "ipa": "bɪd͡ʒuriː"
+  },
+  "magnetic": {
+    "bhojpuri": "चुम्बकीय",
+    "ipa": "t͡ʃumbəkiːj"
+  },
+  "photon": {
+    "bhojpuri": "फोटान",
+    "ipa": "pʰoːʈɑːn"
+  },
+  "electron": {
+    "bhojpuri": "इलेक्ट्रॉन",
+    "ipa": "ɪleːkʈrɔːn"
+  },
+  "proton": {
+    "bhojpuri": "प्रोटोन",
+    "ipa": "proːʈoːn"
+  },
+  "neutron": {
+    "bhojpuri": "न्यूट्रॉन",
+    "ipa": "njuːʈrɔːn"
+  },
+  "nucleus": {
+    "bhojpuri": "नाभिक",
+    "ipa": "nɑːbʱɪk"
+  },
+  "atom": {
+    "bhojpuri": "परमाणु",
+    "ipa": "pərəmɑːɳu"
+  },
+  "experiment": {
+    "bhojpuri": "परीक्षा",
+    "ipa": "pəriːkʃɑː"
+  },
+  "observation": {
+    "bhojpuri": "निरीक्षण",
+    "ipa": "nɪriːkʃəɳ"
+  },
+  "result": {
+    "bhojpuri": "नतीजा",
+    "ipa": "nətiːd͡ʒɑː"
+  },
+  "identical": {
+    "bhojpuri": "एकसमान",
+    "ipa": "eːkəsəmɑːn"
+  },
+  "probability": {
+    "bhojpuri": "संभावना",
+    "ipa": "səmbʱɑːʋənɑː"
+  },
+  "uncertainty": {
+    "bhojpuri": "अनिश्चितता",
+    "ipa": "ənɪʃt͡ʃɪttɑː"
+  },
+  "superposition": {
+    "bhojpuri": "अध्यारोपण",
+    "ipa": "əd͡ʱjɑːroːpəɳ"
+  },
+  "interference": {
+    "bhojpuri": "व्यतिकरण",
+    "ipa": "ʋjətɪkərəɳ"
+  },
+  "diffraction": {
+    "bhojpuri": "विवर्तन",
+    "ipa": "ʋɪʋərtən"
+  },
+  "refraction": {
+    "bhojpuri": "अपवर्तन",
+    "ipa": "əpəʋərtən"
+  },
+  "reflection": {
+    "bhojpuri": "परावर्तन",
+    "ipa": "pərɑːʋərtən"
+  },
+  "spectrum": {
+    "bhojpuri": "वर्णक्रम",
+    "ipa": "ʋərɳəkrəm"
+  },
+  "light": {
+    "bhojpuri": "परकाश",
+    "ipa": "pərkɑːʃ"
+  },
+  "time": {
+    "bhojpuri": "समय",
+    "ipa": "səməj"
+  },
+  "space": {
+    "bhojpuri": "अकाश",
+    "ipa": "ɑːkɑːʃ"
+  },
+  "interval": {
+    "bhojpuri": "अंतराल",
+    "ipa": "əntərɑːl"
+  },
+  "classical": {
+    "bhojpuri": "परंपरागत",
+    "ipa": "pərəmpərɑːgət"
+  },
+  "modern": {
+    "bhojpuri": "आधुनिक",
+    "ipa": "ɑːd͡ʱunɪk"
+  },
+  "theory": {
+    "bhojpuri": "सिद्धांत",
+    "ipa": "sɪd͡ːɦɑːnt"
+  },
+  "law": {
+    "bhojpuri": "नियम",
+    "ipa": "nɪjəm"
+  },
+  "equation": {
+    "bhojpuri": "समीकरण",
+    "ipa": "səmiːkərəɳ"
+  },
+  "constant": {
+    "bhojpuri": "स्थिरांक",
+    "ipa": "stʰɪrɑːŋk"
+  },
+  "variable": {
+    "bhojpuri": "चर",
+    "ipa": "t͡ʃər"
+  },
+  "function": {
+    "bhojpuri": "फलन",
+    "ipa": "pʰələn"
+  },
+  "derivative": {
+    "bhojpuri": "अवकलज",
+    "ipa": "əʋəkələd͡ʒ"
+  },
+  "integral": {
+    "bhojpuri": "समाकल",
+    "ipa": "səmɑːkəl"
+  },
+  "speech": {
+    "bhojpuri": "बोली",
+    "ipa": "boːliː"
+  },
+  "signal": {
+    "bhojpuri": "संकेत",
+    "ipa": "səŋkeːt"
+  },
+  "noise": {
+    "bhojpuri": "शोर",
+    "ipa": "ʃoːr"
+  },
+  "filter": {
+    "bhojpuri": "छनना",
+    "ipa": "t͡ʃʰənnɑː"
+  },
+  "sampling": {
+    "bhojpuri": "नमूना लेवल",
+    "ipa": "nəmuːnɑː leːʋəl"
+  },
+  "frequency_band": {
+    "bhojpuri": "आवृत्ति पट्टी",
+    "ipa": "ɑːʋr̩ttɪ pəʈʈiː"
+  },
+  "cepstrum": {
+    "bhojpuri": "सेप्स्ट्रम",
+    "ipa": "seːpstrəm"
+  },
+  "cepstral": {
+    "bhojpuri": "सेप्स्ट्रल",
+    "ipa": "seːpstrəl"
+  },
+  "mfcc": {
+    "bhojpuri": "एमएफसीसी",
+    "ipa": "eːm eːf siː siː"
+  },
+  "spectrogram": {
+    "bhojpuri": "स्पेक्ट्रोग्राम",
+    "ipa": "speːkʈrogrɑːm"
+  },
+  "mel": {
+    "bhojpuri": "मेल",
+    "ipa": "meːl"
+  },
+  "filterbank": {
+    "bhojpuri": "फिल्टर बैंक",
+    "ipa": "pʰɪlʈər bɛːŋk"
+  },
+  "phoneme": {
+    "bhojpuri": "ध्वनिम",
+    "ipa": "d͡ʱʋənɪm"
+  },
+  "formant": {
+    "bhojpuri": "फॉर्मेंट",
+    "ipa": "fɔːrmeːnʈ"
+  },
+  "pitch": {
+    "bhojpuri": "स्वर ऊंचाई",
+    "ipa": "sʋər uːŋt͡ʃɑːiː"
+  },
+  "fundamental": {
+    "bhojpuri": "मौलिक",
+    "ipa": "mɔːlɪk"
+  },
+  "harmonic": {
+    "bhojpuri": "हारमोनिक",
+    "ipa": "ɦɑːrmoːnɪk"
+  },
+  "prosody": {
+    "bhojpuri": "स्वराघात",
+    "ipa": "sʋərɑːgʱɑːt"
+  },
+  "intonation": {
+    "bhojpuri": "स्वरोच्चारण",
+    "ipa": "sʋərot͡ʃt͡ʃɑːrəɳ"
+  },
+  "duration": {
+    "bhojpuri": "अवधि",
+    "ipa": "əʋəd͡ʱɪ"
+  },
+  "acoustic": {
+    "bhojpuri": "ध्वनिक",
+    "ipa": "d͡ʱʋənɪk"
+  },
+  "recognition": {
+    "bhojpuri": "पहचान",
+    "ipa": "pəɦt͡ʃɑːn"
+  },
+  "synthesis": {
+    "bhojpuri": "संश्लेषण",
+    "ipa": "səŋʃleːʃəɳ"
+  },
+  "transcription": {
+    "bhojpuri": "लिप्यंतरण",
+    "ipa": "lɪpjəntərəɳ"
+  },
+  "language": {
+    "bhojpuri": "भाषा",
+    "ipa": "bʱɑːʃɑː"
+  },
+  "model": {
+    "bhojpuri": "मॉडल",
+    "ipa": "mɔːɖəl"
+  },
+  "training": {
+    "bhojpuri": "सिखावल",
+    "ipa": "sɪkʱɑːʋəl"
+  },
+  "feature": {
+    "bhojpuri": "लच्छन",
+    "ipa": "lət͡ʃʃən"
+  },
+  "extraction": {
+    "bhojpuri": "निकासी",
+    "ipa": "nɪkɑːsiː"
+  },
+  "classification": {
+    "bhojpuri": "वर्गीकरण",
+    "ipa": "ʋərgiːkərəɳ"
+  },
+  "neural": {
+    "bhojpuri": "नस-तंत्र",
+    "ipa": "nəs təntrə"
+  },
+  "network": {
+    "bhojpuri": "जाल",
+    "ipa": "d͡ʒɑːl"
+  },
+  "deep": {
+    "bhojpuri": "गहिर",
+    "ipa": "gəɦɪr"
+  },
+  "learning": {
+    "bhojpuri": "सीखल",
+    "ipa": "siːkʰəl"
+  },
+  "transformer": {
+    "bhojpuri": "ट्रांसफार्मर",
+    "ipa": "ʈrɑːnsfɑːrmər"
+  },
+  "attention": {
+    "bhojpuri": "ध्यान",
+    "ipa": "d͡ʱjɑːn"
+  },
+  "encoder": {
+    "bhojpuri": "एन्कोडर",
+    "ipa": "eːnkoːɖər"
+  },
+  "decoder": {
+    "bhojpuri": "डिकोडर",
+    "ipa": "ɖɪkoːɖər"
+  },
+  "embedding": {
+    "bhojpuri": "अंतःस्थापन",
+    "ipa": "əntəstʰɑːpən"
+  },
+  "hidden": {
+    "bhojpuri": "लुकाइल",
+    "ipa": "lʊkɑːɪl"
+  },
+  "markov": {
+    "bhojpuri": "मार्कोव",
+    "ipa": "mɑːrkoːʋ"
+  },
+  "gaussian": {
+    "bhojpuri": "गाउसियन",
+    "ipa": "gɑːusiːən"
+  },
+  "viterbi": {
+    "bhojpuri": "विटर्बी",
+    "ipa": "ʋɪʈərbiː"
+  },
+  "beam": {
+    "bhojpuri": "किरण",
+    "ipa": "kɪrəɳ"
+  },
+  "decoding": {
+    "bhojpuri": "डिकोडिंग",
+    "ipa": "ɖɪkoːɖɪŋ"
+  },
+  "alignment": {
+    "bhojpuri": "संरेखण",
+    "ipa": "səŋreːkʰəɳ"
+  },
+  "corpus": {
+    "bhojpuri": "भाषा संग्रह",
+    "ipa": "bʱɑːʃɑː səŋgrəɦ"
+  },
+  "vocabulary": {
+    "bhojpuri": "शब्द भंडार",
+    "ipa": "ʃəbd bʱənɖɑːr"
+  },
+  "token": {
+    "bhojpuri": "टोकन",
+    "ipa": "ʈoːkən"
+  },
+  "perplexity": {
+    "bhojpuri": "उलझन माप",
+    "ipa": "ʊld͡ʒʱən mɑːp"
+  },
+  "whisper": {
+    "bhojpuri": "फुसफुसावल",
+    "ipa": "pʰʊspʰʊsɑːʋəl"
+  },
+  "microphone": {
+    "bhojpuri": "माइक",
+    "ipa": "mɑːɪk"
+  },
+  "recording": {
+    "bhojpuri": "रिकार्डिंग",
+    "ipa": "rɪkɑːrɖɪŋ"
+  },
+  "speaker": {
+    "bhojpuri": "बोलेवाला",
+    "ipa": "boːleːʋɑːlɑː"
+  },
+  "voice": {
+    "bhojpuri": "आवाज",
+    "ipa": "ɑːʋɑːd͡ʒ"
+  },
+  "cloning": {
+    "bhojpuri": "नकल बनावल",
+    "ipa": "nəkəl bənɑːʋəl"
+  },
+  "synthesis_tts": {
+    "bhojpuri": "आवाज बनावल",
+    "ipa": "ɑːʋɑːd͡ʒ bənɑːʋəl"
+  },
+  "waveform": {
+    "bhojpuri": "तरंग रूप",
+    "ipa": "tərəŋg ruːp"
+  },
+  "spectrogram_mel": {
+    "bhojpuri": "मेल चित्र",
+    "ipa": "meːl t͡ʃɪtr"
+  },
+  "vocoder": {
+    "bhojpuri": "वोकोडर",
+    "ipa": "ʋoːkoːɖər"
+  },
+  "dtw": {
+    "bhojpuri": "गतिशील समय वार्पिंग",
+    "ipa": "gətɪʃiːl səməj ʋɑːrpɪŋ"
+  },
+  "warping": {
+    "bhojpuri": "मोड़ल",
+    "ipa": "moːɽəl"
+  },
+  "prosody_transfer": {
+    "bhojpuri": "स्वर शैली बदलावल",
+    "ipa": "sʋər ʃɛːliː bədəlɑːʋəl"
+  },
+  "zero_shot": {
+    "bhojpuri": "बिना सिखले",
+    "ipa": "bɪnɑː sɪkʱle"
+  },
+  "low_resource": {
+    "bhojpuri": "कम संसाधन",
+    "ipa": "kəm sənsɑːd͡ʱən"
+  },
+  "code_switch": {
+    "bhojpuri": "भाषा मिलावल",
+    "ipa": "bʱɑːʃɑː mɪlɑːʋəl"
+  },
+  "hinglish": {
+    "bhojpuri": "हिंग्लिश",
+    "ipa": "ɦɪŋglɪʃ"
+  },
+  "bhojpuri": {
+    "bhojpuri": "भोजपुरी",
+    "ipa": "bʱoːd͡ʒpuriː"
+  },
+  "devanagari": {
+    "bhojpuri": "देवनागरी",
+    "ipa": "deːʋənɑːgəriː"
+  },
+  "ipa": {
+    "bhojpuri": "आईपीए",
+    "ipa": "ɑːiːpiːeː"
+  },
+  "phonetic": {
+    "bhojpuri": "ध्वन्यात्मक",
+    "ipa": "d͡ʱʋənjɑːtmək"
+  },
+  "grapheme": {
+    "bhojpuri": "लिपि-चिन्ह",
+    "ipa": "lɪpɪ t͡ʃɪnʱ"
+  },
+  "denoising": {
+    "bhojpuri": "शोर हटावल",
+    "ipa": "ʃoːr ɦəʈɑːʋəl"
+  },
+  "reverb": {
+    "bhojpuri": "गूंज",
+    "ipa": "guːnd͡ʒ"
+  },
+  "background": {
+    "bhojpuri": "पृष्ठभूमि",
+    "ipa": "pr̩ʃʈʰbʱuːmɪ"
+  },
+  "तो": {
+    "bhojpuri": "त",
+    "ipa": "tə"
+  },
+  "और": {
+    "bhojpuri": "अउर",
+    "ipa": "əʊr"
+  },
+  "है": {
+    "bhojpuri": "बा",
+    "ipa": "bɑː"
+  },
+  "हैं": {
+    "bhojpuri": "बाड़न",
+    "ipa": "bɑːɽən"
+  },
+  "के": {
+    "bhojpuri": "के",
+    "ipa": "keː"
+  },
+  "का": {
+    "bhojpuri": "के",
+    "ipa": "keː"
+  },
+  "की": {
+    "bhojpuri": "के",
+    "ipa": "keː"
+  },
+  "में": {
+    "bhojpuri": "में",
+    "ipa": "meː"
+  },
+  "से": {
+    "bhojpuri": "से",
+    "ipa": "seː"
+  },
+  "पर": {
+    "bhojpuri": "पर",
+    "ipa": "pər"
+  },
+  "यह": {
+    "bhojpuri": "इ",
+    "ipa": "ɪ"
+  },
+  "वह": {
+    "bhojpuri": "ऊ",
+    "ipa": "uː"
+  },
+  "हम": {
+    "bhojpuri": "हम",
+    "ipa": "ɦəm"
+  },
+  "आप": {
+    "bhojpuri": "रउआ",
+    "ipa": "rəʊɑː"
+  },
+  "क्या": {
+    "bhojpuri": "का",
+    "ipa": "kɑː"
+  },
+  "कैसे": {
+    "bhojpuri": "केने",
+    "ipa": "keːne"
+  },
+  "क्यों": {
+    "bhojpuri": "काहे",
+    "ipa": "kɑːɦe"
+  },
+  "जो": {
+    "bhojpuri": "जे",
+    "ipa": "d͡ʒeː"
+  },
+  "कि": {
+    "bhojpuri": "कि",
+    "ipa": "kɪ"
+  },
+  "लेकिन": {
+    "bhojpuri": "बाकी",
+    "ipa": "bɑːkiː"
+  },
+  "अगर": {
+    "bhojpuri": "अगर",
+    "ipa": "əgər"
+  },
+  "तब": {
+    "bhojpuri": "तब",
+    "ipa": "təb"
+  },
+  "जब": {
+    "bhojpuri": "जब",
+    "ipa": "d͡ʒəb"
+  },
+  "सब": {
+    "bhojpuri": "सब",
+    "ipa": "səb"
+  },
+  "कुछ": {
+    "bhojpuri": "कुछ",
+    "ipa": "kʊt͡ʃʰ"
+  },
+  "बहुत": {
+    "bhojpuri": "बहुते",
+    "ipa": "bəɦuteː"
+  },
+  "बड़ा": {
+    "bhojpuri": "बड़",
+    "ipa": "bəɽ"
+  },
+  "छोटा": {
+    "bhojpuri": "छोट",
+    "ipa": "t͡ʃʰoːʈ"
+  },
+  "अच्छा": {
+    "bhojpuri": "नीमन",
+    "ipa": "niːmən"
+  },
+  "हाँ": {
+    "bhojpuri": "हँ",
+    "ipa": "ɦə̃"
+  },
+  "नहीं": {
+    "bhojpuri": "ना",
+    "ipa": "nɑː"
+  },
+  "देखना": {
+    "bhojpuri": "देखल",
+    "ipa": "deːkʰəl"
+  },
+  "करना": {
+    "bhojpuri": "करल",
+    "ipa": "kərəl"
+  },
+  "होना": {
+    "bhojpuri": "होखल",
+    "ipa": "ɦoːkʰəl"
+  },
+  "समझना": {
+    "bhojpuri": "बुझल",
+    "ipa": "bʊd͡ʒʰəl"
+  },
+  "बताना": {
+    "bhojpuri": "बतावल",
+    "ipa": "bətɑːʋəl"
+  },
+  "जानना": {
+    "bhojpuri": "जानल",
+    "ipa": "d͡ʒɑːnəl"
+  },
+  "पढ़ना": {
+    "bhojpuri": "पढ़ल",
+    "ipa": "pəɽʰəl"
+  },
+  "लिखना": {
+    "bhojpuri": "लिखल",
+    "ipa": "lɪkʰəl"
+  },
+  "zero": {
+    "bhojpuri": "सून",
+    "ipa": "suːn"
+  },
+  "one": {
+    "bhojpuri": "एक",
+    "ipa": "eːk"
+  },
+  "two": {
+    "bhojpuri": "दू",
+    "ipa": "duː"
+  },
+  "three": {
+    "bhojpuri": "तीन",
+    "ipa": "tiːn"
+  },
+  "four": {
+    "bhojpuri": "चार",
+    "ipa": "t͡ʃɑːr"
+  },
+  "five": {
+    "bhojpuri": "पांच",
+    "ipa": "pɑːnt͡ʃ"
+  },
+  "equal": {
+    "bhojpuri": "बराबर",
+    "ipa": "bərɑːbər"
+  },
+  "plus": {
+    "bhojpuri": "जोड़",
+    "ipa": "d͡ʒoːɽ"
+  },
+  "minus": {
+    "bhojpuri": "घटावल",
+    "ipa": "gʰəʈɑːʋəl"
+  },
+  "multiply": {
+    "bhojpuri": "गुना",
+    "ipa": "gunɑː"
+  },
+  "divide": {
+    "bhojpuri": "भाग",
+    "ipa": "bʱɑːg"
+  },
+  "matrix": {
+    "bhojpuri": "आव्यूह",
+    "ipa": "ɑːʋjuːɦ"
+  },
+  "vector": {
+    "bhojpuri": "सदिश",
+    "ipa": "sədɪʃ"
+  },
+  "scalar": {
+    "bhojpuri": "अदिश",
+    "ipa": "ədɪʃ"
+  },
+  "dimension": {
+    "bhojpuri": "आयाम",
+    "ipa": "ɑːjɑːm"
+  },
+  "coordinate": {
+    "bhojpuri": "निर्देशांक",
+    "ipa": "nɪrdeːʃɑːŋk"
+  }
+}

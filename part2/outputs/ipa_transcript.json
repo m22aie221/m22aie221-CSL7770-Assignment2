@@ -1,0 +1,7226 @@
+{
+  "total_segments": 129,
+  "g2p_method": "hinglish_custom_layer",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.46,
+      "original_text": "आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।",
+      "ipa_string": "ɑːd͡ʒoː kʊt͡ʃʰ bʱiː ɦɛː̃ə ʊsəkeː bʱiː ruːnsə bəneː ɦʊeː ɦɛː̃ə",
+      "word_ipa": [
+        {
+          "word": "आजो",
+          "language": "hindi",
+          "ipa": "ɑːd͡ʒoː"
+        },
+        {
+          "word": "कुछ",
+          "language": "corpus",
+          "ipa": "kʊt͡ʃʰ"
+        },
+        {
+          "word": "भी",
+          "language": "hindi",
+          "ipa": "bʱiː"
+        },
+        {
+          "word": "हैं।",
+          "language": "hindi",
+          "ipa": "ɦɛː̃ə"
+        },
+        {
+          "word": "उसके",
+          "language": "hindi",
+          "ipa": "ʊsəkeː"
+        },
+        {
+          "word": "भी",
+          "language": "hindi",
+          "ipa": "bʱiː"
+        },
+        {
+          "word": "रून्स",
+          "language": "hindi",
+          "ipa": "ruːnsə"
+        },
+        {
+          "word": "बने",
+          "language": "hindi",
+          "ipa": "bəneː"
+        },
+        {
+          "word": "हुए",
+          "language": "hindi",
+          "ipa": "ɦʊeː"
+        },
+        {
+          "word": "हैं।",
+          "language": "hindi",
+          "ipa": "ɦɛː̃ə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 9,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 2.46,
+      "end": 4.48,
+      "original_text": "कुलम्स्लो हैं, कौस्लो हैं।",
+      "ipa_string": "kʊləmsloː bɑːɽən kɔːsloː ɦɛː̃ə",
+      "word_ipa": [
+        {
+          "word": "कुलम्स्लो",
+          "language": "hindi",
+          "ipa": "kʊləmsloː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        },
+        {
+          "word": "कौस्लो",
+          "language": "hindi",
+          "ipa": "kɔːsloː"
+        },
+        {
+          "word": "हैं।",
+          "language": "hindi",
+          "ipa": "ɦɛː̃ə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 3,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 4.48,
+      "end": 7.0,
+      "original_text": "तो उससे हम वो सारी थीज़े समझ लेते हैं।",
+      "ipa_string": "tə ʊsəseː ɦəm ʋoː sɑːriː tʰiːd͡ʒeː səməd͡ʒʱə leːteː ɦɛː̃ə",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "उससे",
+          "language": "hindi",
+          "ipa": "ʊsəseː"
+        },
+        {
+          "word": "हम",
+          "language": "corpus",
+          "ipa": "ɦəm"
+        },
+        {
+          "word": "वो",
+          "language": "hindi",
+          "ipa": "ʋoː"
+        },
+        {
+          "word": "सारी",
+          "language": "hindi",
+          "ipa": "sɑːriː"
+        },
+        {
+          "word": "थीज़े",
+          "language": "hindi",
+          "ipa": "tʰiːd͡ʒeː"
+        },
+        {
+          "word": "समझ",
+          "language": "hindi",
+          "ipa": "səməd͡ʒʱə"
+        },
+        {
+          "word": "लेते",
+          "language": "hindi",
+          "ipa": "leːteː"
+        },
+        {
+          "word": "हैं।",
+          "language": "hindi",
+          "ipa": "ɦɛː̃ə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 2,
+        "hindi": 7
+      }
+    },
+    {
+      "start": 7.74,
+      "end": 11.72,
+      "original_text": "अप्टिक्स हैं, लाइट हैं, इसके लिए भी रिफ्राक्षण के लिए हूए हूए हैं।",
+      "ipa_string": "əpʈɪksə bɑːɽən lɑːɪʈə bɑːɽən ɪsəkeː lɪeː bʱiː rɪpʰrɑːkʂəɳə keː lɪeː ɦuːeː ɦuːeː ɦɛː̃ə",
+      "word_ipa": [
+        {
+          "word": "अप्टिक्स",
+          "language": "hindi",
+          "ipa": "əpʈɪksə"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        },
+        {
+          "word": "लाइट",
+          "language": "hindi",
+          "ipa": "lɑːɪʈə"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        },
+        {
+          "word": "इसके",
+          "language": "hindi",
+          "ipa": "ɪsəkeː"
+        },
+        {
+          "word": "लिए",
+          "language": "hindi",
+          "ipa": "lɪeː"
+        },
+        {
+          "word": "भी",
+          "language": "hindi",
+          "ipa": "bʱiː"
+        },
+        {
+          "word": "रिफ्राक्षण",
+          "language": "hindi",
+          "ipa": "rɪpʰrɑːkʂəɳə"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "लिए",
+          "language": "hindi",
+          "ipa": "lɪeː"
+        },
+        {
+          "word": "हूए",
+          "language": "hindi",
+          "ipa": "ɦuːeː"
+        },
+        {
+          "word": "हूए",
+          "language": "hindi",
+          "ipa": "ɦuːeː"
+        },
+        {
+          "word": "हैं।",
+          "language": "hindi",
+          "ipa": "ɦɛː̃ə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 10,
+        "corpus": 3
+      }
+    },
+    {
+      "start": 11.72,
+      "end": 13.52,
+      "original_text": "सब कुछ हम लोग करते हैं।",
+      "ipa_string": "səb kʊt͡ʃʰ ɦəm loːgə kərəteː ɦɛː̃ə",
+      "word_ipa": [
+        {
+          "word": "सब",
+          "language": "corpus",
+          "ipa": "səb"
+        },
+        {
+          "word": "कुछ",
+          "language": "corpus",
+          "ipa": "kʊt͡ʃʰ"
+        },
+        {
+          "word": "हम",
+          "language": "corpus",
+          "ipa": "ɦəm"
+        },
+        {
+          "word": "लोग",
+          "language": "hindi",
+          "ipa": "loːgə"
+        },
+        {
+          "word": "करते",
+          "language": "hindi",
+          "ipa": "kərəteː"
+        },
+        {
+          "word": "हैं।",
+          "language": "hindi",
+          "ipa": "ɦɛː̃ə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 3,
+        "hindi": 3
+      }
+    },
+    {
+      "start": 16.68,
+      "end": 19.8,
+      "original_text": "तो उसको अगर हम लोग देखें,",
+      "ipa_string": "tə उसको əgər ɦəm लोग देखें",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "उसको",
+          "language": "english",
+          "ipa": "उसको"
+        },
+        {
+          "word": "अगर",
+          "language": "corpus",
+          "ipa": "əgər"
+        },
+        {
+          "word": "हम",
+          "language": "corpus",
+          "ipa": "ɦəm"
+        },
+        {
+          "word": "लोग",
+          "language": "english",
+          "ipa": "लोग"
+        },
+        {
+          "word": "देखें",
+          "language": "english",
+          "ipa": "देखें"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "english",
+      "language_breakdown": {
+        "corpus": 3,
+        "english": 3
+      }
+    },
+    {
+      "start": 19.8,
+      "end": 24.98,
+      "original_text": "तो जो क्लासिकल फिसिक्स जिसे कहते हैं हम,",
+      "ipa_string": "tə d͡ʒeː klɑːsɪkələ pʰɪsɪksə d͡ʒɪseː kəɦəteː bɑːɽən ɦəm",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "जो",
+          "language": "corpus",
+          "ipa": "d͡ʒeː"
+        },
+        {
+          "word": "क्लासिकल",
+          "language": "hindi",
+          "ipa": "klɑːsɪkələ"
+        },
+        {
+          "word": "फिसिक्स",
+          "language": "hindi",
+          "ipa": "pʰɪsɪksə"
+        },
+        {
+          "word": "जिसे",
+          "language": "hindi",
+          "ipa": "d͡ʒɪseː"
+        },
+        {
+          "word": "कहते",
+          "language": "hindi",
+          "ipa": "kəɦəteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": "हम",
+          "language": "corpus",
+          "ipa": "ɦəm"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 4,
+        "hindi": 4
+      }
+    },
+    {
+      "start": 27.58,
+      "end": 33.66,
+      "original_text": "वो दो जगे पर जो हमारी तोड़े अनुखों से पाहर की जिज़े हैं,",
+      "ipa_string": "ʋoː doː d͡ʒəgeː pər d͡ʒeː ɦəmɑːriː toːɽeː ənʊkʰoː̃ə seː pɑːɦərə keː d͡ʒɪd͡ʒeː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "वो",
+          "language": "hindi",
+          "ipa": "ʋoː"
+        },
+        {
+          "word": "दो",
+          "language": "hindi",
+          "ipa": "doː"
+        },
+        {
+          "word": "जगे",
+          "language": "hindi",
+          "ipa": "d͡ʒəgeː"
+        },
+        {
+          "word": "पर",
+          "language": "corpus",
+          "ipa": "pər"
+        },
+        {
+          "word": "जो",
+          "language": "corpus",
+          "ipa": "d͡ʒeː"
+        },
+        {
+          "word": "हमारी",
+          "language": "hindi",
+          "ipa": "ɦəmɑːriː"
+        },
+        {
+          "word": "तोड़े",
+          "language": "hindi",
+          "ipa": "toːɽeː"
+        },
+        {
+          "word": "अनुखों",
+          "language": "hindi",
+          "ipa": "ənʊkʰoː̃ə"
+        },
+        {
+          "word": "से",
+          "language": "corpus",
+          "ipa": "seː"
+        },
+        {
+          "word": "पाहर",
+          "language": "hindi",
+          "ipa": "pɑːɦərə"
+        },
+        {
+          "word": "की",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "जिज़े",
+          "language": "hindi",
+          "ipa": "d͡ʒɪd͡ʒeː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 8,
+        "corpus": 5
+      }
+    },
+    {
+      "start": 33.76,
+      "end": 36.02,
+      "original_text": "उसमें इसमें तोड़े चेंजेस करने परता हैं,",
+      "ipa_string": "ʊsəmeː̃ə ɪsəmeː̃ə toːɽeː t͡ʃeː̃əd͡ʒeːsə kərəneː pərətɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "उसमें",
+          "language": "hindi",
+          "ipa": "ʊsəmeː̃ə"
+        },
+        {
+          "word": "इसमें",
+          "language": "hindi",
+          "ipa": "ɪsəmeː̃ə"
+        },
+        {
+          "word": "तोड़े",
+          "language": "hindi",
+          "ipa": "toːɽeː"
+        },
+        {
+          "word": "चेंजेस",
+          "language": "hindi",
+          "ipa": "t͡ʃeː̃əd͡ʒeːsə"
+        },
+        {
+          "word": "करने",
+          "language": "hindi",
+          "ipa": "kərəneː"
+        },
+        {
+          "word": "परता",
+          "language": "hindi",
+          "ipa": "pərətɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 6,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 36.04,
+      "end": 37.72,
+      "original_text": "इसे काम नहीं चलता हैं।",
+      "ipa_string": "ɪseː kɑːmə nɑː t͡ʃələtɑː ɦɛː̃ə",
+      "word_ipa": [
+        {
+          "word": "इसे",
+          "language": "hindi",
+          "ipa": "ɪseː"
+        },
+        {
+          "word": "काम",
+          "language": "hindi",
+          "ipa": "kɑːmə"
+        },
+        {
+          "word": "नहीं",
+          "language": "corpus",
+          "ipa": "nɑː"
+        },
+        {
+          "word": "चलता",
+          "language": "hindi",
+          "ipa": "t͡ʃələtɑː"
+        },
+        {
+          "word": "हैं।",
+          "language": "hindi",
+          "ipa": "ɦɛː̃ə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 4,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 37.72,
+      "end": 40.88,
+      "original_text": "तो एक तो है, जिसमें कि हम",
+      "ipa_string": "tə eːkə tə bɑː d͡ʒɪsəmeː̃ə kɪ ɦəm",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "एक",
+          "language": "hindi",
+          "ipa": "eːkə"
+        },
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "है",
+          "language": "corpus",
+          "ipa": "bɑː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        },
+        {
+          "word": "जिसमें",
+          "language": "hindi",
+          "ipa": "d͡ʒɪsəmeː̃ə"
+        },
+        {
+          "word": "कि",
+          "language": "corpus",
+          "ipa": "kɪ"
+        },
+        {
+          "word": "हम",
+          "language": "corpus",
+          "ipa": "ɦəm"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 5,
+        "hindi": 2
+      }
+    },
+    {
+      "start": 40.88,
+      "end": 43.88,
+      "original_text": "हाई स्पीट जब इनकि लिल्मॉल हो जाते हैं।",
+      "ipa_string": "ɦɑːiː spiːʈə d͡ʒəb ɪnəkɪ lɪlmələ ɦoː d͡ʒɑːteː ɦɛː̃ə",
+      "word_ipa": [
+        {
+          "word": "हाई",
+          "language": "hindi",
+          "ipa": "ɦɑːiː"
+        },
+        {
+          "word": "स्पीट",
+          "language": "hindi",
+          "ipa": "spiːʈə"
+        },
+        {
+          "word": "जब",
+          "language": "corpus",
+          "ipa": "d͡ʒəb"
+        },
+        {
+          "word": "इनकि",
+          "language": "hindi",
+          "ipa": "ɪnəkɪ"
+        },
+        {
+          "word": "लिल्मॉल",
+          "language": "hindi",
+          "ipa": "lɪlmələ"
+        },
+        {
+          "word": "हो",
+          "language": "hindi",
+          "ipa": "ɦoː"
+        },
+        {
+          "word": "जाते",
+          "language": "hindi",
+          "ipa": "d͡ʒɑːteː"
+        },
+        {
+          "word": "हैं।",
+          "language": "hindi",
+          "ipa": "ɦɛː̃ə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 7,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 46.22,
+      "end": 49.66,
+      "original_text": "जब हम ऐसी चीजों की चर्चा करते हैं,",
+      "ipa_string": "d͡ʒəb ɦəm ɛːsiː t͡ʃiːd͡ʒoː̃ə keː t͡ʃərt͡ʃɑː kərəteː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "जब",
+          "language": "corpus",
+          "ipa": "d͡ʒəb"
+        },
+        {
+          "word": "हम",
+          "language": "corpus",
+          "ipa": "ɦəm"
+        },
+        {
+          "word": "ऐसी",
+          "language": "hindi",
+          "ipa": "ɛːsiː"
+        },
+        {
+          "word": "चीजों",
+          "language": "hindi",
+          "ipa": "t͡ʃiːd͡ʒoː̃ə"
+        },
+        {
+          "word": "की",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "चर्चा",
+          "language": "hindi",
+          "ipa": "t͡ʃərt͡ʃɑː"
+        },
+        {
+          "word": "करते",
+          "language": "hindi",
+          "ipa": "kərəteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 4,
+        "hindi": 4
+      }
+    },
+    {
+      "start": 49.72,
+      "end": 53.2,
+      "original_text": "जिनकि स्पीड बहुत जादा है,",
+      "ipa_string": "d͡ʒɪnəkɪ spiːɖə bəɦuteː d͡ʒɑːdɑː bɑː",
+      "word_ipa": [
+        {
+          "word": "जिनकि",
+          "language": "hindi",
+          "ipa": "d͡ʒɪnəkɪ"
+        },
+        {
+          "word": "स्पीड",
+          "language": "hindi",
+          "ipa": "spiːɖə"
+        },
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "जादा",
+          "language": "hindi",
+          "ipa": "d͡ʒɑːdɑː"
+        },
+        {
+          "word": "है",
+          "language": "corpus",
+          "ipa": "bɑː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 3,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 53.38,
+      "end": 55.62,
+      "original_text": "और बहुत जादा यहने कितनी जादा,",
+      "ipa_string": "əʊr bəɦuteː d͡ʒɑːdɑː jəɦəneː kɪtəniː d͡ʒɑːdɑː",
+      "word_ipa": [
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "जादा",
+          "language": "hindi",
+          "ipa": "d͡ʒɑːdɑː"
+        },
+        {
+          "word": "यहने",
+          "language": "hindi",
+          "ipa": "jəɦəneː"
+        },
+        {
+          "word": "कितनी",
+          "language": "hindi",
+          "ipa": "kɪtəniː"
+        },
+        {
+          "word": "जादा",
+          "language": "hindi",
+          "ipa": "d͡ʒɑːdɑː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 2,
+        "hindi": 4
+      }
+    },
+    {
+      "start": 55.66,
+      "end": 60.36,
+      "original_text": "तो जो प्रकाश की लाइट की जो स्पीड है वाक्यूम में,",
+      "ipa_string": "tə d͡ʒeː prəkɑːʃə keː lɑːɪʈə keː d͡ʒeː spiːɖə bɑː ʋɑːkjuːmə meː",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "जो",
+          "language": "corpus",
+          "ipa": "d͡ʒeː"
+        },
+        {
+          "word": "प्रकाश",
+          "language": "hindi",
+          "ipa": "prəkɑːʃə"
+        },
+        {
+          "word": "की",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "लाइट",
+          "language": "hindi",
+          "ipa": "lɑːɪʈə"
+        },
+        {
+          "word": "की",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "जो",
+          "language": "corpus",
+          "ipa": "d͡ʒeː"
+        },
+        {
+          "word": "स्पीड",
+          "language": "hindi",
+          "ipa": "spiːɖə"
+        },
+        {
+          "word": "है",
+          "language": "corpus",
+          "ipa": "bɑː"
+        },
+        {
+          "word": "वाक्यूम",
+          "language": "hindi",
+          "ipa": "ʋɑːkjuːmə"
+        },
+        {
+          "word": "में",
+          "language": "corpus",
+          "ipa": "meː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 7,
+        "hindi": 4
+      }
+    },
+    {
+      "start": 60.36,
+      "end": 62.88,
+      "original_text": "उसकी अपकी, उसके खम्परेबल है,",
+      "ipa_string": "ʊsəkiː əpəkiː ʊsəkeː kʰəmpəreːbələ bɑː",
+      "word_ipa": [
+        {
+          "word": "उसकी",
+          "language": "hindi",
+          "ipa": "ʊsəkiː"
+        },
+        {
+          "word": "अपकी",
+          "language": "hindi",
+          "ipa": "əpəkiː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        },
+        {
+          "word": "उसके",
+          "language": "hindi",
+          "ipa": "ʊsəkeː"
+        },
+        {
+          "word": "खम्परेबल",
+          "language": "hindi",
+          "ipa": "kʰəmpəreːbələ"
+        },
+        {
+          "word": "है",
+          "language": "corpus",
+          "ipa": "bɑː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 4,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 62.96,
+      "end": 64.3,
+      "original_text": "उहां से तुल्ना करना है,",
+      "ipa_string": "ʊɦɑː̃ə seː tʊlnɑː kərəl bɑː",
+      "word_ipa": [
+        {
+          "word": "उहां",
+          "language": "hindi",
+          "ipa": "ʊɦɑː̃ə"
+        },
+        {
+          "word": "से",
+          "language": "corpus",
+          "ipa": "seː"
+        },
+        {
+          "word": "तुल्ना",
+          "language": "hindi",
+          "ipa": "tʊlnɑː"
+        },
+        {
+          "word": "करना",
+          "language": "corpus",
+          "ipa": "kərəl"
+        },
+        {
+          "word": "है",
+          "language": "corpus",
+          "ipa": "bɑː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 2,
+        "corpus": 3
+      }
+    },
+    {
+      "start": 64.52,
+      "end": 66.46,
+      "original_text": "उसका इतना परसेन, उसका दश परसेन,",
+      "ipa_string": "ʊsəkɑː ɪtənɑː pərəseːnə ʊsəkɑː dəʃə pərəseːnə",
+      "word_ipa": [
+        {
+          "word": "उसका",
+          "language": "hindi",
+          "ipa": "ʊsəkɑː"
+        },
+        {
+          "word": "इतना",
+          "language": "hindi",
+          "ipa": "ɪtənɑː"
+        },
+        {
+          "word": "परसेन",
+          "language": "hindi",
+          "ipa": "pərəseːnə"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        },
+        {
+          "word": "उसका",
+          "language": "hindi",
+          "ipa": "ʊsəkɑː"
+        },
+        {
+          "word": "दश",
+          "language": "hindi",
+          "ipa": "dəʃə"
+        },
+        {
+          "word": "परसेन",
+          "language": "hindi",
+          "ipa": "pərəseːnə"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 6
+      }
+    },
+    {
+      "start": 66.46,
+      "end": 68.36,
+      "original_text": "उसका पाँच परसेन, उसका पचाज परसेन,",
+      "ipa_string": "ʊsəkɑː pɑː̃ət͡ʃə pərəseːnə ʊsəkɑː pət͡ʃɑːd͡ʒə pərəseːnə",
+      "word_ipa": [
+        {
+          "word": "उसका",
+          "language": "hindi",
+          "ipa": "ʊsəkɑː"
+        },
+        {
+          "word": "पाँच",
+          "language": "hindi",
+          "ipa": "pɑː̃ət͡ʃə"
+        },
+        {
+          "word": "परसेन",
+          "language": "hindi",
+          "ipa": "pərəseːnə"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        },
+        {
+          "word": "उसका",
+          "language": "hindi",
+          "ipa": "ʊsəkɑː"
+        },
+        {
+          "word": "पचाज",
+          "language": "hindi",
+          "ipa": "pət͡ʃɑːd͡ʒə"
+        },
+        {
+          "word": "परसेन",
+          "language": "hindi",
+          "ipa": "pərəseːnə"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 6
+      }
+    },
+    {
+      "start": 69.06,
+      "end": 72.1,
+      "original_text": "उसका नब्य परसेन, उससे से तुल्ना करना हैं।",
+      "ipa_string": "ʊsəkɑː nəbjə pərəseːnə ʊsəseː seː tʊlnɑː kərəl ɦɛː̃ə",
+      "word_ipa": [
+        {
+          "word": "उसका",
+          "language": "hindi",
+          "ipa": "ʊsəkɑː"
+        },
+        {
+          "word": "नब्य",
+          "language": "hindi",
+          "ipa": "nəbjə"
+        },
+        {
+          "word": "परसेन",
+          "language": "hindi",
+          "ipa": "pərəseːnə"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        },
+        {
+          "word": "उससे",
+          "language": "hindi",
+          "ipa": "ʊsəseː"
+        },
+        {
+          "word": "से",
+          "language": "corpus",
+          "ipa": "seː"
+        },
+        {
+          "word": "तुल्ना",
+          "language": "hindi",
+          "ipa": "tʊlnɑː"
+        },
+        {
+          "word": "करना",
+          "language": "corpus",
+          "ipa": "kərəl"
+        },
+        {
+          "word": "हैं।",
+          "language": "hindi",
+          "ipa": "ɦɛː̃ə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 6,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 72.1,
+      "end": 75.4,
+      "original_text": "तो उससे तुल्ना करने योगी जब हो जाएं,",
+      "ipa_string": "tə ʊsəseː tʊlnɑː kərəneː joːgiː d͡ʒəb ɦoː d͡ʒɑːeː̃ə",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "उससे",
+          "language": "hindi",
+          "ipa": "ʊsəseː"
+        },
+        {
+          "word": "तुल्ना",
+          "language": "hindi",
+          "ipa": "tʊlnɑː"
+        },
+        {
+          "word": "करने",
+          "language": "hindi",
+          "ipa": "kərəneː"
+        },
+        {
+          "word": "योगी",
+          "language": "hindi",
+          "ipa": "joːgiː"
+        },
+        {
+          "word": "जब",
+          "language": "corpus",
+          "ipa": "d͡ʒəb"
+        },
+        {
+          "word": "हो",
+          "language": "hindi",
+          "ipa": "ɦoː"
+        },
+        {
+          "word": "जाएं",
+          "language": "hindi",
+          "ipa": "d͡ʒɑːeː̃ə"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 2,
+        "hindi": 6
+      }
+    },
+    {
+      "start": 75.4,
+      "end": 77.68,
+      "original_text": "तो हम कहते हैं, और बहुत ज़ादा स्पीर होगी है,",
+      "ipa_string": "tə ɦəm kəɦəteː bɑːɽən əʊr bəɦuteː d͡ʒɑːdɑː spiːrə ɦoːgiː bɑː",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "हम",
+          "language": "corpus",
+          "ipa": "ɦəm"
+        },
+        {
+          "word": "कहते",
+          "language": "hindi",
+          "ipa": "kəɦəteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        },
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "ज़ादा",
+          "language": "hindi",
+          "ipa": "d͡ʒɑːdɑː"
+        },
+        {
+          "word": "स्पीर",
+          "language": "hindi",
+          "ipa": "spiːrə"
+        },
+        {
+          "word": "होगी",
+          "language": "hindi",
+          "ipa": "ɦoːgiː"
+        },
+        {
+          "word": "है",
+          "language": "corpus",
+          "ipa": "bɑː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 6,
+        "hindi": 4
+      }
+    },
+    {
+      "start": 78.3,
+      "end": 82.92,
+      "original_text": "वैसी हालत में जो नूटन के नियमों से हम गदियों के चर्चा करते हैं,",
+      "ipa_string": "ʋɛːsiː ɦɑːlətə meː d͡ʒeː nuːʈənə keː nɪjəmoː̃ə seː ɦəm gədɪjoː̃ə keː t͡ʃərt͡ʃɑː kərəteː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "वैसी",
+          "language": "hindi",
+          "ipa": "ʋɛːsiː"
+        },
+        {
+          "word": "हालत",
+          "language": "hindi",
+          "ipa": "ɦɑːlətə"
+        },
+        {
+          "word": "में",
+          "language": "corpus",
+          "ipa": "meː"
+        },
+        {
+          "word": "जो",
+          "language": "corpus",
+          "ipa": "d͡ʒeː"
+        },
+        {
+          "word": "नूटन",
+          "language": "hindi",
+          "ipa": "nuːʈənə"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "नियमों",
+          "language": "hindi",
+          "ipa": "nɪjəmoː̃ə"
+        },
+        {
+          "word": "से",
+          "language": "corpus",
+          "ipa": "seː"
+        },
+        {
+          "word": "हम",
+          "language": "corpus",
+          "ipa": "ɦəm"
+        },
+        {
+          "word": "गदियों",
+          "language": "hindi",
+          "ipa": "gədɪjoː̃ə"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "चर्चा",
+          "language": "hindi",
+          "ipa": "t͡ʃərt͡ʃɑː"
+        },
+        {
+          "word": "करते",
+          "language": "hindi",
+          "ipa": "kərəteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 7,
+        "corpus": 7
+      }
+    },
+    {
+      "start": 83.04,
+      "end": 85.88,
+      "original_text": "और बहुत सटीग, बहुत अच्छी चर्चा होती हैं,",
+      "ipa_string": "əʊr bəɦuteː səʈiːgə bəɦuteː ət͡ʃt͡ʃʰiː t͡ʃərt͡ʃɑː ɦoːtiː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "सटीग",
+          "language": "hindi",
+          "ipa": "səʈiːgə"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        },
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "अच्छी",
+          "language": "hindi",
+          "ipa": "ət͡ʃt͡ʃʰiː"
+        },
+        {
+          "word": "चर्चा",
+          "language": "hindi",
+          "ipa": "t͡ʃərt͡ʃɑː"
+        },
+        {
+          "word": "होती",
+          "language": "hindi",
+          "ipa": "ɦoːtiː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 4,
+        "hindi": 4
+      }
+    },
+    {
+      "start": 85.94,
+      "end": 88.78,
+      "original_text": "और बहुत सटीग उसके परनाम निकलते हैं,",
+      "ipa_string": "əʊr bəɦuteː səʈiːgə ʊsəkeː pərənɑːmə nɪkələteː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "सटीग",
+          "language": "hindi",
+          "ipa": "səʈiːgə"
+        },
+        {
+          "word": "उसके",
+          "language": "hindi",
+          "ipa": "ʊsəkeː"
+        },
+        {
+          "word": "परनाम",
+          "language": "hindi",
+          "ipa": "pərənɑːmə"
+        },
+        {
+          "word": "निकलते",
+          "language": "hindi",
+          "ipa": "nɪkələteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 3,
+        "hindi": 4
+      }
+    },
+    {
+      "start": 88.78,
+      "end": 90.78,
+      "original_text": "वो यहाँ पर आकर के गर्ब राते हैं,",
+      "ipa_string": "ʋoː jəɦɑː̃ə pər ɑːkərə keː gərbə rɑːteː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "वो",
+          "language": "hindi",
+          "ipa": "ʋoː"
+        },
+        {
+          "word": "यहाँ",
+          "language": "hindi",
+          "ipa": "jəɦɑː̃ə"
+        },
+        {
+          "word": "पर",
+          "language": "corpus",
+          "ipa": "pər"
+        },
+        {
+          "word": "आकर",
+          "language": "hindi",
+          "ipa": "ɑːkərə"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "गर्ब",
+          "language": "hindi",
+          "ipa": "gərbə"
+        },
+        {
+          "word": "राते",
+          "language": "hindi",
+          "ipa": "rɑːteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 5,
+        "corpus": 3
+      }
+    },
+    {
+      "start": 91.94,
+      "end": 96.42,
+      "original_text": "तो आम जंदगे में तो हमें उतने हाई स्पीट से वास्ता कम परता हैं,",
+      "ipa_string": "tə ɑːmə d͡ʒə̃ədəgeː meː tə ɦəmeː̃ə ʊtəneː ɦɑːiː spiːʈə seː ʋɑːstɑː kəmə pərətɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "आम",
+          "language": "hindi",
+          "ipa": "ɑːmə"
+        },
+        {
+          "word": "जंदगे",
+          "language": "hindi",
+          "ipa": "d͡ʒə̃ədəgeː"
+        },
+        {
+          "word": "में",
+          "language": "corpus",
+          "ipa": "meː"
+        },
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "हमें",
+          "language": "hindi",
+          "ipa": "ɦəmeː̃ə"
+        },
+        {
+          "word": "उतने",
+          "language": "hindi",
+          "ipa": "ʊtəneː"
+        },
+        {
+          "word": "हाई",
+          "language": "hindi",
+          "ipa": "ɦɑːiː"
+        },
+        {
+          "word": "स्पीट",
+          "language": "hindi",
+          "ipa": "spiːʈə"
+        },
+        {
+          "word": "से",
+          "language": "corpus",
+          "ipa": "seː"
+        },
+        {
+          "word": "वास्ता",
+          "language": "hindi",
+          "ipa": "ʋɑːstɑː"
+        },
+        {
+          "word": "कम",
+          "language": "hindi",
+          "ipa": "kəmə"
+        },
+        {
+          "word": "परता",
+          "language": "hindi",
+          "ipa": "pərətɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 5,
+        "hindi": 9
+      }
+    },
+    {
+      "start": 96.46,
+      "end": 98.16,
+      "original_text": "लाइट खुद आती हैं अपनी स्पीट से,",
+      "ipa_string": "lɑːɪʈə kʰʊdə ɑːtiː bɑːɽən əpəniː spiːʈə seː",
+      "word_ipa": [
+        {
+          "word": "लाइट",
+          "language": "hindi",
+          "ipa": "lɑːɪʈə"
+        },
+        {
+          "word": "खुद",
+          "language": "hindi",
+          "ipa": "kʰʊdə"
+        },
+        {
+          "word": "आती",
+          "language": "hindi",
+          "ipa": "ɑːtiː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": "अपनी",
+          "language": "hindi",
+          "ipa": "əpəniː"
+        },
+        {
+          "word": "स्पीट",
+          "language": "hindi",
+          "ipa": "spiːʈə"
+        },
+        {
+          "word": "से",
+          "language": "corpus",
+          "ipa": "seː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 5,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 98.38,
+      "end": 100.78,
+      "original_text": "वही हाई स्पीट से हमरा वास्ता परता हैं,",
+      "ipa_string": "ʋəɦiː ɦɑːiː spiːʈə seː ɦəmərɑː ʋɑːstɑː pərətɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "वही",
+          "language": "hindi",
+          "ipa": "ʋəɦiː"
+        },
+        {
+          "word": "हाई",
+          "language": "hindi",
+          "ipa": "ɦɑːiː"
+        },
+        {
+          "word": "स्पीट",
+          "language": "hindi",
+          "ipa": "spiːʈə"
+        },
+        {
+          "word": "से",
+          "language": "corpus",
+          "ipa": "seː"
+        },
+        {
+          "word": "हमरा",
+          "language": "hindi",
+          "ipa": "ɦəmərɑː"
+        },
+        {
+          "word": "वास्ता",
+          "language": "hindi",
+          "ipa": "ʋɑːstɑː"
+        },
+        {
+          "word": "परता",
+          "language": "hindi",
+          "ipa": "pərətɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 6,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 102.10000000000001,
+      "end": 105.6,
+      "original_text": "लेकिन जो इक्सेलेरेटर्स पे कांग करते हैं,",
+      "ipa_string": "bɑːkiː d͡ʒeː ɪkseːleːreːʈərsə peː kɑː̃əgə kərəteː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "लेकिन",
+          "language": "corpus",
+          "ipa": "bɑːkiː"
+        },
+        {
+          "word": "जो",
+          "language": "corpus",
+          "ipa": "d͡ʒeː"
+        },
+        {
+          "word": "इक्सेलेरेटर्स",
+          "language": "hindi",
+          "ipa": "ɪkseːleːreːʈərsə"
+        },
+        {
+          "word": "पे",
+          "language": "hindi",
+          "ipa": "peː"
+        },
+        {
+          "word": "कांग",
+          "language": "hindi",
+          "ipa": "kɑː̃əgə"
+        },
+        {
+          "word": "करते",
+          "language": "hindi",
+          "ipa": "kərəteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 3,
+        "hindi": 4
+      }
+    },
+    {
+      "start": 105.6,
+      "end": 110.96,
+      "original_text": "जो फिसिसिस्ट पार्टिकल्स को इक्सेलेरेट कराते हैं मशीनों के अंडर में,",
+      "ipa_string": "d͡ʒeː pʰɪsɪsɪsʈə pɑːrʈɪkəlsə koː ɪkseːleːreːʈə kərɑːteː bɑːɽən məʃiːnoː̃ə keː ə̃əɖərə meː",
+      "word_ipa": [
+        {
+          "word": "जो",
+          "language": "corpus",
+          "ipa": "d͡ʒeː"
+        },
+        {
+          "word": "फिसिसिस्ट",
+          "language": "hindi",
+          "ipa": "pʰɪsɪsɪsʈə"
+        },
+        {
+          "word": "पार्टिकल्स",
+          "language": "hindi",
+          "ipa": "pɑːrʈɪkəlsə"
+        },
+        {
+          "word": "को",
+          "language": "hindi",
+          "ipa": "koː"
+        },
+        {
+          "word": "इक्सेलेरेट",
+          "language": "hindi",
+          "ipa": "ɪkseːleːreːʈə"
+        },
+        {
+          "word": "कराते",
+          "language": "hindi",
+          "ipa": "kərɑːteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": "मशीनों",
+          "language": "hindi",
+          "ipa": "məʃiːnoː̃ə"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "अंडर",
+          "language": "hindi",
+          "ipa": "ə̃əɖərə"
+        },
+        {
+          "word": "में",
+          "language": "corpus",
+          "ipa": "meː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 4,
+        "hindi": 7
+      }
+    },
+    {
+      "start": 111.1,
+      "end": 112.94,
+      "original_text": "वो फिर बहुत बड़ी-बड़ी वेलाफिटी से,",
+      "ipa_string": "ʋoː pʰɪrə bəɦuteː bəɽiː bəɽiː ʋeːlɑːpʰɪʈiː seː",
+      "word_ipa": [
+        {
+          "word": "वो",
+          "language": "hindi",
+          "ipa": "ʋoː"
+        },
+        {
+          "word": "फिर",
+          "language": "hindi",
+          "ipa": "pʰɪrə"
+        },
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "बड़ी",
+          "language": "hindi",
+          "ipa": "bəɽiː"
+        },
+        {
+          "word": "-",
+          "language": "punct",
+          "ipa": "-"
+        },
+        {
+          "word": "बड़ी",
+          "language": "hindi",
+          "ipa": "bəɽiː"
+        },
+        {
+          "word": "वेलाफिटी",
+          "language": "hindi",
+          "ipa": "ʋeːlɑːpʰɪʈiː"
+        },
+        {
+          "word": "से",
+          "language": "corpus",
+          "ipa": "seː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 5,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 112.98,
+      "end": 117.28,
+      "original_text": "बहुत बड़ी-बड़ी स्पीट के साज में आमना सामना होता हैं,",
+      "ipa_string": "bəɦuteː bəɽiː bəɽiː spiːʈə keː sɑːd͡ʒə meː ɑːmənɑː sɑːmənɑː ɦoːtɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "बड़ी",
+          "language": "hindi",
+          "ipa": "bəɽiː"
+        },
+        {
+          "word": "-",
+          "language": "punct",
+          "ipa": "-"
+        },
+        {
+          "word": "बड़ी",
+          "language": "hindi",
+          "ipa": "bəɽiː"
+        },
+        {
+          "word": "स्पीट",
+          "language": "hindi",
+          "ipa": "spiːʈə"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "साज",
+          "language": "hindi",
+          "ipa": "sɑːd͡ʒə"
+        },
+        {
+          "word": "में",
+          "language": "corpus",
+          "ipa": "meː"
+        },
+        {
+          "word": "आमना",
+          "language": "hindi",
+          "ipa": "ɑːmənɑː"
+        },
+        {
+          "word": "सामना",
+          "language": "hindi",
+          "ipa": "sɑːmənɑː"
+        },
+        {
+          "word": "होता",
+          "language": "hindi",
+          "ipa": "ɦoːtɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 4,
+        "hindi": 7
+      }
+    },
+    {
+      "start": 117.28,
+      "end": 119.66,
+      "original_text": "तो वहाँ पे हाई स्पीट जब इंपाल हो,",
+      "ipa_string": "tə ʋəɦɑː̃ə peː ɦɑːiː spiːʈə d͡ʒəb ɪ̃əpɑːlə ɦoː",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "वहाँ",
+          "language": "hindi",
+          "ipa": "ʋəɦɑː̃ə"
+        },
+        {
+          "word": "पे",
+          "language": "hindi",
+          "ipa": "peː"
+        },
+        {
+          "word": "हाई",
+          "language": "hindi",
+          "ipa": "ɦɑːiː"
+        },
+        {
+          "word": "स्पीट",
+          "language": "hindi",
+          "ipa": "spiːʈə"
+        },
+        {
+          "word": "जब",
+          "language": "corpus",
+          "ipa": "d͡ʒəb"
+        },
+        {
+          "word": "इंपाल",
+          "language": "hindi",
+          "ipa": "ɪ̃əpɑːlə"
+        },
+        {
+          "word": "हो",
+          "language": "hindi",
+          "ipa": "ɦoː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 2,
+        "hindi": 6
+      }
+    },
+    {
+      "start": 119.66,
+      "end": 122.5,
+      "original_text": "तो फिर चीजे कुछ पडलती हैं,",
+      "ipa_string": "tə फिर चीजे kʊt͡ʃʰ पडलती bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "फिर",
+          "language": "english",
+          "ipa": "फिर"
+        },
+        {
+          "word": "चीजे",
+          "language": "english",
+          "ipa": "चीजे"
+        },
+        {
+          "word": "कुछ",
+          "language": "corpus",
+          "ipa": "kʊt͡ʃʰ"
+        },
+        {
+          "word": "पडलती",
+          "language": "english",
+          "ipa": "पडलती"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "english",
+      "language_breakdown": {
+        "corpus": 3,
+        "english": 3
+      }
+    },
+    {
+      "start": 122.5,
+      "end": 125.1,
+      "original_text": "और उसमें से निकलती हैं हमारे रिलेटिविटी की थेरीज,",
+      "ipa_string": "əʊr ʊsəmeː̃ə seː nɪkələtiː bɑːɽən ɦəmɑːreː rɪleːʈɪʋɪʈiː keː tʰeːriːd͡ʒə",
+      "word_ipa": [
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "उसमें",
+          "language": "hindi",
+          "ipa": "ʊsəmeː̃ə"
+        },
+        {
+          "word": "से",
+          "language": "corpus",
+          "ipa": "seː"
+        },
+        {
+          "word": "निकलती",
+          "language": "hindi",
+          "ipa": "nɪkələtiː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": "हमारे",
+          "language": "hindi",
+          "ipa": "ɦəmɑːreː"
+        },
+        {
+          "word": "रिलेटिविटी",
+          "language": "hindi",
+          "ipa": "rɪleːʈɪʋɪʈiː"
+        },
+        {
+          "word": "की",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "थेरीज",
+          "language": "hindi",
+          "ipa": "tʰeːriːd͡ʒə"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 4,
+        "hindi": 5
+      }
+    },
+    {
+      "start": 129.78,
+      "end": 132.9,
+      "original_text": "तो नूटन्स लौज को हमें मॉडिफाई करना होता हैं,",
+      "ipa_string": "tə nuːʈənsə lɔːd͡ʒə koː ɦəmeː̃ə məɖɪpʰɑːiː kərəl ɦoːtɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "नूटन्स",
+          "language": "hindi",
+          "ipa": "nuːʈənsə"
+        },
+        {
+          "word": "लौज",
+          "language": "hindi",
+          "ipa": "lɔːd͡ʒə"
+        },
+        {
+          "word": "को",
+          "language": "hindi",
+          "ipa": "koː"
+        },
+        {
+          "word": "हमें",
+          "language": "hindi",
+          "ipa": "ɦəmeː̃ə"
+        },
+        {
+          "word": "मॉडिफाई",
+          "language": "hindi",
+          "ipa": "məɖɪpʰɑːiː"
+        },
+        {
+          "word": "करना",
+          "language": "corpus",
+          "ipa": "kərəl"
+        },
+        {
+          "word": "होता",
+          "language": "hindi",
+          "ipa": "ɦoːtɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 3,
+        "hindi": 6
+      }
+    },
+    {
+      "start": 132.9,
+      "end": 134.26,
+      "original_text": "हमें चेंज करना होता हैं,",
+      "ipa_string": "ɦəmeː̃ə t͡ʃeː̃əd͡ʒə kərəl ɦoːtɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "हमें",
+          "language": "hindi",
+          "ipa": "ɦəmeː̃ə"
+        },
+        {
+          "word": "चेंज",
+          "language": "hindi",
+          "ipa": "t͡ʃeː̃əd͡ʒə"
+        },
+        {
+          "word": "करना",
+          "language": "corpus",
+          "ipa": "kərəl"
+        },
+        {
+          "word": "होता",
+          "language": "hindi",
+          "ipa": "ɦoːtɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 3,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 134.26,
+      "end": 136.66,
+      "original_text": "हमें लिलियर मोमेंटम अलग से डिफाइन करना होता हैं,",
+      "ipa_string": "ɦəmeː̃ə lɪlɪjərə moːmeː̃əʈəmə ələgə seː ɖɪpʰɑːɪnə kərəl ɦoːtɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "हमें",
+          "language": "hindi",
+          "ipa": "ɦəmeː̃ə"
+        },
+        {
+          "word": "लिलियर",
+          "language": "hindi",
+          "ipa": "lɪlɪjərə"
+        },
+        {
+          "word": "मोमेंटम",
+          "language": "hindi",
+          "ipa": "moːmeː̃əʈəmə"
+        },
+        {
+          "word": "अलग",
+          "language": "hindi",
+          "ipa": "ələgə"
+        },
+        {
+          "word": "से",
+          "language": "corpus",
+          "ipa": "seː"
+        },
+        {
+          "word": "डिफाइन",
+          "language": "hindi",
+          "ipa": "ɖɪpʰɑːɪnə"
+        },
+        {
+          "word": "करना",
+          "language": "corpus",
+          "ipa": "kərəl"
+        },
+        {
+          "word": "होता",
+          "language": "hindi",
+          "ipa": "ɦoːtɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 6,
+        "corpus": 3
+      }
+    },
+    {
+      "start": 136.66,
+      "end": 138.24,
+      "original_text": "तो थोड़ा परिवर्तन करना होता हैं,",
+      "ipa_string": "tə tʰoːɽɑː pərɪʋərtənə kərəl ɦoːtɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "थोड़ा",
+          "language": "hindi",
+          "ipa": "tʰoːɽɑː"
+        },
+        {
+          "word": "परिवर्तन",
+          "language": "hindi",
+          "ipa": "pərɪʋərtənə"
+        },
+        {
+          "word": "करना",
+          "language": "corpus",
+          "ipa": "kərəl"
+        },
+        {
+          "word": "होता",
+          "language": "hindi",
+          "ipa": "ɦoːtɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 3,
+        "hindi": 3
+      }
+    },
+    {
+      "start": 138.24,
+      "end": 140.86,
+      "original_text": "बहुत जादा नहीं तोड़ा परिवर्तन करना होता हैं,",
+      "ipa_string": "bəɦuteː d͡ʒɑːdɑː nɑː toːɽɑː pərɪʋərtənə kərəl ɦoːtɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "जादा",
+          "language": "hindi",
+          "ipa": "d͡ʒɑːdɑː"
+        },
+        {
+          "word": "नहीं",
+          "language": "corpus",
+          "ipa": "nɑː"
+        },
+        {
+          "word": "तोड़ा",
+          "language": "hindi",
+          "ipa": "toːɽɑː"
+        },
+        {
+          "word": "परिवर्तन",
+          "language": "hindi",
+          "ipa": "pərɪʋərtənə"
+        },
+        {
+          "word": "करना",
+          "language": "corpus",
+          "ipa": "kərəl"
+        },
+        {
+          "word": "होता",
+          "language": "hindi",
+          "ipa": "ɦoːtɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 4,
+        "hindi": 4
+      }
+    },
+    {
+      "start": 143.48,
+      "end": 148.94,
+      "original_text": "स्पेस और टाइम को देखने के जो अपनी द्रिस्टी हैं,",
+      "ipa_string": "speːsə əʊr ʈɑːɪmə koː deːkʰəneː keː d͡ʒeː əpəniː drɪsʈiː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "स्पेस",
+          "language": "hindi",
+          "ipa": "speːsə"
+        },
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "टाइम",
+          "language": "hindi",
+          "ipa": "ʈɑːɪmə"
+        },
+        {
+          "word": "को",
+          "language": "hindi",
+          "ipa": "koː"
+        },
+        {
+          "word": "देखने",
+          "language": "hindi",
+          "ipa": "deːkʰəneː"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "जो",
+          "language": "corpus",
+          "ipa": "d͡ʒeː"
+        },
+        {
+          "word": "अपनी",
+          "language": "hindi",
+          "ipa": "əpəniː"
+        },
+        {
+          "word": "द्रिस्टी",
+          "language": "hindi",
+          "ipa": "drɪsʈiː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 6,
+        "corpus": 4
+      }
+    },
+    {
+      "start": 148.96,
+      "end": 152.52,
+      "original_text": "उसमें एक बहुत बढ़ा परिवर्तन इसके कारण से आगा हैं,",
+      "ipa_string": "ʊsəmeː̃ə eːkə bəɦuteː bəɽʱɑː pərɪʋərtənə ɪsəkeː kɑːrəɳə seː ɑːgɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "उसमें",
+          "language": "hindi",
+          "ipa": "ʊsəmeː̃ə"
+        },
+        {
+          "word": "एक",
+          "language": "hindi",
+          "ipa": "eːkə"
+        },
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "बढ़ा",
+          "language": "hindi",
+          "ipa": "bəɽʱɑː"
+        },
+        {
+          "word": "परिवर्तन",
+          "language": "hindi",
+          "ipa": "pərɪʋərtənə"
+        },
+        {
+          "word": "इसके",
+          "language": "hindi",
+          "ipa": "ɪsəkeː"
+        },
+        {
+          "word": "कारण",
+          "language": "hindi",
+          "ipa": "kɑːrəɳə"
+        },
+        {
+          "word": "से",
+          "language": "corpus",
+          "ipa": "seː"
+        },
+        {
+          "word": "आगा",
+          "language": "hindi",
+          "ipa": "ɑːgɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 7,
+        "corpus": 3
+      }
+    },
+    {
+      "start": 152.52,
+      "end": 154.7,
+      "original_text": "हाई स्पीच की जब हम बात करते हैं,",
+      "ipa_string": "ɦɑːiː spiːt͡ʃə keː d͡ʒəb ɦəm bɑːtə kərəteː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "हाई",
+          "language": "hindi",
+          "ipa": "ɦɑːiː"
+        },
+        {
+          "word": "स्पीच",
+          "language": "hindi",
+          "ipa": "spiːt͡ʃə"
+        },
+        {
+          "word": "की",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "जब",
+          "language": "corpus",
+          "ipa": "d͡ʒəb"
+        },
+        {
+          "word": "हम",
+          "language": "corpus",
+          "ipa": "ɦəm"
+        },
+        {
+          "word": "बात",
+          "language": "hindi",
+          "ipa": "bɑːtə"
+        },
+        {
+          "word": "करते",
+          "language": "hindi",
+          "ipa": "kərəteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 4,
+        "corpus": 4
+      }
+    },
+    {
+      "start": 154.7,
+      "end": 158.98,
+      "original_text": "तो फिर लिंट किसको कहते हैं,",
+      "ipa_string": "tə pʰɪrə lɪ̃əʈə kɪsəkoː kəɦəteː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "फिर",
+          "language": "hindi",
+          "ipa": "pʰɪrə"
+        },
+        {
+          "word": "लिंट",
+          "language": "hindi",
+          "ipa": "lɪ̃əʈə"
+        },
+        {
+          "word": "किसको",
+          "language": "hindi",
+          "ipa": "kɪsəkoː"
+        },
+        {
+          "word": "कहते",
+          "language": "hindi",
+          "ipa": "kəɦəteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 2,
+        "hindi": 4
+      }
+    },
+    {
+      "start": 158.98,
+      "end": 161.66,
+      "original_text": "और टाइम इंटर्वल्स किसको कहते हैं,",
+      "ipa_string": "əʊr ʈɑːɪmə ɪ̃əʈərʋəlsə kɪsəkoː kəɦəteː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "टाइम",
+          "language": "hindi",
+          "ipa": "ʈɑːɪmə"
+        },
+        {
+          "word": "इंटर्वल्स",
+          "language": "hindi",
+          "ipa": "ɪ̃əʈərʋəlsə"
+        },
+        {
+          "word": "किसको",
+          "language": "hindi",
+          "ipa": "kɪsəkoː"
+        },
+        {
+          "word": "कहते",
+          "language": "hindi",
+          "ipa": "kəɦəteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 2,
+        "hindi": 4
+      }
+    },
+    {
+      "start": 161.72,
+      "end": 164.34,
+      "original_text": "दो घत्नाएं एक साथ हो रही हैं,",
+      "ipa_string": "दो घत्नाएं एक साथ हो रही bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "दो",
+          "language": "english",
+          "ipa": "दो"
+        },
+        {
+          "word": "घत्नाएं",
+          "language": "english",
+          "ipa": "घत्नाएं"
+        },
+        {
+          "word": "एक",
+          "language": "english",
+          "ipa": "एक"
+        },
+        {
+          "word": "साथ",
+          "language": "english",
+          "ipa": "साथ"
+        },
+        {
+          "word": "हो",
+          "language": "english",
+          "ipa": "हो"
+        },
+        {
+          "word": "रही",
+          "language": "english",
+          "ipa": "रही"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "english",
+      "language_breakdown": {
+        "english": 6,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 164.42,
+      "end": 166.38,
+      "original_text": "ये हम किसको कहते हैं,",
+      "ipa_string": "jeː ɦəm kɪsəkoː kəɦəteː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "ये",
+          "language": "hindi",
+          "ipa": "jeː"
+        },
+        {
+          "word": "हम",
+          "language": "corpus",
+          "ipa": "ɦəm"
+        },
+        {
+          "word": "किसको",
+          "language": "hindi",
+          "ipa": "kɪsəkoː"
+        },
+        {
+          "word": "कहते",
+          "language": "hindi",
+          "ipa": "kəɦəteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 3,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 166.38,
+      "end": 169.28,
+      "original_text": "एक पहले हो रहे हैं, एक बादमे हो रहे हैं,",
+      "ipa_string": "eːkə pəɦəleː ɦoː rəɦeː bɑːɽən eːkə bɑːdəmeː ɦoː rəɦeː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "एक",
+          "language": "hindi",
+          "ipa": "eːkə"
+        },
+        {
+          "word": "पहले",
+          "language": "hindi",
+          "ipa": "pəɦəleː"
+        },
+        {
+          "word": "हो",
+          "language": "hindi",
+          "ipa": "ɦoː"
+        },
+        {
+          "word": "रहे",
+          "language": "hindi",
+          "ipa": "rəɦeː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        },
+        {
+          "word": "एक",
+          "language": "hindi",
+          "ipa": "eːkə"
+        },
+        {
+          "word": "बादमे",
+          "language": "hindi",
+          "ipa": "bɑːdəmeː"
+        },
+        {
+          "word": "हो",
+          "language": "hindi",
+          "ipa": "ɦoː"
+        },
+        {
+          "word": "रहे",
+          "language": "hindi",
+          "ipa": "rəɦeː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 8,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 169.28,
+      "end": 173.02,
+      "original_text": "ये जो हमारी स्पेश और टाइम की जो कल्पना हैं,",
+      "ipa_string": "jeː d͡ʒeː ɦəmɑːriː speːʃə əʊr ʈɑːɪmə keː d͡ʒeː kəlpənɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "ये",
+          "language": "hindi",
+          "ipa": "jeː"
+        },
+        {
+          "word": "जो",
+          "language": "corpus",
+          "ipa": "d͡ʒeː"
+        },
+        {
+          "word": "हमारी",
+          "language": "hindi",
+          "ipa": "ɦəmɑːriː"
+        },
+        {
+          "word": "स्पेश",
+          "language": "hindi",
+          "ipa": "speːʃə"
+        },
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "टाइम",
+          "language": "hindi",
+          "ipa": "ʈɑːɪmə"
+        },
+        {
+          "word": "की",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "जो",
+          "language": "corpus",
+          "ipa": "d͡ʒeː"
+        },
+        {
+          "word": "कल्पना",
+          "language": "hindi",
+          "ipa": "kəlpənɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 5,
+        "corpus": 5
+      }
+    },
+    {
+      "start": 173.02,
+      "end": 175.9,
+      "original_text": "हम अपनी आम जद्ड़ी से लेकर के आते हैं,",
+      "ipa_string": "ɦəm əpəniː ɑːmə d͡ʒədɽiː seː leːkərə keː ɑːteː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "हम",
+          "language": "corpus",
+          "ipa": "ɦəm"
+        },
+        {
+          "word": "अपनी",
+          "language": "hindi",
+          "ipa": "əpəniː"
+        },
+        {
+          "word": "आम",
+          "language": "hindi",
+          "ipa": "ɑːmə"
+        },
+        {
+          "word": "जद्ड़ी",
+          "language": "hindi",
+          "ipa": "d͡ʒədɽiː"
+        },
+        {
+          "word": "से",
+          "language": "corpus",
+          "ipa": "seː"
+        },
+        {
+          "word": "लेकर",
+          "language": "hindi",
+          "ipa": "leːkərə"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "आते",
+          "language": "hindi",
+          "ipa": "ɑːteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 4,
+        "hindi": 5
+      }
+    },
+    {
+      "start": 175.9,
+      "end": 178.48,
+      "original_text": "उनमें फिर बद्लाल करना होता हैं,",
+      "ipa_string": "ʊnəmeː̃ə pʰɪrə bədlɑːlə kərəl ɦoːtɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "उनमें",
+          "language": "hindi",
+          "ipa": "ʊnəmeː̃ə"
+        },
+        {
+          "word": "फिर",
+          "language": "hindi",
+          "ipa": "pʰɪrə"
+        },
+        {
+          "word": "बद्लाल",
+          "language": "hindi",
+          "ipa": "bədlɑːlə"
+        },
+        {
+          "word": "करना",
+          "language": "corpus",
+          "ipa": "kərəl"
+        },
+        {
+          "word": "होता",
+          "language": "hindi",
+          "ipa": "ɦoːtɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 4,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 178.48,
+      "end": 180.72,
+      "original_text": "और वो चुनाओ की पून काम होता हैं,",
+      "ipa_string": "əʊr ʋoː t͡ʃʊnɑːoː keː puːnə kɑːmə ɦoːtɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "वो",
+          "language": "hindi",
+          "ipa": "ʋoː"
+        },
+        {
+          "word": "चुनाओ",
+          "language": "hindi",
+          "ipa": "t͡ʃʊnɑːoː"
+        },
+        {
+          "word": "की",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "पून",
+          "language": "hindi",
+          "ipa": "puːnə"
+        },
+        {
+          "word": "काम",
+          "language": "hindi",
+          "ipa": "kɑːmə"
+        },
+        {
+          "word": "होता",
+          "language": "hindi",
+          "ipa": "ɦoːtɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 3,
+        "hindi": 5
+      }
+    },
+    {
+      "start": 180.82,
+      "end": 184.7,
+      "original_text": "क्योंकि वहाँ पर हमारा अपना अनभाव काम नहीं आता हैं,",
+      "ipa_string": "क्योंकि वहाँ pər हमारा अपना अनभाव काम nɑː आता bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "क्योंकि",
+          "language": "english",
+          "ipa": "क्योंकि"
+        },
+        {
+          "word": "वहाँ",
+          "language": "english",
+          "ipa": "वहाँ"
+        },
+        {
+          "word": "पर",
+          "language": "corpus",
+          "ipa": "pər"
+        },
+        {
+          "word": "हमारा",
+          "language": "english",
+          "ipa": "हमारा"
+        },
+        {
+          "word": "अपना",
+          "language": "english",
+          "ipa": "अपना"
+        },
+        {
+          "word": "अनभाव",
+          "language": "english",
+          "ipa": "अनभाव"
+        },
+        {
+          "word": "काम",
+          "language": "english",
+          "ipa": "काम"
+        },
+        {
+          "word": "नहीं",
+          "language": "corpus",
+          "ipa": "nɑː"
+        },
+        {
+          "word": "आता",
+          "language": "english",
+          "ipa": "आता"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "english",
+      "language_breakdown": {
+        "english": 7,
+        "corpus": 3
+      }
+    },
+    {
+      "start": 184.7,
+      "end": 186.12,
+      "original_text": "और इस कारण से,",
+      "ipa_string": "əʊr ɪsə kɑːrəɳə seː",
+      "word_ipa": [
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "इस",
+          "language": "hindi",
+          "ipa": "ɪsə"
+        },
+        {
+          "word": "कारण",
+          "language": "hindi",
+          "ipa": "kɑːrəɳə"
+        },
+        {
+          "word": "से",
+          "language": "corpus",
+          "ipa": "seː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 2,
+        "hindi": 2
+      }
+    },
+    {
+      "start": 186.12,
+      "end": 189.2,
+      "original_text": "हम लोग उस स्थुती के अंदर में,",
+      "ipa_string": "ɦəm loːgə ʊsə stʰʊtiː keː ə̃ədərə meː",
+      "word_ipa": [
+        {
+          "word": "हम",
+          "language": "corpus",
+          "ipa": "ɦəm"
+        },
+        {
+          "word": "लोग",
+          "language": "hindi",
+          "ipa": "loːgə"
+        },
+        {
+          "word": "उस",
+          "language": "hindi",
+          "ipa": "ʊsə"
+        },
+        {
+          "word": "स्थुती",
+          "language": "hindi",
+          "ipa": "stʰʊtiː"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "अंदर",
+          "language": "hindi",
+          "ipa": "ə̃ədərə"
+        },
+        {
+          "word": "में",
+          "language": "corpus",
+          "ipa": "meː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 3,
+        "hindi": 4
+      }
+    },
+    {
+      "start": 189.28,
+      "end": 192.1,
+      "original_text": "थोड़ा चिन्तन करने के जदुरत परते हैं,",
+      "ipa_string": "tʰoːɽɑː t͡ʃɪntənə kərəneː keː d͡ʒədʊrətə pərəteː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "थोड़ा",
+          "language": "hindi",
+          "ipa": "tʰoːɽɑː"
+        },
+        {
+          "word": "चिन्तन",
+          "language": "hindi",
+          "ipa": "t͡ʃɪntənə"
+        },
+        {
+          "word": "करने",
+          "language": "hindi",
+          "ipa": "kərəneː"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "जदुरत",
+          "language": "hindi",
+          "ipa": "d͡ʒədʊrətə"
+        },
+        {
+          "word": "परते",
+          "language": "hindi",
+          "ipa": "pərəteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 5,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 192.1,
+      "end": 196.94,
+      "original_text": "क्योंकि वहाँ लिकुएश्यं और फार्मुले इसके अपना काम नहीं चल्ड़ना हैं,",
+      "ipa_string": "kjoː̃əkɪ ʋəɦɑː̃ə lɪkʊeːʃjə̃ə əʊr pʰɑːrmʊleː ɪsəkeː əpənɑː kɑːmə nɑː t͡ʃəlɽnɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "क्योंकि",
+          "language": "hindi",
+          "ipa": "kjoː̃əkɪ"
+        },
+        {
+          "word": "वहाँ",
+          "language": "hindi",
+          "ipa": "ʋəɦɑː̃ə"
+        },
+        {
+          "word": "लिकुएश्यं",
+          "language": "hindi",
+          "ipa": "lɪkʊeːʃjə̃ə"
+        },
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "फार्मुले",
+          "language": "hindi",
+          "ipa": "pʰɑːrmʊleː"
+        },
+        {
+          "word": "इसके",
+          "language": "hindi",
+          "ipa": "ɪsəkeː"
+        },
+        {
+          "word": "अपना",
+          "language": "hindi",
+          "ipa": "əpənɑː"
+        },
+        {
+          "word": "काम",
+          "language": "hindi",
+          "ipa": "kɑːmə"
+        },
+        {
+          "word": "नहीं",
+          "language": "corpus",
+          "ipa": "nɑː"
+        },
+        {
+          "word": "चल्ड़ना",
+          "language": "hindi",
+          "ipa": "t͡ʃəlɽnɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 8,
+        "corpus": 3
+      }
+    },
+    {
+      "start": 196.94,
+      "end": 201.18,
+      "original_text": "तो वहाँ स्वाभाविक रूप से बहुत रोचक पाते होती हैं,",
+      "ipa_string": "tə ʋəɦɑː̃ə sʋɑːbʱɑːʋɪkə ruːpə seː bəɦuteː roːt͡ʃəkə pɑːteː ɦoːtiː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "वहाँ",
+          "language": "hindi",
+          "ipa": "ʋəɦɑː̃ə"
+        },
+        {
+          "word": "स्वाभाविक",
+          "language": "hindi",
+          "ipa": "sʋɑːbʱɑːʋɪkə"
+        },
+        {
+          "word": "रूप",
+          "language": "hindi",
+          "ipa": "ruːpə"
+        },
+        {
+          "word": "से",
+          "language": "corpus",
+          "ipa": "seː"
+        },
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "रोचक",
+          "language": "hindi",
+          "ipa": "roːt͡ʃəkə"
+        },
+        {
+          "word": "पाते",
+          "language": "hindi",
+          "ipa": "pɑːteː"
+        },
+        {
+          "word": "होती",
+          "language": "hindi",
+          "ipa": "ɦoːtiː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 4,
+        "hindi": 6
+      }
+    },
+    {
+      "start": 201.18,
+      "end": 205.18,
+      "original_text": "जब जो हमारे इन्टूशन से बहर के जिसे होती हैं,",
+      "ipa_string": "d͡ʒəb d͡ʒeː ɦəmɑːreː ɪnʈuːʃənə seː bəɦərə keː d͡ʒɪseː ɦoːtiː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "जब",
+          "language": "corpus",
+          "ipa": "d͡ʒəb"
+        },
+        {
+          "word": "जो",
+          "language": "corpus",
+          "ipa": "d͡ʒeː"
+        },
+        {
+          "word": "हमारे",
+          "language": "hindi",
+          "ipa": "ɦəmɑːreː"
+        },
+        {
+          "word": "इन्टूशन",
+          "language": "hindi",
+          "ipa": "ɪnʈuːʃənə"
+        },
+        {
+          "word": "से",
+          "language": "corpus",
+          "ipa": "seː"
+        },
+        {
+          "word": "बहर",
+          "language": "hindi",
+          "ipa": "bəɦərə"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "जिसे",
+          "language": "hindi",
+          "ipa": "d͡ʒɪseː"
+        },
+        {
+          "word": "होती",
+          "language": "hindi",
+          "ipa": "ɦoːtiː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 5,
+        "hindi": 5
+      }
+    },
+    {
+      "start": 206.2,
+      "end": 210.02,
+      "original_text": "वो सच्मुच रोचक होती हैं और चादर रोचक होती हैं,",
+      "ipa_string": "ʋoː sət͡ʃmʊt͡ʃə roːt͡ʃəkə ɦoːtiː bɑːɽən əʊr t͡ʃɑːdərə roːt͡ʃəkə ɦoːtiː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "वो",
+          "language": "hindi",
+          "ipa": "ʋoː"
+        },
+        {
+          "word": "सच्मुच",
+          "language": "hindi",
+          "ipa": "sət͡ʃmʊt͡ʃə"
+        },
+        {
+          "word": "रोचक",
+          "language": "hindi",
+          "ipa": "roːt͡ʃəkə"
+        },
+        {
+          "word": "होती",
+          "language": "hindi",
+          "ipa": "ɦoːtiː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "चादर",
+          "language": "hindi",
+          "ipa": "t͡ʃɑːdərə"
+        },
+        {
+          "word": "रोचक",
+          "language": "hindi",
+          "ipa": "roːt͡ʃəkə"
+        },
+        {
+          "word": "होती",
+          "language": "hindi",
+          "ipa": "ɦoːtiː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 7,
+        "corpus": 3
+      }
+    },
+    {
+      "start": 210.02,
+      "end": 212.12,
+      "original_text": "और फिर जब हम देखते हैं,",
+      "ipa_string": "əʊr pʰɪrə d͡ʒəb ɦəm deːkʰəteː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "फिर",
+          "language": "hindi",
+          "ipa": "pʰɪrə"
+        },
+        {
+          "word": "जब",
+          "language": "corpus",
+          "ipa": "d͡ʒəb"
+        },
+        {
+          "word": "हम",
+          "language": "corpus",
+          "ipa": "ɦəm"
+        },
+        {
+          "word": "देखते",
+          "language": "hindi",
+          "ipa": "deːkʰəteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 4,
+        "hindi": 2
+      }
+    },
+    {
+      "start": 212.12,
+      "end": 216.0,
+      "original_text": "कि ये जो एक बहुत अलग किसम का हमने मारडल बनाया हैं,",
+      "ipa_string": "kɪ jeː d͡ʒeː eːkə bəɦuteː ələgə kɪsəmə keː ɦəməneː mɑːrəɖələ bənɑːjɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "कि",
+          "language": "corpus",
+          "ipa": "kɪ"
+        },
+        {
+          "word": "ये",
+          "language": "hindi",
+          "ipa": "jeː"
+        },
+        {
+          "word": "जो",
+          "language": "corpus",
+          "ipa": "d͡ʒeː"
+        },
+        {
+          "word": "एक",
+          "language": "hindi",
+          "ipa": "eːkə"
+        },
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "अलग",
+          "language": "hindi",
+          "ipa": "ələgə"
+        },
+        {
+          "word": "किसम",
+          "language": "hindi",
+          "ipa": "kɪsəmə"
+        },
+        {
+          "word": "का",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "हमने",
+          "language": "hindi",
+          "ipa": "ɦəməneː"
+        },
+        {
+          "word": "मारडल",
+          "language": "hindi",
+          "ipa": "mɑːrəɖələ"
+        },
+        {
+          "word": "बनाया",
+          "language": "hindi",
+          "ipa": "bənɑːjɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 5,
+        "hindi": 7
+      }
+    },
+    {
+      "start": 216.14,
+      "end": 219.28,
+      "original_text": "वो हमारी वास्तवीत प्रावों के सान नाच करता हैं,",
+      "ipa_string": "ʋoː ɦəmɑːriː ʋɑːstəʋiːtə prɑːʋoː̃ə keː sɑːnə nɑːt͡ʃə kərətɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "वो",
+          "language": "hindi",
+          "ipa": "ʋoː"
+        },
+        {
+          "word": "हमारी",
+          "language": "hindi",
+          "ipa": "ɦəmɑːriː"
+        },
+        {
+          "word": "वास्तवीत",
+          "language": "hindi",
+          "ipa": "ʋɑːstəʋiːtə"
+        },
+        {
+          "word": "प्रावों",
+          "language": "hindi",
+          "ipa": "prɑːʋoː̃ə"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "सान",
+          "language": "hindi",
+          "ipa": "sɑːnə"
+        },
+        {
+          "word": "नाच",
+          "language": "hindi",
+          "ipa": "nɑːt͡ʃə"
+        },
+        {
+          "word": "करता",
+          "language": "hindi",
+          "ipa": "kərətɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 7,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 219.28,
+      "end": 222.38,
+      "original_text": "तो वो बड़ा आहलाद और बड़ा आहलाद होता हैं,",
+      "ipa_string": "tə ʋoː bəɽ ɑːɦəlɑːdə əʊr bəɽ ɑːɦəlɑːdə ɦoːtɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "वो",
+          "language": "hindi",
+          "ipa": "ʋoː"
+        },
+        {
+          "word": "बड़ा",
+          "language": "corpus",
+          "ipa": "bəɽ"
+        },
+        {
+          "word": "आहलाद",
+          "language": "hindi",
+          "ipa": "ɑːɦəlɑːdə"
+        },
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "बड़ा",
+          "language": "corpus",
+          "ipa": "bəɽ"
+        },
+        {
+          "word": "आहलाद",
+          "language": "hindi",
+          "ipa": "ɑːɦəlɑːdə"
+        },
+        {
+          "word": "होता",
+          "language": "hindi",
+          "ipa": "ɦoːtɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 5,
+        "hindi": 4
+      }
+    },
+    {
+      "start": 222.38,
+      "end": 224.12,
+      "original_text": "तो वो एक साइद हैं,",
+      "ipa_string": "tə ʋoː eːkə sɑːɪdə bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "वो",
+          "language": "hindi",
+          "ipa": "ʋoː"
+        },
+        {
+          "word": "एक",
+          "language": "hindi",
+          "ipa": "eːkə"
+        },
+        {
+          "word": "साइद",
+          "language": "hindi",
+          "ipa": "sɑːɪdə"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 2,
+        "hindi": 3
+      }
+    },
+    {
+      "start": 224.14,
+      "end": 228.28,
+      "original_text": "और दोसरा साइद जहां क्लासिकल फिजिक से हमारा क्राम नहीं चलता हैं,",
+      "ipa_string": "əʊr doːsərɑː sɑːɪdə d͡ʒəɦɑː̃ə klɑːsɪkələ pʰɪd͡ʒɪkə seː ɦəmɑːrɑː krɑːmə nɑː t͡ʃələtɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "दोसरा",
+          "language": "hindi",
+          "ipa": "doːsərɑː"
+        },
+        {
+          "word": "साइद",
+          "language": "hindi",
+          "ipa": "sɑːɪdə"
+        },
+        {
+          "word": "जहां",
+          "language": "hindi",
+          "ipa": "d͡ʒəɦɑː̃ə"
+        },
+        {
+          "word": "क्लासिकल",
+          "language": "hindi",
+          "ipa": "klɑːsɪkələ"
+        },
+        {
+          "word": "फिजिक",
+          "language": "hindi",
+          "ipa": "pʰɪd͡ʒɪkə"
+        },
+        {
+          "word": "से",
+          "language": "corpus",
+          "ipa": "seː"
+        },
+        {
+          "word": "हमारा",
+          "language": "hindi",
+          "ipa": "ɦəmɑːrɑː"
+        },
+        {
+          "word": "क्राम",
+          "language": "hindi",
+          "ipa": "krɑːmə"
+        },
+        {
+          "word": "नहीं",
+          "language": "corpus",
+          "ipa": "nɑː"
+        },
+        {
+          "word": "चलता",
+          "language": "hindi",
+          "ipa": "t͡ʃələtɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 4,
+        "hindi": 8
+      }
+    },
+    {
+      "start": 228.38,
+      "end": 234.52,
+      "original_text": "वो है जब हम बहुत चोटे पार्टिकल्स के पार्टिकल्स के पार्टिकल्स हैं,",
+      "ipa_string": "ʋoː bɑː d͡ʒəb ɦəm bəɦuteː t͡ʃoːʈeː pɑːrʈɪkəlsə keː pɑːrʈɪkəlsə keː pɑːrʈɪkəlsə bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "वो",
+          "language": "hindi",
+          "ipa": "ʋoː"
+        },
+        {
+          "word": "है",
+          "language": "corpus",
+          "ipa": "bɑː"
+        },
+        {
+          "word": "जब",
+          "language": "corpus",
+          "ipa": "d͡ʒəb"
+        },
+        {
+          "word": "हम",
+          "language": "corpus",
+          "ipa": "ɦəm"
+        },
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "चोटे",
+          "language": "hindi",
+          "ipa": "t͡ʃoːʈeː"
+        },
+        {
+          "word": "पार्टिकल्स",
+          "language": "hindi",
+          "ipa": "pɑːrʈɪkəlsə"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "पार्टिकल्स",
+          "language": "hindi",
+          "ipa": "pɑːrʈɪkəlsə"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "पार्टिकल्स",
+          "language": "hindi",
+          "ipa": "pɑːrʈɪkəlsə"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 5,
+        "corpus": 7
+      }
+    },
+    {
+      "start": 234.52,
+      "end": 236.16,
+      "original_text": "तो स्मॉल पार्टिकल्स,",
+      "ipa_string": "tə smələ pɑːrʈɪkəlsə",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "स्मॉल",
+          "language": "hindi",
+          "ipa": "smələ"
+        },
+        {
+          "word": "पार्टिकल्स",
+          "language": "hindi",
+          "ipa": "pɑːrʈɪkəlsə"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 1,
+        "hindi": 2
+      }
+    },
+    {
+      "start": 236.6,
+      "end": 238.52,
+      "original_text": "और स्मॉल याने क्या,",
+      "ipa_string": "əʊr स्मॉल याने kɑː",
+      "word_ipa": [
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "स्मॉल",
+          "language": "english",
+          "ipa": "स्मॉल"
+        },
+        {
+          "word": "याने",
+          "language": "english",
+          "ipa": "याने"
+        },
+        {
+          "word": "क्या",
+          "language": "corpus",
+          "ipa": "kɑː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "english",
+      "language_breakdown": {
+        "corpus": 2,
+        "english": 2
+      }
+    },
+    {
+      "start": 243.1,
+      "end": 245.36,
+      "original_text": "तो स्मॉल याने आप समझ ले,",
+      "ipa_string": "tə smələ jɑːneː rəʊɑː səməd͡ʒʱə leː",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "स्मॉल",
+          "language": "hindi",
+          "ipa": "smələ"
+        },
+        {
+          "word": "याने",
+          "language": "hindi",
+          "ipa": "jɑːneː"
+        },
+        {
+          "word": "आप",
+          "language": "corpus",
+          "ipa": "rəʊɑː"
+        },
+        {
+          "word": "समझ",
+          "language": "hindi",
+          "ipa": "səməd͡ʒʱə"
+        },
+        {
+          "word": "ले",
+          "language": "hindi",
+          "ipa": "leː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 2,
+        "hindi": 4
+      }
+    },
+    {
+      "start": 245.76,
+      "end": 247.52,
+      "original_text": "मॉलिकल्स हैं, आटम्स हैं,",
+      "ipa_string": "məlɪkəlsə bɑːɽən ɑːʈəmsə bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "मॉलिकल्स",
+          "language": "hindi",
+          "ipa": "məlɪkəlsə"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        },
+        {
+          "word": "आटम्स",
+          "language": "hindi",
+          "ipa": "ɑːʈəmsə"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 2,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 248.46,
+      "end": 249.64,
+      "original_text": "नुक्लियाम्स हैं,",
+      "ipa_string": "nʊklɪjɑːmsə bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "नुक्लियाम्स",
+          "language": "hindi",
+          "ipa": "nʊklɪjɑːmsə"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 1,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 249.66,
+      "end": 251.46,
+      "original_text": "प्रोटॉन्स हैं, नूट्रॉन्स हैं,",
+      "ipa_string": "proːʈənsə bɑːɽən nuːʈrənsə bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "प्रोटॉन्स",
+          "language": "hindi",
+          "ipa": "proːʈənsə"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        },
+        {
+          "word": "नूट्रॉन्स",
+          "language": "hindi",
+          "ipa": "nuːʈrənsə"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 2,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 251.48,
+      "end": 252.8,
+      "original_text": "इलिक्रॉन्स हैं,",
+      "ipa_string": "इलिक्रॉन्स bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "इलिक्रॉन्स",
+          "language": "english",
+          "ipa": "इलिक्रॉन्स"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "english",
+      "language_breakdown": {
+        "english": 1,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 252.8,
+      "end": 255.24,
+      "original_text": "जब चोटे पार्टिकल्स के बार करते हैं,",
+      "ipa_string": "d͡ʒəb t͡ʃoːʈeː pɑːrʈɪkəlsə keː bɑːrə kərəteː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "जब",
+          "language": "corpus",
+          "ipa": "d͡ʒəb"
+        },
+        {
+          "word": "चोटे",
+          "language": "hindi",
+          "ipa": "t͡ʃoːʈeː"
+        },
+        {
+          "word": "पार्टिकल्स",
+          "language": "hindi",
+          "ipa": "pɑːrʈɪkəlsə"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "बार",
+          "language": "hindi",
+          "ipa": "bɑːrə"
+        },
+        {
+          "word": "करते",
+          "language": "hindi",
+          "ipa": "kərəteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 3,
+        "hindi": 4
+      }
+    },
+    {
+      "start": 255.24,
+      "end": 257.5,
+      "original_text": "तो वहाँ पर सिर हमारे ये जो",
+      "ipa_string": "tə वहाँ pər सिर हमारे ये d͡ʒeː",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "वहाँ",
+          "language": "english",
+          "ipa": "वहाँ"
+        },
+        {
+          "word": "पर",
+          "language": "corpus",
+          "ipa": "pər"
+        },
+        {
+          "word": "सिर",
+          "language": "english",
+          "ipa": "सिर"
+        },
+        {
+          "word": "हमारे",
+          "language": "english",
+          "ipa": "हमारे"
+        },
+        {
+          "word": "ये",
+          "language": "english",
+          "ipa": "ये"
+        },
+        {
+          "word": "जो",
+          "language": "corpus",
+          "ipa": "d͡ʒeː"
+        }
+      ],
+      "dominant_language": "english",
+      "language_breakdown": {
+        "corpus": 3,
+        "english": 4
+      }
+    },
+    {
+      "start": 257.5,
+      "end": 260.24,
+      "original_text": "क्लैसिकल्स के अमारे रूल्स बनाए हमें,",
+      "ipa_string": "klɛːsɪkəlsə keː əmɑːreː ruːlsə bənɑːeː ɦəmeː̃ə",
+      "word_ipa": [
+        {
+          "word": "क्लैसिकल्स",
+          "language": "hindi",
+          "ipa": "klɛːsɪkəlsə"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "अमारे",
+          "language": "hindi",
+          "ipa": "əmɑːreː"
+        },
+        {
+          "word": "रूल्स",
+          "language": "hindi",
+          "ipa": "ruːlsə"
+        },
+        {
+          "word": "बनाए",
+          "language": "hindi",
+          "ipa": "bənɑːeː"
+        },
+        {
+          "word": "हमें",
+          "language": "hindi",
+          "ipa": "ɦəmeː̃ə"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 5,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 260.84,
+      "end": 262.38,
+      "original_text": "लॉर्ट बनाए हमें,",
+      "ipa_string": "lərʈə bənɑːeː ɦəmeː̃ə",
+      "word_ipa": [
+        {
+          "word": "लॉर्ट",
+          "language": "hindi",
+          "ipa": "lərʈə"
+        },
+        {
+          "word": "बनाए",
+          "language": "hindi",
+          "ipa": "bənɑːeː"
+        },
+        {
+          "word": "हमें",
+          "language": "hindi",
+          "ipa": "ɦəmeː̃ə"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 3
+      }
+    },
+    {
+      "start": 262.42,
+      "end": 264.06,
+      "original_text": "उनसे काम नहीं चरूता,",
+      "ipa_string": "ʊnəseː kɑːmə nɑː t͡ʃəruːtɑː",
+      "word_ipa": [
+        {
+          "word": "उनसे",
+          "language": "hindi",
+          "ipa": "ʊnəseː"
+        },
+        {
+          "word": "काम",
+          "language": "hindi",
+          "ipa": "kɑːmə"
+        },
+        {
+          "word": "नहीं",
+          "language": "corpus",
+          "ipa": "nɑː"
+        },
+        {
+          "word": "चरूता",
+          "language": "hindi",
+          "ipa": "t͡ʃəruːtɑː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 3,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 264.28,
+      "end": 266.24,
+      "original_text": "और यहां तो",
+      "ipa_string": "əʊr jəɦɑː̃ə tə",
+      "word_ipa": [
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "यहां",
+          "language": "hindi",
+          "ipa": "jəɦɑː̃ə"
+        },
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 2,
+        "hindi": 1
+      }
+    },
+    {
+      "start": 266.24,
+      "end": 269.2,
+      "original_text": "आमॉल चुल परिवर्दन करना हैं वरता हैं,",
+      "ipa_string": "ɑːmələ t͡ʃʊlə pərɪʋərdənə kərəl bɑːɽən ʋərətɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "आमॉल",
+          "language": "hindi",
+          "ipa": "ɑːmələ"
+        },
+        {
+          "word": "चुल",
+          "language": "hindi",
+          "ipa": "t͡ʃʊlə"
+        },
+        {
+          "word": "परिवर्दन",
+          "language": "hindi",
+          "ipa": "pərɪʋərdənə"
+        },
+        {
+          "word": "करना",
+          "language": "corpus",
+          "ipa": "kərəl"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": "वरता",
+          "language": "hindi",
+          "ipa": "ʋərətɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 4,
+        "corpus": 3
+      }
+    },
+    {
+      "start": 269.22,
+      "end": 270.48,
+      "original_text": "विलिटिविटी में तोड़ा",
+      "ipa_string": "ʋɪlɪʈɪʋɪʈiː meː toːɽɑː",
+      "word_ipa": [
+        {
+          "word": "विलिटिविटी",
+          "language": "hindi",
+          "ipa": "ʋɪlɪʈɪʋɪʈiː"
+        },
+        {
+          "word": "में",
+          "language": "corpus",
+          "ipa": "meː"
+        },
+        {
+          "word": "तोड़ा",
+          "language": "hindi",
+          "ipa": "toːɽɑː"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 2,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 270.48,
+      "end": 272.1,
+      "original_text": "स्पेस्टाइम को समझने में",
+      "ipa_string": "speːsʈɑːɪmə koː səməd͡ʒʱəneː meː",
+      "word_ipa": [
+        {
+          "word": "स्पेस्टाइम",
+          "language": "hindi",
+          "ipa": "speːsʈɑːɪmə"
+        },
+        {
+          "word": "को",
+          "language": "hindi",
+          "ipa": "koː"
+        },
+        {
+          "word": "समझने",
+          "language": "hindi",
+          "ipa": "səməd͡ʒʱəneː"
+        },
+        {
+          "word": "में",
+          "language": "corpus",
+          "ipa": "meː"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 3,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 272.86,
+      "end": 275.2,
+      "original_text": "तोड़ा बेसिक प्रब्लेम हैं,",
+      "ipa_string": "तोड़ा बेसिक प्रब्लेम bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "तोड़ा",
+          "language": "english",
+          "ipa": "तोड़ा"
+        },
+        {
+          "word": "बेसिक",
+          "language": "english",
+          "ipa": "बेसिक"
+        },
+        {
+          "word": "प्रब्लेम",
+          "language": "english",
+          "ipa": "प्रब्लेम"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "english",
+      "language_breakdown": {
+        "english": 3,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 275.2,
+      "end": 277.7,
+      "original_text": "और उसको अबहलक से समझना वरता हैं,",
+      "ipa_string": "əʊr ʊsəkoː əbəɦələkə seː bʊd͡ʒʰəl ʋərətɑː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "उसको",
+          "language": "hindi",
+          "ipa": "ʊsəkoː"
+        },
+        {
+          "word": "अबहलक",
+          "language": "hindi",
+          "ipa": "əbəɦələkə"
+        },
+        {
+          "word": "से",
+          "language": "corpus",
+          "ipa": "seː"
+        },
+        {
+          "word": "समझना",
+          "language": "corpus",
+          "ipa": "bʊd͡ʒʰəl"
+        },
+        {
+          "word": "वरता",
+          "language": "hindi",
+          "ipa": "ʋərətɑː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 4,
+        "hindi": 3
+      }
+    },
+    {
+      "start": 277.7,
+      "end": 279.24,
+      "original_text": "लेकिन यहां तो पूरी की पूरी",
+      "ipa_string": "bɑːkiː यहां tə पूरी keː पूरी",
+      "word_ipa": [
+        {
+          "word": "लेकिन",
+          "language": "corpus",
+          "ipa": "bɑːkiː"
+        },
+        {
+          "word": "यहां",
+          "language": "english",
+          "ipa": "यहां"
+        },
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "पूरी",
+          "language": "english",
+          "ipa": "पूरी"
+        },
+        {
+          "word": "की",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "पूरी",
+          "language": "english",
+          "ipa": "पूरी"
+        }
+      ],
+      "dominant_language": "english",
+      "language_breakdown": {
+        "corpus": 3,
+        "english": 3
+      }
+    },
+    {
+      "start": 279.24,
+      "end": 281.1,
+      "original_text": "फ्लॉसर्भी ही बदल जाते हैं,",
+      "ipa_string": "pʰləsərbʱiː ɦiː bədələ d͡ʒɑːteː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "फ्लॉसर्भी",
+          "language": "hindi",
+          "ipa": "pʰləsərbʱiː"
+        },
+        {
+          "word": "ही",
+          "language": "hindi",
+          "ipa": "ɦiː"
+        },
+        {
+          "word": "बदल",
+          "language": "hindi",
+          "ipa": "bədələ"
+        },
+        {
+          "word": "जाते",
+          "language": "hindi",
+          "ipa": "d͡ʒɑːteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 4,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 281.12,
+      "end": 284.0,
+      "original_text": "और तोब जो वो जो थ्योरी निकल करते आई हैं,",
+      "ipa_string": "əʊr toːbə d͡ʒeː ʋoː d͡ʒeː tʰjoːriː nɪkələ kərəteː ɑːiː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "तोब",
+          "language": "hindi",
+          "ipa": "toːbə"
+        },
+        {
+          "word": "जो",
+          "language": "corpus",
+          "ipa": "d͡ʒeː"
+        },
+        {
+          "word": "वो",
+          "language": "hindi",
+          "ipa": "ʋoː"
+        },
+        {
+          "word": "जो",
+          "language": "corpus",
+          "ipa": "d͡ʒeː"
+        },
+        {
+          "word": "थ्योरी",
+          "language": "hindi",
+          "ipa": "tʰjoːriː"
+        },
+        {
+          "word": "निकल",
+          "language": "hindi",
+          "ipa": "nɪkələ"
+        },
+        {
+          "word": "करते",
+          "language": "hindi",
+          "ipa": "kərəteː"
+        },
+        {
+          "word": "आई",
+          "language": "hindi",
+          "ipa": "ɑːiː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 4,
+        "hindi": 6
+      }
+    },
+    {
+      "start": 284.0,
+      "end": 287.64,
+      "original_text": "जिससे हम उन स्माल पार्टिकल्स के बारे में,",
+      "ipa_string": "d͡ʒɪsəseː ɦəm ʊnə smɑːlə pɑːrʈɪkəlsə keː bɑːreː meː",
+      "word_ipa": [
+        {
+          "word": "जिससे",
+          "language": "hindi",
+          "ipa": "d͡ʒɪsəseː"
+        },
+        {
+          "word": "हम",
+          "language": "corpus",
+          "ipa": "ɦəm"
+        },
+        {
+          "word": "उन",
+          "language": "hindi",
+          "ipa": "ʊnə"
+        },
+        {
+          "word": "स्माल",
+          "language": "hindi",
+          "ipa": "smɑːlə"
+        },
+        {
+          "word": "पार्टिकल्स",
+          "language": "hindi",
+          "ipa": "pɑːrʈɪkəlsə"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "बारे",
+          "language": "hindi",
+          "ipa": "bɑːreː"
+        },
+        {
+          "word": "में",
+          "language": "corpus",
+          "ipa": "meː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 5,
+        "corpus": 3
+      }
+    },
+    {
+      "start": 287.64,
+      "end": 289.32,
+      "original_text": "उनके भ्यावार के बारे में,",
+      "ipa_string": "ʊnəkeː bʱjɑːʋɑːrə keː bɑːreː meː",
+      "word_ipa": [
+        {
+          "word": "उनके",
+          "language": "hindi",
+          "ipa": "ʊnəkeː"
+        },
+        {
+          "word": "भ्यावार",
+          "language": "hindi",
+          "ipa": "bʱjɑːʋɑːrə"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "बारे",
+          "language": "hindi",
+          "ipa": "bɑːreː"
+        },
+        {
+          "word": "में",
+          "language": "corpus",
+          "ipa": "meː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 3,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 289.38,
+      "end": 290.94,
+      "original_text": "प्रेडिक्षन्स करते हैं,",
+      "ipa_string": "प्रेडिक्षन्स करते bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "प्रेडिक्षन्स",
+          "language": "english",
+          "ipa": "प्रेडिक्षन्स"
+        },
+        {
+          "word": "करते",
+          "language": "english",
+          "ipa": "करते"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "english",
+      "language_breakdown": {
+        "english": 2,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 290.94,
+      "end": 292.38,
+      "original_text": "उसको समझते हैं,",
+      "ipa_string": "ʊsəkoː səməd͡ʒʱəteː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "उसको",
+          "language": "hindi",
+          "ipa": "ʊsəkoː"
+        },
+        {
+          "word": "समझते",
+          "language": "hindi",
+          "ipa": "səməd͡ʒʱəteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 2,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 292.4,
+      "end": 293.96,
+      "original_text": "तो वो हैं हमारा पार्टिकल्स",
+      "ipa_string": "tə ʋoː bɑːɽən ɦəmɑːrɑː pɑːrʈɪkəlsə",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "वो",
+          "language": "hindi",
+          "ipa": "ʋoː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": "हमारा",
+          "language": "hindi",
+          "ipa": "ɦəmɑːrɑː"
+        },
+        {
+          "word": "पार्टिकल्स",
+          "language": "hindi",
+          "ipa": "pɑːrʈɪkəlsə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 2,
+        "hindi": 3
+      }
+    },
+    {
+      "start": 303.71999999999997,
+      "end": 307.72,
+      "original_text": "तो एक बहुत चुनात्य पूर्ण काम होगा,",
+      "ipa_string": "tə eːkə bəɦuteː t͡ʃʊnɑːtjə puːrɳə kɑːmə ɦoːgɑː",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "एक",
+          "language": "hindi",
+          "ipa": "eːkə"
+        },
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "चुनात्य",
+          "language": "hindi",
+          "ipa": "t͡ʃʊnɑːtjə"
+        },
+        {
+          "word": "पूर्ण",
+          "language": "hindi",
+          "ipa": "puːrɳə"
+        },
+        {
+          "word": "काम",
+          "language": "hindi",
+          "ipa": "kɑːmə"
+        },
+        {
+          "word": "होगा",
+          "language": "hindi",
+          "ipa": "ɦoːgɑː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 2,
+        "hindi": 5
+      }
+    },
+    {
+      "start": 308.02,
+      "end": 310.38,
+      "original_text": "कि हम अपनी सारी सोच को पड़ल डाले,",
+      "ipa_string": "kɪ ɦəm əpəniː sɑːriː soːt͡ʃə koː pəɽlə ɖɑːleː",
+      "word_ipa": [
+        {
+          "word": "कि",
+          "language": "corpus",
+          "ipa": "kɪ"
+        },
+        {
+          "word": "हम",
+          "language": "corpus",
+          "ipa": "ɦəm"
+        },
+        {
+          "word": "अपनी",
+          "language": "hindi",
+          "ipa": "əpəniː"
+        },
+        {
+          "word": "सारी",
+          "language": "hindi",
+          "ipa": "sɑːriː"
+        },
+        {
+          "word": "सोच",
+          "language": "hindi",
+          "ipa": "soːt͡ʃə"
+        },
+        {
+          "word": "को",
+          "language": "hindi",
+          "ipa": "koː"
+        },
+        {
+          "word": "पड़ल",
+          "language": "hindi",
+          "ipa": "pəɽlə"
+        },
+        {
+          "word": "डाले",
+          "language": "hindi",
+          "ipa": "ɖɑːleː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 2,
+        "hindi": 6
+      }
+    },
+    {
+      "start": 310.84,
+      "end": 312.28,
+      "original_text": "आसान नहीं होगा यह,",
+      "ipa_string": "आसान nɑː होगा ɪ",
+      "word_ipa": [
+        {
+          "word": "आसान",
+          "language": "english",
+          "ipa": "आसान"
+        },
+        {
+          "word": "नहीं",
+          "language": "corpus",
+          "ipa": "nɑː"
+        },
+        {
+          "word": "होगा",
+          "language": "english",
+          "ipa": "होगा"
+        },
+        {
+          "word": "यह",
+          "language": "corpus",
+          "ipa": "ɪ"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "english",
+      "language_breakdown": {
+        "english": 2,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 312.28,
+      "end": 314.5,
+      "original_text": "और इसले बहुत सारी,",
+      "ipa_string": "əʊr ɪsəleː bəɦuteː sɑːriː",
+      "word_ipa": [
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "इसले",
+          "language": "hindi",
+          "ipa": "ɪsəleː"
+        },
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "सारी",
+          "language": "hindi",
+          "ipa": "sɑːriː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 2,
+        "hindi": 2
+      }
+    },
+    {
+      "start": 314.5,
+      "end": 316.24,
+      "original_text": "बहुत सारी दिशकृषन्स करने होगे,",
+      "ipa_string": "bəɦuteː sɑːriː dɪʃəkr̩ʂənsə kərəneː ɦoːgeː",
+      "word_ipa": [
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "सारी",
+          "language": "hindi",
+          "ipa": "sɑːriː"
+        },
+        {
+          "word": "दिशकृषन्स",
+          "language": "hindi",
+          "ipa": "dɪʃəkr̩ʂənsə"
+        },
+        {
+          "word": "करने",
+          "language": "hindi",
+          "ipa": "kərəneː"
+        },
+        {
+          "word": "होगे",
+          "language": "hindi",
+          "ipa": "ɦoːgeː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 1,
+        "hindi": 4
+      }
+    },
+    {
+      "start": 316.36,
+      "end": 318.26,
+      "original_text": "बहुत सारी बाते करनी होगी,",
+      "ipa_string": "bəɦuteː सारी बाते करनी होगी",
+      "word_ipa": [
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "सारी",
+          "language": "english",
+          "ipa": "सारी"
+        },
+        {
+          "word": "बाते",
+          "language": "english",
+          "ipa": "बाते"
+        },
+        {
+          "word": "करनी",
+          "language": "english",
+          "ipa": "करनी"
+        },
+        {
+          "word": "होगी",
+          "language": "english",
+          "ipa": "होगी"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "english",
+      "language_breakdown": {
+        "corpus": 1,
+        "english": 4
+      }
+    },
+    {
+      "start": 318.68,
+      "end": 320.26,
+      "original_text": "वाद विवाद करने होगे,",
+      "ipa_string": "ʋɑːdə ʋɪʋɑːdə kərəneː ɦoːgeː",
+      "word_ipa": [
+        {
+          "word": "वाद",
+          "language": "hindi",
+          "ipa": "ʋɑːdə"
+        },
+        {
+          "word": "विवाद",
+          "language": "hindi",
+          "ipa": "ʋɪʋɑːdə"
+        },
+        {
+          "word": "करने",
+          "language": "hindi",
+          "ipa": "kərəneː"
+        },
+        {
+          "word": "होगे",
+          "language": "hindi",
+          "ipa": "ɦoːgeː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 4
+      }
+    },
+    {
+      "start": 320.46,
+      "end": 322.96,
+      "original_text": "उसको सिंक करने के लिए दिवाद के अंदर में,",
+      "ipa_string": "ʊsəkoː sɪ̃əkə kərəneː keː lɪeː dɪʋɑːdə keː ə̃ədərə meː",
+      "word_ipa": [
+        {
+          "word": "उसको",
+          "language": "hindi",
+          "ipa": "ʊsəkoː"
+        },
+        {
+          "word": "सिंक",
+          "language": "hindi",
+          "ipa": "sɪ̃əkə"
+        },
+        {
+          "word": "करने",
+          "language": "hindi",
+          "ipa": "kərəneː"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "लिए",
+          "language": "hindi",
+          "ipa": "lɪeː"
+        },
+        {
+          "word": "दिवाद",
+          "language": "hindi",
+          "ipa": "dɪʋɑːdə"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "अंदर",
+          "language": "hindi",
+          "ipa": "ə̃ədərə"
+        },
+        {
+          "word": "में",
+          "language": "corpus",
+          "ipa": "meː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 6,
+        "corpus": 3
+      }
+    },
+    {
+      "start": 323.0,
+      "end": 324.96,
+      "original_text": "कि हम क्या कह रहे हैं ये सब,",
+      "ipa_string": "kɪ ɦəm kɑː kəɦə rəɦeː bɑːɽən jeː səb",
+      "word_ipa": [
+        {
+          "word": "कि",
+          "language": "corpus",
+          "ipa": "kɪ"
+        },
+        {
+          "word": "हम",
+          "language": "corpus",
+          "ipa": "ɦəm"
+        },
+        {
+          "word": "क्या",
+          "language": "corpus",
+          "ipa": "kɑː"
+        },
+        {
+          "word": "कह",
+          "language": "hindi",
+          "ipa": "kəɦə"
+        },
+        {
+          "word": "रहे",
+          "language": "hindi",
+          "ipa": "rəɦeː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": "ये",
+          "language": "hindi",
+          "ipa": "jeː"
+        },
+        {
+          "word": "सब",
+          "language": "corpus",
+          "ipa": "səb"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 5,
+        "hindi": 3
+      }
+    },
+    {
+      "start": 325.12,
+      "end": 327.26,
+      "original_text": "जो कि विलकुल खांटर इंटॉटिटिव है,",
+      "ipa_string": "d͡ʒeː kɪ ʋɪləkʊlə kʰɑː̃əʈərə ɪ̃əʈəʈɪʈɪʋə bɑː",
+      "word_ipa": [
+        {
+          "word": "जो",
+          "language": "corpus",
+          "ipa": "d͡ʒeː"
+        },
+        {
+          "word": "कि",
+          "language": "corpus",
+          "ipa": "kɪ"
+        },
+        {
+          "word": "विलकुल",
+          "language": "hindi",
+          "ipa": "ʋɪləkʊlə"
+        },
+        {
+          "word": "खांटर",
+          "language": "hindi",
+          "ipa": "kʰɑː̃əʈərə"
+        },
+        {
+          "word": "इंटॉटिटिव",
+          "language": "hindi",
+          "ipa": "ɪ̃əʈəʈɪʈɪʋə"
+        },
+        {
+          "word": "है",
+          "language": "corpus",
+          "ipa": "bɑː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 3,
+        "hindi": 3
+      }
+    },
+    {
+      "start": 327.26,
+      "end": 329.26,
+      "original_text": "और अलग कसम के चीजे हैं,",
+      "ipa_string": "əʊr ələgə kəsəmə keː t͡ʃiːd͡ʒeː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "अलग",
+          "language": "hindi",
+          "ipa": "ələgə"
+        },
+        {
+          "word": "कसम",
+          "language": "hindi",
+          "ipa": "kəsəmə"
+        },
+        {
+          "word": "के",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "चीजे",
+          "language": "hindi",
+          "ipa": "t͡ʃiːd͡ʒeː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 3,
+        "hindi": 3
+      }
+    },
+    {
+      "start": 330.79999999999995,
+      "end": 333.74,
+      "original_text": "बेसिकली हमारे जो बहुत मुल भुत सिथान्त,",
+      "ipa_string": "beːsɪkəliː ɦəmɑːreː d͡ʒeː bəɦuteː mʊlə bʱʊtə sɪtʰɑːntə",
+      "word_ipa": [
+        {
+          "word": "बेसिकली",
+          "language": "hindi",
+          "ipa": "beːsɪkəliː"
+        },
+        {
+          "word": "हमारे",
+          "language": "hindi",
+          "ipa": "ɦəmɑːreː"
+        },
+        {
+          "word": "जो",
+          "language": "corpus",
+          "ipa": "d͡ʒeː"
+        },
+        {
+          "word": "बहुत",
+          "language": "corpus",
+          "ipa": "bəɦuteː"
+        },
+        {
+          "word": "मुल",
+          "language": "hindi",
+          "ipa": "mʊlə"
+        },
+        {
+          "word": "भुत",
+          "language": "hindi",
+          "ipa": "bʱʊtə"
+        },
+        {
+          "word": "सिथान्त",
+          "language": "hindi",
+          "ipa": "sɪtʰɑːntə"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 5,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 333.86,
+      "end": 336.46,
+      "original_text": "अमने अपने दिमार में बिठाये हैं,",
+      "ipa_string": "əməneː əpəneː dɪmɑːrə meː bɪʈʰɑːjeː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "अमने",
+          "language": "hindi",
+          "ipa": "əməneː"
+        },
+        {
+          "word": "अपने",
+          "language": "hindi",
+          "ipa": "əpəneː"
+        },
+        {
+          "word": "दिमार",
+          "language": "hindi",
+          "ipa": "dɪmɑːrə"
+        },
+        {
+          "word": "में",
+          "language": "corpus",
+          "ipa": "meː"
+        },
+        {
+          "word": "बिठाये",
+          "language": "hindi",
+          "ipa": "bɪʈʰɑːjeː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 4,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 336.5,
+      "end": 339.2,
+      "original_text": "वो भी यहां बर्बरते हैं बर्बरते हैं,",
+      "ipa_string": "ʋoː bʱiː jəɦɑː̃ə bərbərəteː bɑːɽən bərbərəteː bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "वो",
+          "language": "hindi",
+          "ipa": "ʋoː"
+        },
+        {
+          "word": "भी",
+          "language": "hindi",
+          "ipa": "bʱiː"
+        },
+        {
+          "word": "यहां",
+          "language": "hindi",
+          "ipa": "jəɦɑː̃ə"
+        },
+        {
+          "word": "बर्बरते",
+          "language": "hindi",
+          "ipa": "bərbərəteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": "बर्बरते",
+          "language": "hindi",
+          "ipa": "bərbərəteː"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 5,
+        "corpus": 2
+      }
+    },
+    {
+      "start": 339.32,
+      "end": 344.44,
+      "original_text": "बिजान हैं, विज्यान का कोई प्रयोग करना हैं,",
+      "ipa_string": "बिजान bɑːɽən विज्यान keː कोई प्रयोग kərəl bɑːɽən",
+      "word_ipa": [
+        {
+          "word": "बिजान",
+          "language": "english",
+          "ipa": "बिजान"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        },
+        {
+          "word": "विज्यान",
+          "language": "english",
+          "ipa": "विज्यान"
+        },
+        {
+          "word": "का",
+          "language": "corpus",
+          "ipa": "keː"
+        },
+        {
+          "word": "कोई",
+          "language": "english",
+          "ipa": "कोई"
+        },
+        {
+          "word": "प्रयोग",
+          "language": "english",
+          "ipa": "प्रयोग"
+        },
+        {
+          "word": "करना",
+          "language": "corpus",
+          "ipa": "kərəl"
+        },
+        {
+          "word": "हैं",
+          "language": "corpus",
+          "ipa": "bɑːɽən"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "english",
+      "language_breakdown": {
+        "english": 4,
+        "corpus": 4
+      }
+    },
+    {
+      "start": 344.44,
+      "end": 346.52,
+      "original_text": "तो अगर आप एक प्रयोग करोगे,",
+      "ipa_string": "tə əgər rəʊɑː eːkə prəjoːgə kəroːgeː",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "अगर",
+          "language": "corpus",
+          "ipa": "əgər"
+        },
+        {
+          "word": "आप",
+          "language": "corpus",
+          "ipa": "rəʊɑː"
+        },
+        {
+          "word": "एक",
+          "language": "hindi",
+          "ipa": "eːkə"
+        },
+        {
+          "word": "प्रयोग",
+          "language": "hindi",
+          "ipa": "prəjoːgə"
+        },
+        {
+          "word": "करोगे",
+          "language": "hindi",
+          "ipa": "kəroːgeː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 3,
+        "hindi": 3
+      }
+    },
+    {
+      "start": 346.52,
+      "end": 348.98,
+      "original_text": "और एक प्रिनाम मिलेगा,",
+      "ipa_string": "əʊr एक प्रिनाम मिलेगा",
+      "word_ipa": [
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "एक",
+          "language": "english",
+          "ipa": "एक"
+        },
+        {
+          "word": "प्रिनाम",
+          "language": "english",
+          "ipa": "प्रिनाम"
+        },
+        {
+          "word": "मिलेगा",
+          "language": "english",
+          "ipa": "मिलेगा"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "english",
+      "language_breakdown": {
+        "corpus": 1,
+        "english": 3
+      }
+    },
+    {
+      "start": 349.08,
+      "end": 352.52,
+      "original_text": "और उससी प्रयोग को तीक तीक उससी प्रकार होगे,",
+      "ipa_string": "əʊr ʊsəsiː prəjoːgə koː tiːkə tiːkə ʊsəsiː prəkɑːrə ɦoːgeː",
+      "word_ipa": [
+        {
+          "word": "और",
+          "language": "corpus",
+          "ipa": "əʊr"
+        },
+        {
+          "word": "उससी",
+          "language": "hindi",
+          "ipa": "ʊsəsiː"
+        },
+        {
+          "word": "प्रयोग",
+          "language": "hindi",
+          "ipa": "prəjoːgə"
+        },
+        {
+          "word": "को",
+          "language": "hindi",
+          "ipa": "koː"
+        },
+        {
+          "word": "तीक",
+          "language": "hindi",
+          "ipa": "tiːkə"
+        },
+        {
+          "word": "तीक",
+          "language": "hindi",
+          "ipa": "tiːkə"
+        },
+        {
+          "word": "उससी",
+          "language": "hindi",
+          "ipa": "ʊsəsiː"
+        },
+        {
+          "word": "प्रकार",
+          "language": "hindi",
+          "ipa": "prəkɑːrə"
+        },
+        {
+          "word": "होगे",
+          "language": "hindi",
+          "ipa": "ɦoːgeː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 1,
+        "hindi": 8
+      }
+    },
+    {
+      "start": 353.32,
+      "end": 355.0,
+      "original_text": "तो वही प्रिनाम मिलेगा,",
+      "ipa_string": "tə ʋəɦiː prɪnɑːmə mɪleːgɑː",
+      "word_ipa": [
+        {
+          "word": "तो",
+          "language": "corpus",
+          "ipa": "tə"
+        },
+        {
+          "word": "वही",
+          "language": "hindi",
+          "ipa": "ʋəɦiː"
+        },
+        {
+          "word": "प्रिनाम",
+          "language": "hindi",
+          "ipa": "prɪnɑːmə"
+        },
+        {
+          "word": "मिलेगा",
+          "language": "hindi",
+          "ipa": "mɪleːgɑː"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "corpus": 1,
+        "hindi": 3
+      }
+    },
+    {
+      "start": 355.18,
+      "end": 358.52,
+      "original_text": "आइडिन्टिकल एकस्परिमेंट्स विल्गे लिए आप आइडिन्टिकल प्रिजाल्स,",
+      "ipa_string": "ɑːɪɖɪnʈɪkələ eːkəspərɪmeː̃əʈsə ʋɪlgeː lɪeː rəʊɑː ɑːɪɖɪnʈɪkələ prɪd͡ʒɑːlsə",
+      "word_ipa": [
+        {
+          "word": "आइडिन्टिकल",
+          "language": "hindi",
+          "ipa": "ɑːɪɖɪnʈɪkələ"
+        },
+        {
+          "word": "एकस्परिमेंट्स",
+          "language": "hindi",
+          "ipa": "eːkəspərɪmeː̃əʈsə"
+        },
+        {
+          "word": "विल्गे",
+          "language": "hindi",
+          "ipa": "ʋɪlgeː"
+        },
+        {
+          "word": "लिए",
+          "language": "hindi",
+          "ipa": "lɪeː"
+        },
+        {
+          "word": "आप",
+          "language": "corpus",
+          "ipa": "rəʊɑː"
+        },
+        {
+          "word": "आइडिन्टिकल",
+          "language": "hindi",
+          "ipa": "ɑːɪɖɪnʈɪkələ"
+        },
+        {
+          "word": "प्रिजाल्स",
+          "language": "hindi",
+          "ipa": "prɪd͡ʒɑːlsə"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 6,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 359.94,
+      "end": 366.68,
+      "original_text": "ये भी यहां बर साहिदी होना,",
+      "ipa_string": "jeː bʱiː jəɦɑː̃ə bərə sɑːɦɪdiː ɦoːkʰəl",
+      "word_ipa": [
+        {
+          "word": "ये",
+          "language": "hindi",
+          "ipa": "jeː"
+        },
+        {
+          "word": "भी",
+          "language": "hindi",
+          "ipa": "bʱiː"
+        },
+        {
+          "word": "यहां",
+          "language": "hindi",
+          "ipa": "jəɦɑː̃ə"
+        },
+        {
+          "word": "बर",
+          "language": "hindi",
+          "ipa": "bərə"
+        },
+        {
+          "word": "साहिदी",
+          "language": "hindi",
+          "ipa": "sɑːɦɪdiː"
+        },
+        {
+          "word": "होना",
+          "language": "corpus",
+          "ipa": "ɦoːkʰəl"
+        },
+        {
+          "word": ",",
+          "language": "punct",
+          "ipa": ","
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 5,
+        "corpus": 1
+      }
+    },
+    {
+      "start": 366.68,
+      "end": 396.66,
+      "original_text": "आइडिन्टिकल एकस्परिमेंट्स विल्गे आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्ग",
+      "ipa_string": "ɑːɪɖɪnʈɪkələ eːkəspərɪmeː̃əʈsə ʋɪlgeː ɑːɪɖɪnʈɪkələ ʋɪlgeː lɪeː ɑːɪɖɪnʈɪkələ ʋɪlgeː lɪeː ɑːɪɖɪnʈɪkələ ʋɪlgeː lɪeː ɑːɪɖɪnʈɪkələ ʋɪlgeː lɪeː ɑːɪɖɪnʈɪkələ ʋɪlgeː lɪeː ɑːɪɖɪnʈɪkələ ʋɪlgeː lɪeː ɑːɪɖɪnʈɪkələ ʋɪlgə",
+      "word_ipa": [
+        {
+          "word": "आइडिन्टिकल",
+          "language": "hindi",
+          "ipa": "ɑːɪɖɪnʈɪkələ"
+        },
+        {
+          "word": "एकस्परिमेंट्स",
+          "language": "hindi",
+          "ipa": "eːkəspərɪmeː̃əʈsə"
+        },
+        {
+          "word": "विल्गे",
+          "language": "hindi",
+          "ipa": "ʋɪlgeː"
+        },
+        {
+          "word": "आइडिन्टिकल",
+          "language": "hindi",
+          "ipa": "ɑːɪɖɪnʈɪkələ"
+        },
+        {
+          "word": "विल्गे",
+          "language": "hindi",
+          "ipa": "ʋɪlgeː"
+        },
+        {
+          "word": "लिए",
+          "language": "hindi",
+          "ipa": "lɪeː"
+        },
+        {
+          "word": "आइडिन्टिकल",
+          "language": "hindi",
+          "ipa": "ɑːɪɖɪnʈɪkələ"
+        },
+        {
+          "word": "विल्गे",
+          "language": "hindi",
+          "ipa": "ʋɪlgeː"
+        },
+        {
+          "word": "लिए",
+          "language": "hindi",
+          "ipa": "lɪeː"
+        },
+        {
+          "word": "आइडिन्टिकल",
+          "language": "hindi",
+          "ipa": "ɑːɪɖɪnʈɪkələ"
+        },
+        {
+          "word": "विल्गे",
+          "language": "hindi",
+          "ipa": "ʋɪlgeː"
+        },
+        {
+          "word": "लिए",
+          "language": "hindi",
+          "ipa": "lɪeː"
+        },
+        {
+          "word": "आइडिन्टिकल",
+          "language": "hindi",
+          "ipa": "ɑːɪɖɪnʈɪkələ"
+        },
+        {
+          "word": "विल्गे",
+          "language": "hindi",
+          "ipa": "ʋɪlgeː"
+        },
+        {
+          "word": "लिए",
+          "language": "hindi",
+          "ipa": "lɪeː"
+        },
+        {
+          "word": "आइडिन्टिकल",
+          "language": "hindi",
+          "ipa": "ɑːɪɖɪnʈɪkələ"
+        },
+        {
+          "word": "विल्गे",
+          "language": "hindi",
+          "ipa": "ʋɪlgeː"
+        },
+        {
+          "word": "लिए",
+          "language": "hindi",
+          "ipa": "lɪeː"
+        },
+        {
+          "word": "आइडिन्टिकल",
+          "language": "hindi",
+          "ipa": "ɑːɪɖɪnʈɪkələ"
+        },
+        {
+          "word": "विल्गे",
+          "language": "hindi",
+          "ipa": "ʋɪlgeː"
+        },
+        {
+          "word": "लिए",
+          "language": "hindi",
+          "ipa": "lɪeː"
+        },
+        {
+          "word": "आइडिन्टिकल",
+          "language": "hindi",
+          "ipa": "ɑːɪɖɪnʈɪkələ"
+        },
+        {
+          "word": "विल्ग",
+          "language": "hindi",
+          "ipa": "ʋɪlgə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 23
+      }
+    },
+    {
+      "start": 426.56,
+      "end": 426.64,
+      "original_text": "आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइ�",
+      "ipa_string": "आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइ",
+      "word_ipa": [
+        {
+          "word": "आइडिन्टिकल",
+          "language": "english",
+          "ipa": "आइडिन्टिकल"
+        },
+        {
+          "word": "विल्गे",
+          "language": "english",
+          "ipa": "विल्गे"
+        },
+        {
+          "word": "लिए",
+          "language": "english",
+          "ipa": "लिए"
+        },
+        {
+          "word": "आइडिन्टिकल",
+          "language": "english",
+          "ipa": "आइडिन्टिकल"
+        },
+        {
+          "word": "विल्गे",
+          "language": "english",
+          "ipa": "विल्गे"
+        },
+        {
+          "word": "लिए",
+          "language": "english",
+          "ipa": "लिए"
+        },
+        {
+          "word": "आइडिन्टिकल",
+          "language": "english",
+          "ipa": "आइडिन्टिकल"
+        },
+        {
+          "word": "विल्गे",
+          "language": "english",
+          "ipa": "विल्गे"
+        },
+        {
+          "word": "लिए",
+          "language": "english",
+          "ipa": "लिए"
+        },
+        {
+          "word": "आइडिन्टिकल",
+          "language": "english",
+          "ipa": "आइडिन्टिकल"
+        },
+        {
+          "word": "विल्गे",
+          "language": "english",
+          "ipa": "विल्गे"
+        },
+        {
+          "word": "लिए",
+          "language": "english",
+          "ipa": "लिए"
+        },
+        {
+          "word": "आइडिन्टिकल",
+          "language": "english",
+          "ipa": "आइडिन्टिकल"
+        },
+        {
+          "word": "विल्गे",
+          "language": "english",
+          "ipa": "विल्गे"
+        },
+        {
+          "word": "लिए",
+          "language": "english",
+          "ipa": "लिए"
+        },
+        {
+          "word": "आइडिन्टिकल",
+          "language": "english",
+          "ipa": "आइडिन्टिकल"
+        },
+        {
+          "word": "विल्गे",
+          "language": "english",
+          "ipa": "विल्गे"
+        },
+        {
+          "word": "लिए",
+          "language": "english",
+          "ipa": "लिए"
+        },
+        {
+          "word": "आइडिन्टिकल",
+          "language": "english",
+          "ipa": "आइडिन्टिकल"
+        },
+        {
+          "word": "विल्गे",
+          "language": "english",
+          "ipa": "विल्गे"
+        },
+        {
+          "word": "लिए",
+          "language": "english",
+          "ipa": "लिए"
+        },
+        {
+          "word": "आइडिन्टिकल",
+          "language": "english",
+          "ipa": "आइडिन्टिकल"
+        },
+        {
+          "word": "विल्गे",
+          "language": "english",
+          "ipa": "विल्गे"
+        },
+        {
+          "word": "लिए",
+          "language": "english",
+          "ipa": "लिए"
+        },
+        {
+          "word": "आइ",
+          "language": "english",
+          "ipa": "आइ"
+        },
+        {
+          "word": "�",
+          "language": "punct",
+          "ipa": "�"
+        }
+      ],
+      "dominant_language": "english",
+      "language_breakdown": {
+        "english": 25
+      }
+    },
+    {
+      "start": 455.22,
+      "end": 456.62,
+      "original_text": "जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी",
+      "ipa_string": "d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː",
+      "word_ipa": [
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 22
+      }
+    },
+    {
+      "start": 471.78000000000003,
+      "end": 486.62,
+      "original_text": "विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिर",
+      "ipa_string": "ʋɪlgeː lɪeː ɑːɪɖɪnʈɪkələ ʋɪlgeː lɪeː ɑːɪɖɪnʈɪkələ ʋɪlgeː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪrə",
+      "word_ipa": [
+        {
+          "word": "विल्गे",
+          "language": "hindi",
+          "ipa": "ʋɪlgeː"
+        },
+        {
+          "word": "लिए",
+          "language": "hindi",
+          "ipa": "lɪeː"
+        },
+        {
+          "word": "आइडिन्टिकल",
+          "language": "hindi",
+          "ipa": "ɑːɪɖɪnʈɪkələ"
+        },
+        {
+          "word": "विल्गे",
+          "language": "hindi",
+          "ipa": "ʋɪlgeː"
+        },
+        {
+          "word": "लिए",
+          "language": "hindi",
+          "ipa": "lɪeː"
+        },
+        {
+          "word": "आइडिन्टिकल",
+          "language": "hindi",
+          "ipa": "ɑːɪɖɪnʈɪkələ"
+        },
+        {
+          "word": "विल्गे",
+          "language": "hindi",
+          "ipa": "ʋɪlgeː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिर",
+          "language": "hindi",
+          "ipa": "d͡ʒɪrə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 39
+      }
+    },
+    {
+      "start": 495.02,
+      "end": 514.36,
+      "original_text": "जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी।",
+      "ipa_string": "d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː d͡ʒɪriː",
+      "word_ipa": [
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        },
+        {
+          "word": "जिरी।",
+          "language": "hindi",
+          "ipa": "d͡ʒɪriː"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 18
+      }
+    },
+    {
+      "start": 524.9200000000001,
+      "end": 531.06,
+      "original_text": "अपको परावर्तित बी होती हैं।",
+      "ipa_string": "əpəkoː pərɑːʋərtɪtə biː ɦoːtiː ɦɛː̃ə",
+      "word_ipa": [
+        {
+          "word": "अपको",
+          "language": "hindi",
+          "ipa": "əpəkoː"
+        },
+        {
+          "word": "परावर्तित",
+          "language": "hindi",
+          "ipa": "pərɑːʋərtɪtə"
+        },
+        {
+          "word": "बी",
+          "language": "hindi",
+          "ipa": "biː"
+        },
+        {
+          "word": "होती",
+          "language": "hindi",
+          "ipa": "ɦoːtiː"
+        },
+        {
+          "word": "हैं।",
+          "language": "hindi",
+          "ipa": "ɦɛː̃ə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 5
+      }
+    },
+    {
+      "start": 558.48,
+      "end": 562.78,
+      "original_text": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "ipa_string": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "word_ipa": [
+        {
+          "word": "अपको",
+          "language": "english",
+          "ipa": "अपको"
+        },
+        {
+          "word": "परावर्तित",
+          "language": "english",
+          "ipa": "परावर्तित"
+        },
+        {
+          "word": "बीन",
+          "language": "english",
+          "ipa": "बीन"
+        },
+        {
+          "word": "परावर्तित",
+          "language": "english",
+          "ipa": "परावर्तित"
+        },
+        {
+          "word": "होती",
+          "language": "english",
+          "ipa": "होती"
+        },
+        {
+          "word": "हैं।",
+          "language": "english",
+          "ipa": "हैं।"
+        }
+      ],
+      "dominant_language": "english",
+      "language_breakdown": {
+        "english": 6
+      }
+    },
+    {
+      "start": 578.72,
+      "end": 580.62,
+      "original_text": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "ipa_string": "əpəkoː pərɑːʋərtɪtə biːnə pərɑːʋərtɪtə ɦoːtiː ɦɛː̃ə",
+      "word_ipa": [
+        {
+          "word": "अपको",
+          "language": "hindi",
+          "ipa": "əpəkoː"
+        },
+        {
+          "word": "परावर्तित",
+          "language": "hindi",
+          "ipa": "pərɑːʋərtɪtə"
+        },
+        {
+          "word": "बीन",
+          "language": "hindi",
+          "ipa": "biːnə"
+        },
+        {
+          "word": "परावर्तित",
+          "language": "hindi",
+          "ipa": "pərɑːʋərtɪtə"
+        },
+        {
+          "word": "होती",
+          "language": "hindi",
+          "ipa": "ɦoːtiː"
+        },
+        {
+          "word": "हैं।",
+          "language": "hindi",
+          "ipa": "ɦɛː̃ə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 6
+      }
+    },
+    {
+      "start": 581.2,
+      "end": 585.76,
+      "original_text": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "ipa_string": "əpəkoː pərɑːʋərtɪtə biːnə pərɑːʋərtɪtə ɦoːtiː ɦɛː̃ə",
+      "word_ipa": [
+        {
+          "word": "अपको",
+          "language": "hindi",
+          "ipa": "əpəkoː"
+        },
+        {
+          "word": "परावर्तित",
+          "language": "hindi",
+          "ipa": "pərɑːʋərtɪtə"
+        },
+        {
+          "word": "बीन",
+          "language": "hindi",
+          "ipa": "biːnə"
+        },
+        {
+          "word": "परावर्तित",
+          "language": "hindi",
+          "ipa": "pərɑːʋərtɪtə"
+        },
+        {
+          "word": "होती",
+          "language": "hindi",
+          "ipa": "ɦoːtiː"
+        },
+        {
+          "word": "हैं।",
+          "language": "hindi",
+          "ipa": "ɦɛː̃ə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 6
+      }
+    },
+    {
+      "start": 585.76,
+      "end": 588.86,
+      "original_text": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "ipa_string": "əpəkoː pərɑːʋərtɪtə biːnə pərɑːʋərtɪtə ɦoːtiː ɦɛː̃ə",
+      "word_ipa": [
+        {
+          "word": "अपको",
+          "language": "hindi",
+          "ipa": "əpəkoː"
+        },
+        {
+          "word": "परावर्तित",
+          "language": "hindi",
+          "ipa": "pərɑːʋərtɪtə"
+        },
+        {
+          "word": "बीन",
+          "language": "hindi",
+          "ipa": "biːnə"
+        },
+        {
+          "word": "परावर्तित",
+          "language": "hindi",
+          "ipa": "pərɑːʋərtɪtə"
+        },
+        {
+          "word": "होती",
+          "language": "hindi",
+          "ipa": "ɦoːtiː"
+        },
+        {
+          "word": "हैं।",
+          "language": "hindi",
+          "ipa": "ɦɛː̃ə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 6
+      }
+    },
+    {
+      "start": 588.86,
+      "end": 593.84,
+      "original_text": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "ipa_string": "əpəkoː pərɑːʋərtɪtə biːnə pərɑːʋərtɪtə ɦoːtiː ɦɛː̃ə",
+      "word_ipa": [
+        {
+          "word": "अपको",
+          "language": "hindi",
+          "ipa": "əpəkoː"
+        },
+        {
+          "word": "परावर्तित",
+          "language": "hindi",
+          "ipa": "pərɑːʋərtɪtə"
+        },
+        {
+          "word": "बीन",
+          "language": "hindi",
+          "ipa": "biːnə"
+        },
+        {
+          "word": "परावर्तित",
+          "language": "hindi",
+          "ipa": "pərɑːʋərtɪtə"
+        },
+        {
+          "word": "होती",
+          "language": "hindi",
+          "ipa": "ɦoːtiː"
+        },
+        {
+          "word": "हैं।",
+          "language": "hindi",
+          "ipa": "ɦɛː̃ə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 6
+      }
+    },
+    {
+      "start": 593.84,
+      "end": 596.62,
+      "original_text": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "ipa_string": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "word_ipa": [
+        {
+          "word": "अपको",
+          "language": "english",
+          "ipa": "अपको"
+        },
+        {
+          "word": "परावर्तित",
+          "language": "english",
+          "ipa": "परावर्तित"
+        },
+        {
+          "word": "बीन",
+          "language": "english",
+          "ipa": "बीन"
+        },
+        {
+          "word": "परावर्तित",
+          "language": "english",
+          "ipa": "परावर्तित"
+        },
+        {
+          "word": "होती",
+          "language": "english",
+          "ipa": "होती"
+        },
+        {
+          "word": "हैं।",
+          "language": "english",
+          "ipa": "हैं।"
+        }
+      ],
+      "dominant_language": "english",
+      "language_breakdown": {
+        "english": 6
+      }
+    },
+    {
+      "start": 598.3,
+      "end": 599.98,
+      "original_text": "अपको परावर्तित बीन परावर्तित होती हैं।",
+      "ipa_string": "əpəkoː pərɑːʋərtɪtə biːnə pərɑːʋərtɪtə ɦoːtiː ɦɛː̃ə",
+      "word_ipa": [
+        {
+          "word": "अपको",
+          "language": "hindi",
+          "ipa": "əpəkoː"
+        },
+        {
+          "word": "परावर्तित",
+          "language": "hindi",
+          "ipa": "pərɑːʋərtɪtə"
+        },
+        {
+          "word": "बीन",
+          "language": "hindi",
+          "ipa": "biːnə"
+        },
+        {
+          "word": "परावर्तित",
+          "language": "hindi",
+          "ipa": "pərɑːʋərtɪtə"
+        },
+        {
+          "word": "होती",
+          "language": "hindi",
+          "ipa": "ɦoːtiː"
+        },
+        {
+          "word": "हैं।",
+          "language": "hindi",
+          "ipa": "ɦɛː̃ə"
+        }
+      ],
+      "dominant_language": "hindi",
+      "language_breakdown": {
+        "hindi": 6
+      }
+    }
+  ]
+}
