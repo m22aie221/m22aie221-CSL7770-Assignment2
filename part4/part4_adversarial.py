@@ -846,6 +846,13 @@ class LIDModelWrapper(nn.Module):
             waveform: (1, T) float32
         Returns:
             lid_logits: (1, T_frames, 2)  — averaged over time → (1, 2)
+
+        Note on cuDNN RNN + backward():
+            cuDNN's optimised RNN kernel only supports backward() in
+            TRAIN mode. When this wrapper is called from fgsm_step(),
+            the model is already switched to train() by fgsm_step before
+            calling forward(). When called from _get_dominant_class()
+            inside torch.no_grad(), no backward is needed so eval() is fine.
         """
         # Move transforms to same device as input
         self.feature_extractor = self.feature_extractor.to(waveform.device)
@@ -890,6 +897,10 @@ class FGSMAttacker:
         """Get current LID prediction for a waveform segment."""
         self.model.eval()
         with torch.no_grad():
+            # Temporarily set all submodules to eval
+            # (in case fgsm_step left some in train mode)
+            for m in self.model.modules():
+                m.training = False
             logits = self.model(waveform)
             return logits.argmax(dim=-1).item()
 
@@ -902,10 +913,20 @@ class FGSMAttacker:
         """
         Single FGSM step.
 
+        cuDNN RNN (LSTM/GRU) only allows backward() in TRAIN mode.
+        So we temporarily switch to train() just for the forward+backward
+        pass, then restore eval() immediately after.
+
         Returns:
             perturbation: (1, T) — the noise to add
         """
-        self.model.eval()
+        # cuDNN RNN backward requires train mode — switch temporarily
+        self.model.train()
+        # Disable dropout stochasticity during FGSM (deterministic grads)
+        for m in self.model.modules():
+            if isinstance(m, torch.nn.Dropout):
+                m.eval()
+
         waveform = waveform.clone().detach().requires_grad_(True)
 
         logits = self.model(waveform)                # (1, 2)
@@ -919,6 +940,10 @@ class FGSMAttacker:
 
         # FGSM: take gradient sign, scale by epsilon
         perturbation = epsilon * waveform.grad.sign()
+
+        # Restore eval mode
+        self.model.eval()
+
         return perturbation.detach()
 
     def find_minimum_epsilon(

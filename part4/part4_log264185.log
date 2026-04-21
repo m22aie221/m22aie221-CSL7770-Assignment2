@@ -1,0 +1,120 @@
+cpu-bind=MASK - cn22, task  0  0 [736686]: mask 0x500000000000000000000000500000000000000000000000 set
+Part 4 started at Tue Apr 21 21:47:08 IST 2026
+Node: cn22
+Tue Apr 21 21:47:08 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.154.05             Driver Version: 535.154.05   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A30                     On  | 00000000:01:00.0 Off |                   On |
+| N/A   34C    P0              29W / 165W |     50MiB / 24576MiB |     N/A      Default |
+|                                         |                      |              Enabled |
++-----------------------------------------+----------------------+----------------------+
+|   1  NVIDIA A30                     On  | 00000000:61:00.0 Off |                   On |
+| N/A   44C    P0              74W / 165W |    156MiB / 24576MiB |     N/A      Default |
+|                                         |                      |              Enabled |
++-----------------------------------------+----------------------+----------------------+
+|   2  NVIDIA A30                     On  | 00000000:81:00.0 Off |                   On |
+| N/A   35C    P0              33W / 165W |     50MiB / 24576MiB |     N/A      Default |
+|                                         |                      |              Enabled |
++-----------------------------------------+----------------------+----------------------+
+
++---------------------------------------------------------------------------------------+
+| MIG devices:                                                                          |
++------------------+--------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |                   Memory-Usage |        Vol|      Shared           |
+|      ID  ID  Dev |                     BAR1-Usage | SM     Unc| CE ENC DEC OFA JPG    |
+|                  |                                |        ECC|                       |
+|==================+================================+===========+=======================|
+|  1    3   0   0  |              12MiB /  5952MiB  | 14      0 |  1   0    1    0    0 |
+|                  |               0MiB /  8191MiB  |           |                       |
++------------------+--------------------------------+-----------+-----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+2026-04-21 21:47:15,668 [INFO] Device: cuda
+2026-04-21 21:47:15,821 [INFO] Task 4.1: Extracting features for anti-spoofing CM...
+2026-04-21 21:47:15,960 [INFO] Extracting features from ../data/student_voice_ref.wav (20 segments, label=bonafide)
+2026-04-21 21:48:03,256 [INFO]   Extracted 20 feature vectors
+2026-04-21 21:48:03,296 [INFO] Extracting features from ../part3/outputs/output_LRL_cloned.wav (36 segments, label=spoof)
+2026-04-21 21:49:41,640 [INFO]   Extracted 36 feature vectors
+2026-04-21 21:49:41,646 [INFO] Train: 44 | Val: 12 segments
+2026-04-21 21:49:41,660 [INFO] LFCC features saved for report visualization.
+2026-04-21 21:49:42,876 [INFO] Training CM classifier for 40 epochs...
+2026-04-21 21:49:43,715 [INFO] Epoch   5/40 | Loss: 0.0479 | EER: 0.0000 (0.0%) ✅
+2026-04-21 21:49:43,722 [INFO]   → Best CM model saved (EER=0.0%)
+2026-04-21 21:49:43,820 [INFO] Epoch  10/40 | Loss: 0.0038 | EER: 0.0000 (0.0%) ✅
+2026-04-21 21:49:43,918 [INFO] Epoch  15/40 | Loss: 0.0014 | EER: 0.0000 (0.0%) ✅
+2026-04-21 21:49:44,016 [INFO] Epoch  20/40 | Loss: 0.0011 | EER: 0.0000 (0.0%) ✅
+2026-04-21 21:49:44,114 [INFO] Epoch  25/40 | Loss: 0.0009 | EER: 0.0000 (0.0%) ✅
+2026-04-21 21:49:44,211 [INFO] Epoch  30/40 | Loss: 0.0009 | EER: 0.0000 (0.0%) ✅
+2026-04-21 21:49:44,310 [INFO] Epoch  35/40 | Loss: 0.0016 | EER: 0.0000 (0.0%) ✅
+2026-04-21 21:49:44,408 [INFO] Epoch  40/40 | Loss: 0.0006 | EER: 0.0000 (0.0%) ✅
+2026-04-21 21:49:44,427 [INFO] ──────────────────────────────────────────────────
+2026-04-21 21:49:44,427 [INFO] ANTI-SPOOFING CM RESULTS
+2026-04-21 21:49:44,427 [INFO]   EER        : 0.0%  (threshold < 10%)  ✅ PASS
+2026-04-21 21:49:44,427 [INFO]   Accuracy   : 100.0%
+2026-04-21 21:49:44,427 [INFO]   Threshold  : 0.9540
+2026-04-21 21:49:44,427 [INFO]   TP=6  TN=6  FP=0  FN=0
+2026-04-21 21:49:44,427 [INFO] ──────────────────────────────────────────────────
+2026-04-21 21:49:44,428 [INFO] EER report saved: outputs/eer_report.json
+2026-04-21 21:49:46,492 [INFO] Device: cuda
+2026-04-21 21:49:46,494 [INFO] Loaded EER report: EER=0.0%
+2026-04-21 21:49:46,495 [INFO] Task 4.2: Adversarial noise injection (FGSM)
+2026-04-21 21:49:46,499 [INFO] Using device: cuda
+2026-04-21 21:49:46,540 [INFO] LID model loaded from ../part1/lid_model_best.pt
+2026-04-21 21:49:46,585 [INFO] Using lecture segment: 30.0s – 35.0s
+2026-04-21 21:49:46,586 [INFO] Running FGSM epsilon scan (single-step)...
+2026-04-21 21:49:47,131 [INFO] Original LID prediction: hindi
+2026-04-21 21:49:48,164 [INFO]   ε=1.00e-06 | class=hindi   | SNR=99.6dB | no flip | SNR✓ 
+2026-04-21 21:49:48,194 [INFO]   ε=1.43e-06 | class=hindi   | SNR=97.7dB | no flip | SNR✓ 
+2026-04-21 21:49:48,224 [INFO]   ε=2.03e-06 | class=hindi   | SNR=95.5dB | no flip | SNR✓ 
+2026-04-21 21:49:48,255 [INFO]   ε=2.90e-06 | class=hindi   | SNR=92.8dB | no flip | SNR✓ 
+2026-04-21 21:49:48,285 [INFO]   ε=4.14e-06 | class=hindi   | SNR=90.0dB | no flip | SNR✓ 
+2026-04-21 21:49:48,315 [INFO]   ε=5.90e-06 | class=hindi   | SNR=87.0dB | no flip | SNR✓ 
+2026-04-21 21:49:48,345 [INFO]   ε=8.41e-06 | class=hindi   | SNR=84.0dB | no flip | SNR✓ 
+2026-04-21 21:49:48,375 [INFO]   ε=1.20e-05 | class=hindi   | SNR=81.0dB | no flip | SNR✓ 
+2026-04-21 21:49:48,405 [INFO]   ε=1.71e-05 | class=hindi   | SNR=77.9dB | no flip | SNR✓ 
+2026-04-21 21:49:48,435 [INFO]   ε=2.44e-05 | class=hindi   | SNR=74.8dB | no flip | SNR✓ 
+2026-04-21 21:49:48,465 [INFO]   ε=3.48e-05 | class=hindi   | SNR=71.7dB | no flip | SNR✓ 
+2026-04-21 21:49:48,495 [INFO]   ε=4.96e-05 | class=hindi   | SNR=68.7dB | no flip | SNR✓ 
+2026-04-21 21:49:48,525 [INFO]   ε=7.07e-05 | class=hindi   | SNR=65.6dB | no flip | SNR✓ 
+2026-04-21 21:49:48,555 [INFO]   ε=1.01e-04 | class=hindi   | SNR=62.5dB | no flip | SNR✓ 
+2026-04-21 21:49:48,585 [INFO]   ε=1.44e-04 | class=hindi   | SNR=59.4dB | no flip | SNR✓ 
+2026-04-21 21:49:48,615 [INFO]   ε=2.05e-04 | class=hindi   | SNR=56.3dB | no flip | SNR✓ 
+2026-04-21 21:49:48,645 [INFO]   ε=2.92e-04 | class=hindi   | SNR=53.2dB | no flip | SNR✓ 
+2026-04-21 21:49:48,675 [INFO]   ε=4.17e-04 | class=hindi   | SNR=50.2dB | no flip | SNR✓ 
+2026-04-21 21:49:48,705 [INFO]   ε=5.95e-04 | class=hindi   | SNR=47.1dB | no flip | SNR✓ 
+2026-04-21 21:49:48,735 [INFO]   ε=8.48e-04 | class=hindi   | SNR=44.0dB | no flip | SNR✓ 
+2026-04-21 21:49:48,765 [INFO]   ε=1.21e-03 | class=hindi   | SNR=40.9dB | no flip | SNR✓ 
+2026-04-21 21:49:48,795 [INFO]   ε=1.72e-03 | class=hindi   | SNR=37.8dB | no flip | SNR✗ 
+2026-04-21 21:49:48,825 [INFO]   ε=2.46e-03 | class=hindi   | SNR=34.8dB | no flip | SNR✗ 
+2026-04-21 21:49:48,855 [INFO]   ε=3.51e-03 | class=hindi   | SNR=31.7dB | no flip | SNR✗ 
+2026-04-21 21:49:48,885 [INFO]   ε=5.00e-03 | class=hindi   | SNR=28.6dB | no flip | SNR✗ 
+2026-04-21 21:49:48,885 [INFO] Single-step FGSM failed SNR constraint. Trying iterative FGSM (I-FGSM)...
+2026-04-21 21:49:50,388 [INFO] ──────────────────────────────────────────────────
+2026-04-21 21:49:50,389 [INFO] FGSM RESULTS ⚠️
+2026-04-21 21:49:50,389 [INFO]   Original class  : hindi
+2026-04-21 21:49:50,389 [INFO]   Min epsilon     : None
+2026-04-21 21:49:50,389 [INFO]   SNR at min eps  : NonedB
+2026-04-21 21:49:50,389 [INFO]   SNR threshold   : 40.0dB
+2026-04-21 21:49:50,389 [INFO]   Success         : False
+2026-04-21 21:49:50,389 [INFO] ──────────────────────────────────────────────────
+2026-04-21 21:49:50,390 [INFO] FGSM report saved: outputs/adversarial_report.json
+2026-04-21 21:49:50,391 [INFO] ============================================================
+2026-04-21 21:49:50,391 [INFO] PART 4 SCORECARD
+2026-04-21 21:49:50,391 [INFO] ============================================================
+2026-04-21 21:49:50,391 [INFO]   EER         : N/A       (< 10% required)  ❌ FAIL
+2026-04-21 21:49:50,391 [INFO]   Min epsilon : N/A     
+2026-04-21 21:49:50,391 [INFO]   SNR         : N/A       (> 40dB required)
+2026-04-21 21:49:50,391 [INFO] ============================================================
+2026-04-21 21:49:50,391 [INFO] Part 4 metrics saved: outputs/part4_metrics.json
+Part 4 finished at Tue Apr 21 21:49:50 IST 2026
