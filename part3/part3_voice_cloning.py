@@ -63,6 +63,7 @@ import torchaudio
 import torchaudio.transforms as T
 from pathlib import Path
 from typing import Dict, List, Tuple, Optional
+from collections import defaultdict
 from scipy.signal import medfilt
 from scipy.interpolate import interp1d
 
@@ -756,8 +757,10 @@ class BhojpuriTTSSynthesizer:
     """
 
     COQUI_MODELS = [
-        "tts_models/multilingual/multi-dataset/your_tts",
+        # XTTS v2 first — supports Hindi natively (best for Bhojpuri)
         "tts_models/multilingual/multi-dataset/xtts_v2",
+        # YourTTS fallback — only en/fr-fr/pt-br but still does voice cloning
+        "tts_models/multilingual/multi-dataset/your_tts",
     ]
 
     def __init__(
@@ -860,13 +863,34 @@ class BhojpuriTTSSynthesizer:
             logger.warning(f"Synthesis failed for segment: {e}")
             return None
 
+    def _get_coqui_language(self) -> str:
+        """
+        Return the correct language code for the loaded Coqui model.
+
+        YourTTS supports : en, fr-fr, pt-br  (no Hindi)
+        XTTS v2 supports : en, es, fr, de, it, pt, pl, tr, ru, nl, cs,
+                           ar, zh-cn, hu, ko, ja, hi  (has Hindi!)
+
+        For Bhojpuri (not directly supported by any model),
+        we use the closest available language:
+          - XTTS v2 → "hi"  (Hindi — closest to Bhojpuri phonetically)
+          - YourTTS → "en"  (only option; still does voice cloning)
+        """
+        if "xtts" in self.model_name.lower():
+            return "hi"    # XTTS v2 has Hindi support
+        else:
+            # YourTTS only supports en/fr-fr/pt-br
+            # Use "en" — voice cloning still works, accent differs
+            return "en"
+
     def _synth_coqui(self, text: str, output_wav: str) -> torch.Tensor:
         """Synthesize with Coqui TTS (YourTTS or XTTS)."""
+        lang = self._get_coqui_language()
         self.tts_model.tts_to_file(
-            text          = text,
-            speaker_wav   = self.reference_wav,
-            language      = "hi",    # Hindi as closest supported for Bhojpuri
-            file_path     = output_wav,
+            text        = text,
+            speaker_wav = self.reference_wav,
+            language    = lang,
+            file_path   = output_wav,
         )
         wav, sr = load_audio(output_wav, target_sr=SAMPLE_RATE)
         return wav

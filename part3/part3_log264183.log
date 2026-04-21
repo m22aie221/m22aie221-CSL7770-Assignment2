@@ -1,0 +1,828 @@
+cpu-bind=MASK - cn25, task  0  0 [2961618]: mask 0x6000000000000000000000006000000000000 set
+2026-04-21 21:39:38,816 [INFO] Device: cuda
+2026-04-21 21:39:38,817 [INFO] Task 3.1: Extracting speaker embedding from ../data/student_voice_ref.wav
+2026-04-21 21:39:38,970 [INFO] Reference audio duration: 95.6s  (required: 60s)
+2026-04-21 21:39:38,970 [WARNING] SpeechBrain failed: No module named 'speechbrain'
+2026-04-21 21:39:38,970 [WARNING] Resemblyzer failed: No module named 'resemblyzer'
+2026-04-21 21:39:38,970 [INFO] Using self-contained GE2E speaker encoder...
+2026-04-21 21:39:39,410 [INFO] GE2E d-vector shape: torch.Size([256])
+2026-04-21 21:39:39,412 [INFO] Speaker embedding saved: outputs/speaker_embedding.pt  shape=torch.Size([256])
+2026-04-21 21:39:39,414 [INFO] Loaded professor prosody: F0=(51665,), E=(51665,)
+2026-04-21 21:39:39,414 [INFO] ============================================================
+2026-04-21 21:39:39,414 [INFO] PART 3 COMPLETE
+2026-04-21 21:39:39,414 [INFO]   Speaker embedding : outputs/speaker_embedding.pt
+2026-04-21 21:39:39,415 [INFO]   Professor F0      : outputs/f0_professor.npy
+2026-04-21 21:39:39,415 [INFO]   Warped F0         : outputs/f0_warped.npy
+2026-04-21 21:39:39,415 [INFO]   Synthesized audio : outputs/output_LRL_cloned.wav
+2026-04-21 21:39:39,415 [INFO]   MCD report        : outputs/mcd_report.json
+2026-04-21 21:39:39,415 [INFO] ============================================================
+2026-04-21 21:39:41,352 [INFO] Device: cuda
+2026-04-21 21:39:41,354 [INFO] Loaded embedding: outputs/speaker_embedding.pt  shape=torch.Size([256])
+2026-04-21 21:39:41,354 [INFO] Task 3.2: Extracting professor prosody...
+2026-04-21 21:39:41,476 [INFO] Extracting F0 contour...
+2026-04-21 21:39:45,335 [INFO] Extracting energy contour...
+2026-04-21 21:39:45,723 [INFO] F0 stats: mean=136.6Hz, voiced=51665/51665 frames (100.0%)
+2026-04-21 21:39:45,728 [INFO] Saved: outputs/professor_f0.npy, outputs/professor_energy.npy
+2026-04-21 21:39:45,733 [INFO] Professor prosody saved: outputs/f0_professor.npy, outputs/energy_professor.npy
+2026-04-21 21:39:45,733 [INFO] ============================================================
+2026-04-21 21:39:45,733 [INFO] PART 3 COMPLETE
+2026-04-21 21:39:45,733 [INFO]   Speaker embedding : outputs/speaker_embedding.pt
+2026-04-21 21:39:45,733 [INFO]   Professor F0      : outputs/f0_professor.npy
+2026-04-21 21:39:45,733 [INFO]   Warped F0         : outputs/f0_warped.npy
+2026-04-21 21:39:45,733 [INFO]   Synthesized audio : outputs/output_LRL_cloned.wav
+2026-04-21 21:39:45,733 [INFO]   MCD report        : outputs/mcd_report.json
+2026-04-21 21:39:45,733 [INFO] ============================================================
+2026-04-21 21:39:47,593 [INFO] Device: cuda
+2026-04-21 21:39:47,597 [INFO] Loaded embedding: outputs/speaker_embedding.pt  shape=torch.Size([256])
+2026-04-21 21:39:47,597 [INFO] Loaded professor prosody: F0=(51665,), E=(51665,)
+2026-04-21 21:39:52,880 [INFO] Loading Coqui TTS: tts_models/multilingual/multi-dataset/xtts_v2
+ > You must confirm the following:
+ | > "I have purchased a commercial license from Coqui: licensing@coqui.ai"
+ | > "Otherwise, I agree to the terms of the non-commercial CPML: https://coqui.ai/cpml" - [y/n]
+ | | > 2026-04-21 21:39:52,898 [WARNING]   Failed tts_models/multilingual/multi-dataset/xtts_v2: EOF when reading a line
+2026-04-21 21:39:52,898 [INFO] Loading Coqui TTS: tts_models/multilingual/multi-dataset/your_tts
+2026-04-21 21:39:54,831 [INFO] Loaded: tts_models/multilingual/multi-dataset/your_tts
+2026-04-21 21:39:54,835 [INFO] Synthesizing 129 segments...
+2026-04-21 21:40:01,504 [INFO]   Synthesized 10/129 segments (11.0s synthesized, 0 failures)
+2026-04-21 21:40:03,772 [INFO]   Synthesized 20/129 segments (21.7s synthesized, 0 failures)
+2026-04-21 21:40:05,887 [INFO]   Synthesized 30/129 segments (33.1s synthesized, 0 failures)
+2026-04-21 21:40:08,151 [INFO]   Synthesized 40/129 segments (44.8s synthesized, 0 failures)
+2026-04-21 21:40:10,282 [INFO]   Synthesized 50/129 segments (56.0s synthesized, 0 failures)
+2026-04-21 21:40:12,436 [INFO]   Synthesized 60/129 segments (67.3s synthesized, 0 failures)
+2026-04-21 21:40:14,688 [INFO]   Synthesized 70/129 segments (78.0s synthesized, 0 failures)
+2026-04-21 21:40:16,971 [INFO]   Synthesized 80/129 segments (87.9s synthesized, 0 failures)
+2026-04-21 21:40:19,085 [INFO]   Synthesized 90/129 segments (97.3s synthesized, 0 failures)
+2026-04-21 21:40:21,311 [INFO]   Synthesized 100/129 segments (107.1s synthesized, 0 failures)
+2026-04-21 21:40:23,422 [INFO]   Synthesized 110/129 segments (118.5s synthesized, 0 failures)
+2026-04-21 21:40:25,760 [INFO]   Synthesized 120/129 segments (130.9s synthesized, 0 failures)
+2026-04-21 21:40:27,676 [INFO] Concatenating all segments...
+2026-04-21 21:40:27,680 [INFO] Total synthesized duration: 179.3s
+2026-04-21 21:40:27,681 [INFO] Applying DTW prosody warping to full synthesis...
+2026-04-21 21:40:27,681 [INFO] DTW prosody warping: 51665 → 15444 frames
+2026-04-21 21:40:35,856 [INFO] Warped F0: mean=138.1Hz
+2026-04-21 21:40:35,857 [INFO] Warped energy: mean=0.229
+2026-04-21 21:40:36,084 [INFO] Prosody warping applied.
+2026-04-21 21:40:36,103 [INFO] Saved audio: outputs/output_LRL_cloned.wav  (179.3s, 22050Hz)
+2026-04-21 21:40:36,104 [INFO] Final lecture saved: outputs/output_LRL_cloned.wav
+2026-04-21 21:40:36,104 [INFO]   Duration : 179.3s
+2026-04-21 21:40:36,104 [INFO]   Sample rate: 22050Hz (≥22050 ✅)
+2026-04-21 21:40:36,104 [INFO]   Failed segments: 0/129
+2026-04-21 21:40:36,104 [INFO] ============================================================
+2026-04-21 21:40:36,105 [INFO] PART 3 COMPLETE
+2026-04-21 21:40:36,105 [INFO]   Speaker embedding : outputs/speaker_embedding.pt
+2026-04-21 21:40:36,105 [INFO]   Professor F0      : outputs/f0_professor.npy
+2026-04-21 21:40:36,105 [INFO]   Warped F0         : outputs/f0_warped.npy
+2026-04-21 21:40:36,105 [INFO]   Synthesized audio : outputs/output_LRL_cloned.wav
+2026-04-21 21:40:36,105 [INFO]   MCD report        : outputs/mcd_report.json
+2026-04-21 21:40:36,105 [INFO] ============================================================
+ > tts_models/multilingual/multi-dataset/your_tts is already downloaded.
+ > Using model: vits
+ > Setting up Audio Processor...
+ | > sample_rate:16000
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log10
+ | > min_level_db:0
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:None
+ | > fft_size:1024
+ | > power:None
+ | > preemphasis:0.0
+ | > griffin_lim_iters:None
+ | > signal_norm:None
+ | > symmetric_norm:None
+ | > mel_fmin:0
+ | > mel_fmax:None
+ | > pitch_fmin:None
+ | > pitch_fmax:None
+ | > spec_gain:20.0
+ | > stft_pad_mode:reflect
+ | > max_norm:1.0
+ | > clip_norm:True
+ | > do_trim_silence:False
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:None
+ | > base:10
+ | > hop_length:256
+ | > win_length:1024
+ > Model fully restored. 
+ > Setting up Audio Processor...
+ | > sample_rate:16000
+ | > resample:False
+ | > num_mels:64
+ | > log_func:np.log10
+ | > min_level_db:-100
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:20
+ | > fft_size:512
+ | > power:1.5
+ | > preemphasis:0.97
+ | > griffin_lim_iters:60
+ | > signal_norm:False
+ | > symmetric_norm:False
+ | > mel_fmin:0
+ | > mel_fmax:8000.0
+ | > pitch_fmin:1.0
+ | > pitch_fmax:640.0
+ | > spec_gain:20.0
+ | > stft_pad_mode:reflect
+ | > max_norm:4.0
+ | > clip_norm:False
+ | > do_trim_silence:False
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:True
+ | > db_level:-27.0
+ | > stats_path:None
+ | > base:10
+ | > hop_length:160
+ | > win_length:400
+ > External Speaker Encoder Loaded !!
+ > initialization of language-embedding layers.
+ > Model fully restored. 
+ > Setting up Audio Processor...
+ | > sample_rate:16000
+ | > resample:False
+ | > num_mels:64
+ | > log_func:np.log10
+ | > min_level_db:-100
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:20
+ | > fft_size:512
+ | > power:1.5
+ | > preemphasis:0.97
+ | > griffin_lim_iters:60
+ | > signal_norm:False
+ | > symmetric_norm:False
+ | > mel_fmin:0
+ | > mel_fmax:8000.0
+ | > pitch_fmin:1.0
+ | > pitch_fmax:640.0
+ | > spec_gain:20.0
+ | > stft_pad_mode:reflect
+ | > max_norm:4.0
+ | > clip_norm:False
+ | > do_trim_silence:False
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:True
+ | > db_level:-27.0
+ | > stats_path:None
+ | > base:10
+ | > hop_length:160
+ | > win_length:400
+ > Text splitted to sentences.
+['आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।']
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'आ' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'ज' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'ो' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'क' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'ु' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'छ' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'भ' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'ी' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'ह' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'ै' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'ं' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character '।' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'उ' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'स' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'े' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'र' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'ू' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'न' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character '्' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'ब' not found in the vocabulary. Discarding it.
+आजो कुछ भी हैं। उसके भी रून्स बने हुए हैं।
+ [!] Character 'ए' not found in the vocabulary. Discarding it.
+ > Processing time: 3.848750352859497
+ > Real-time factor: 3.204621442847208
+ > Text splitted to sentences.
+['कुलम्स्लो बाड़न, कौस्लो हैं।']
+कुलम्स्लो बाड़न, कौस्लो हैं।
+ [!] Character 'ल' not found in the vocabulary. Discarding it.
+कुलम्स्लो बाड़न, कौस्लो हैं।
+ [!] Character 'म' not found in the vocabulary. Discarding it.
+कुलम्स्लो बाड़न, कौस्लो हैं।
+ [!] Character 'ा' not found in the vocabulary. Discarding it.
+कुलम्स्लो बाड़न, कौस्लो हैं।
+ [!] Character 'ड' not found in the vocabulary. Discarding it.
+कुलम्स्लो बाड़न, कौस्लो हैं।
+ [!] Character '़' not found in the vocabulary. Discarding it.
+कुलम्स्लो बाड़न, कौस्लो हैं।
+ [!] Character 'ौ' not found in the vocabulary. Discarding it.
+ > Processing time: 0.42096805572509766
+ > Real-time factor: 0.4958398771791492
+ > Text splitted to sentences.
+['त उससे हम वो सारी रहलज़े समझ लेते हैं।']
+त उससे हम वो सारी रहलज़े समझ लेते हैं।
+ [!] Character 'त' not found in the vocabulary. Discarding it.
+त उससे हम वो सारी रहलज़े समझ लेते हैं।
+ [!] Character 'व' not found in the vocabulary. Discarding it.
+त उससे हम वो सारी रहलज़े समझ लेते हैं।
+ [!] Character 'झ' not found in the vocabulary. Discarding it.
+ > Processing time: 0.5632803440093994
+ > Real-time factor: 0.5495417990335605
+ > Text splitted to sentences.
+['अप्टिक्स बाड़न, लाइट बाड़न, इसके लिए भी रिफ्राक्षण के लिए हूए हूए हैं।']
+अप्टिक्स बाड़न, लाइट बाड़न, इसके लिए भी रिफ्राक्षण के लिए हूए हूए हैं।
+ [!] Character 'अ' not found in the vocabulary. Discarding it.
+अप्टिक्स बाड़न, लाइट बाड़न, इसके लिए भी रिफ्राक्षण के लिए हूए हूए हैं।
+ [!] Character 'प' not found in the vocabulary. Discarding it.
+अप्टिक्स बाड़न, लाइट बाड़न, इसके लिए भी रिफ्राक्षण के लिए हूए हूए हैं।
+ [!] Character 'ट' not found in the vocabulary. Discarding it.
+अप्टिक्स बाड़न, लाइट बाड़न, इसके लिए भी रिफ्राक्षण के लिए हूए हूए हैं।
+ [!] Character 'ि' not found in the vocabulary. Discarding it.
+अप्टिक्स बाड़न, लाइट बाड़न, इसके लिए भी रिफ्राक्षण के लिए हूए हूए हैं।
+ [!] Character 'इ' not found in the vocabulary. Discarding it.
+अप्टिक्स बाड़न, लाइट बाड़न, इसके लिए भी रिफ्राक्षण के लिए हूए हूए हैं।
+ [!] Character 'फ' not found in the vocabulary. Discarding it.
+अप्टिक्स बाड़न, लाइट बाड़न, इसके लिए भी रिफ्राक्षण के लिए हूए हूए हैं।
+ [!] Character 'ष' not found in the vocabulary. Discarding it.
+अप्टिक्स बाड़न, लाइट बाड़न, इसके लिए भी रिफ्राक्षण के लिए हूए हूए हैं।
+ [!] Character 'ण' not found in the vocabulary. Discarding it.
+ > Processing time: 0.2579841613769531
+ > Real-time factor: 0.21770815306071992
+ > Text splitted to sentences.
+['सब कुछ हम लोग करते हैं।']
+सब कुछ हम लोग करते हैं।
+ [!] Character 'ग' not found in the vocabulary. Discarding it.
+ > Processing time: 0.2575047016143799
+ > Real-time factor: 0.23303592906278722
+ > Text splitted to sentences.
+['त उसको अगर हम लोग देखें,']
+त उसको अगर हम लोग देखें,
+ [!] Character 'द' not found in the vocabulary. Discarding it.
+त उसको अगर हम लोग देखें,
+ [!] Character 'ख' not found in the vocabulary. Discarding it.
+ > Processing time: 0.2573122978210449
+ > Real-time factor: 0.2231676477199002
+ > Text splitted to sentences.
+['त जे क्लासिकल फिसिक्स जिसे कहते बाड़न हम,']
+ > Processing time: 0.24719762802124023
+ > Real-time factor: 0.2269950670534805
+ > Text splitted to sentences.
+['वो दो जगे पर जे हमारी तोड़े अनुखों से पाहर के जिज़े बाड़न,']
+ > Processing time: 0.2041780948638916
+ > Real-time factor: 0.18749136351137888
+ > Text splitted to sentences.
+['उसमें इसमें तोड़े चेंजेस करने परता बाड़न,']
+उसमें इसमें तोड़े चेंजेस करने परता बाड़न,
+ [!] Character 'च' not found in the vocabulary. Discarding it.
+ > Processing time: 0.2569239139556885
+ > Real-time factor: 0.18877583685208557
+ > Text splitted to sentences.
+['इसे केम ना चलता हैं।']
+ > Processing time: 0.24457216262817383
+ > Real-time factor: 0.2726556996969608
+ > Text splitted to sentences.
+['त एक त बा, जिसमें कि हम']
+ > Processing time: 0.2466106414794922
+ > Real-time factor: 0.23689783043178886
+ > Text splitted to sentences.
+['हाई स्पीट जब इनकि लिल्मॉल हो जाते हैं।']
+हाई स्पीट जब इनकि लिल्मॉल हो जाते हैं।
+ [!] Character 'ई' not found in the vocabulary. Discarding it.
+हाई स्पीट जब इनकि लिल्मॉल हो जाते हैं।
+ [!] Character 'ॉ' not found in the vocabulary. Discarding it.
+ > Processing time: 0.2477588653564453
+ > Real-time factor: 0.21194086001406784
+ > Text splitted to sentences.
+['जब हम ऐसी चीजों के चर्चा करते बाड़न,']
+जब हम ऐसी चीजों के चर्चा करते बाड़न,
+ [!] Character 'ऐ' not found in the vocabulary. Discarding it.
+ > Processing time: 0.19487786293029785
+ > Real-time factor: 0.17895120562929095
+ > Text splitted to sentences.
+['जिनकि स्पीड बहुते जादा बा,']
+ > Processing time: 0.19321227073669434
+ > Real-time factor: 0.16757352188785285
+ > Text splitted to sentences.
+['अउर बहुते जादा यहने कितनी जादा,']
+अउर बहुते जादा यहने कितनी जादा,
+ [!] Character 'य' not found in the vocabulary. Discarding it.
+ > Processing time: 0.19327187538146973
+ > Real-time factor: 0.18855792720143388
+ > Text splitted to sentences.
+['त जे प्रकाश के लाइट के जे स्पीड बा वाक्यूम में,']
+त जे प्रकाश के लाइट के जे स्पीड बा वाक्यूम में,
+ [!] Character 'श' not found in the vocabulary. Discarding it.
+ > Processing time: 0.2571275234222412
+ > Real-time factor: 0.22937334828032221
+ > Text splitted to sentences.
+['उसकी अपकी, उसके खम्परेबल बा,']
+ > Processing time: 0.24821949005126953
+ > Real-time factor: 0.2626661270383805
+ > Text splitted to sentences.
+['उहां से तुल्ना करल बा,']
+ > Processing time: 0.19630670547485352
+ > Real-time factor: 0.17511748927283988
+ > Text splitted to sentences.
+['उसका इतना परसेन, उसका दश परसेन,']
+ > Processing time: 0.1952664852142334
+ > Real-time factor: 0.18757587436525783
+ > Text splitted to sentences.
+['उसका पाँच परसेन, उसका पचाज परसेन,']
+उसका पाँच परसेन, उसका पचाज परसेन,
+ [!] Character 'ँ' not found in the vocabulary. Discarding it.
+ > Processing time: 0.24671077728271484
+ > Real-time factor: 0.24844992677010558
+ > Text splitted to sentences.
+['उसका नब्य परसेन, उससे से तुल्ना करल हैं।']
+ > Processing time: 0.19588685035705566
+ > Real-time factor: 0.18817180629880467
+ > Text splitted to sentences.
+['त उससे तुल्ना करने योगी जब हो जाएं,']
+ > Processing time: 0.2494964599609375
+ > Real-time factor: 0.21943400172465918
+ > Text splitted to sentences.
+['त हम कहते बाड़न, अउर बहुते ज़ादा स्पीर होगी बा,']
+ > Processing time: 0.19760870933532715
+ > Real-time factor: 0.16453681043740812
+ > Text splitted to sentences.
+['वैसी हालत में जे नूटन के नियमों से हम गदियों के चर्चा करते बाड़न,']
+ > Processing time: 0.19498920440673828
+ > Real-time factor: 0.17149446297866164
+ > Text splitted to sentences.
+['अउर बहुते सटीग, बहुते अच्छी चर्चा होती बाड़न,']
+ > Processing time: 0.19592666625976562
+ > Real-time factor: 0.1676019386311083
+ > Text splitted to sentences.
+['अउर बहुते सटीग उसके परलम निकलते बाड़न,']
+ > Processing time: 0.195603609085083
+ > Real-time factor: 0.1696475360668543
+ > Text splitted to sentences.
+['वो यहाँ पर आकरके के गर्ब राते बाड़न,']
+ > Processing time: 0.24875330924987793
+ > Real-time factor: 0.23182973835030563
+ > Text splitted to sentences.
+['त आम जंदगे में त हमें उतने हाई स्पीट से वास्ता कम परता बाड़न,']
+ > Processing time: 0.19602441787719727
+ > Real-time factor: 0.16768555849204214
+ > Text splitted to sentences.
+['लाइट खुद आती बाड़न अपनी स्पीट से,']
+ > Processing time: 0.1978754997253418
+ > Real-time factor: 0.16698354407201838
+ > Text splitted to sentences.
+['ऊी हाई स्पीट से हमरा वास्ता परता बाड़न,']
+ऊी हाई स्पीट से हमरा वास्ता परता बाड़न,
+ [!] Character 'ऊ' not found in the vocabulary. Discarding it.
+ > Processing time: 0.19491243362426758
+ > Real-time factor: 0.16229178486616783
+ > Text splitted to sentences.
+['बाकी जे इक्सेलेरेटर्स पे कांग करते बाड़न,']
+ > Processing time: 0.19472694396972656
+ > Real-time factor: 0.14307637323271608
+ > Text splitted to sentences.
+['जे फिसिसिस्ट पार्टिकल्स को इक्सेलेरेट करकेाते बाड़न मशीनों के अंडर में,']
+ > Processing time: 0.19890904426574707
+ > Real-time factor: 0.18000818485587972
+ > Text splitted to sentences.
+['वो फिर बहुते बड़ी-बड़ी वेलाफिटी से,']
+ > Processing time: 0.2535874843597412
+ > Real-time factor: 0.18854088056486334
+ > Text splitted to sentences.
+['बहुते बड़ी-बड़ी स्पीट के साज में आमना सामना होता बाड़न,']
+ > Processing time: 0.20121431350708008
+ > Real-time factor: 0.18476980120025718
+ > Text splitted to sentences.
+['त ऊाँ पे हाई स्पीट जब इंपाल हो,']
+ > Processing time: 0.20043563842773438
+ > Real-time factor: 0.18138971803414874
+ > Text splitted to sentences.
+['त फिर चीजे कुछ पडलती बाड़न,']
+ > Processing time: 0.20195651054382324
+ > Real-time factor: 0.18276607289033778
+ > Text splitted to sentences.
+['अउर उसमें से निकलती बाड़न हमारे रिलेटिविटी के रहलनरीज,']
+ > Processing time: 0.20038461685180664
+ > Real-time factor: 0.1787552335876955
+ > Text splitted to sentences.
+['त नूटन्स लौज को हमें मॉडिफाई करल होता बाड़न,']
+ > Processing time: 0.2540152072906494
+ > Real-time factor: 0.20601395562907493
+ > Text splitted to sentences.
+['हमें चेंज करल होता बाड़न,']
+ > Processing time: 0.256030797958374
+ > Real-time factor: 0.2537470742897662
+ > Text splitted to sentences.
+['हमें लिलियर मोमेंटम अलग से डिफाइन करल होता बाड़न,']
+ > Processing time: 0.24851512908935547
+ > Real-time factor: 0.19897128029572092
+ > Text splitted to sentences.
+['त थोड़ा परिवर्तन करल होता बाड़न,']
+त थोड़ा परिवर्तन करल होता बाड़न,
+ [!] Character 'थ' not found in the vocabulary. Discarding it.
+ > Processing time: 0.24833011627197266
+ > Real-time factor: 0.23493861520527215
+ > Text splitted to sentences.
+['बहुते जादा ना तोड़ा परिवर्तन करल होता बाड़न,']
+ > Processing time: 0.20345282554626465
+ > Real-time factor: 0.17645518260734142
+ > Text splitted to sentences.
+['स्पेस अउर टाइम को देखने के जे अपनी द्रिस्टी बाड़न,']
+ > Processing time: 0.21382713317871094
+ > Real-time factor: 0.19074677357601333
+ > Text splitted to sentences.
+['उसमें एक बहुते बढ़ा परिवर्तन इसके केरण से आगा बाड़न,']
+उसमें एक बहुते बढ़ा परिवर्तन इसके केरण से आगा बाड़न,
+ [!] Character 'ढ' not found in the vocabulary. Discarding it.
+ > Processing time: 0.20265793800354004
+ > Real-time factor: 0.2008502854346284
+ > Text splitted to sentences.
+['हाई स्पीच के जब हम बात करते बाड़न,']
+ > Processing time: 0.20213103294372559
+ > Real-time factor: 0.17777575456792047
+ > Text splitted to sentences.
+['त फिर लिंट किसको कहते बाड़न,']
+ > Processing time: 0.2017810344696045
+ > Real-time factor: 0.17500523371171248
+ > Text splitted to sentences.
+['अउर टाइम इंटर्वल्स किसको कहते बाड़न,']
+ > Processing time: 0.20155620574951172
+ > Real-time factor: 0.18784362138817495
+ > Text splitted to sentences.
+['दो घत्लएं एक साथ हो रही बाड़न,']
+दो घत्लएं एक साथ हो रही बाड़न,
+ [!] Character 'घ' not found in the vocabulary. Discarding it.
+ > Processing time: 0.20205068588256836
+ > Real-time factor: 0.17284062094317224
+ > Text splitted to sentences.
+['ये हम किसको कहते बाड़न,']
+ > Processing time: 0.20170331001281738
+ > Real-time factor: 0.17493782308136807
+ > Text splitted to sentences.
+['एक पहले हो रहे बाड़न, एक बादमे हो रहे बाड़न,']
+ > Processing time: 0.20214295387268066
+ > Real-time factor: 0.1829347998847789
+ > Text splitted to sentences.
+['ये जे हमारी स्पेश अउर टाइम के जे कल्पना बाड़न,']
+ > Processing time: 0.20192527770996094
+ > Real-time factor: 0.17513033626189153
+ > Text splitted to sentences.
+['हम अपनी आम जद्ड़ी से लेकरके के आते बाड़न,']
+ > Processing time: 0.20195364952087402
+ > Real-time factor: 0.18821402564853126
+ > Text splitted to sentences.
+['उनमें फिर बद्लाल करल होता बाड़न,']
+ > Processing time: 0.20190691947937012
+ > Real-time factor: 0.1881704748176795
+ > Text splitted to sentences.
+['अउर वो चुलओ के पून केम होता बाड़न,']
+अउर वो चुलओ के पून केम होता बाड़न,
+ [!] Character 'ओ' not found in the vocabulary. Discarding it.
+ > Processing time: 0.20190834999084473
+ > Real-time factor: 0.18011449597755996
+ > Text splitted to sentences.
+['काहेकि ऊाँ पर हमारा अपना अनभाव केम ना आता बाड़न,']
+ > Processing time: 0.2537844181060791
+ > Real-time factor: 0.2006200933644894
+ > Text splitted to sentences.
+['अउर इस केरण से,']
+ > Processing time: 0.2006072998046875
+ > Real-time factor: 0.22364247469864826
+ > Text splitted to sentences.
+['हम लोग उस स्थुती के अंदर में,']
+ > Processing time: 0.19615769386291504
+ > Real-time factor: 0.16332863768768946
+ > Text splitted to sentences.
+['थोड़ा चिन्तन करने के जदुरत परते बाड़न,']
+ > Processing time: 0.24822735786437988
+ > Real-time factor: 0.16851823344492864
+ > Text splitted to sentences.
+['काहेकि ऊाँ लिकुएश्यं अउर फार्मुले इसके अपना केम ना चल्ड़ना बाड़न,']
+ > Processing time: 0.19703388214111328
+ > Real-time factor: 0.1922281776986471
+ > Text splitted to sentences.
+['त ऊाँ स्वाभाविक रूप से बहुते रोचक पाते होती बाड़न,']
+ > Processing time: 0.19612407684326172
+ > Real-time factor: 0.1800955710222789
+ > Text splitted to sentences.
+['जब जे हमारे इन्टूशन से बहर के जिसे होती बाड़न,']
+ > Processing time: 0.19602680206298828
+ > Real-time factor: 0.19124566054925687
+ > Text splitted to sentences.
+['वो सच्मुच रोचक होती बाड़न अउर चादर रोचक होती बाड़न,']
+ > Processing time: 0.1960158348083496
+ > Real-time factor: 0.18544544447336767
+ > Text splitted to sentences.
+['अउर फिर जब हम देखते बाड़न,']
+ > Processing time: 0.20013904571533203
+ > Real-time factor: 0.18934630625859228
+ > Text splitted to sentences.
+['कि ये जे एक बहुते अलग किसम के हमने मारडल बलया बाड़न,']
+ > Processing time: 0.2056269645690918
+ > Real-time factor: 0.1712131262024078
+ > Text splitted to sentences.
+['वो हमारी वास्तवीत प्रावों के सान लच करता बाड़न,']
+ > Processing time: 0.19668269157409668
+ > Real-time factor: 0.1705834272108384
+ > Text splitted to sentences.
+['त वो बड़ आहलाद अउर बड़ आहलाद होता बाड़न,']
+ > Processing time: 0.19612717628479004
+ > Real-time factor: 0.1677734613214628
+ > Text splitted to sentences.
+['त वो एक साइद बाड़न,']
+ > Processing time: 0.2555527687072754
+ > Real-time factor: 0.2659237967817642
+ > Text splitted to sentences.
+['अउर दोसरा साइद जहां क्लासिकल फिजिक से हमारा क्राम ना चलता बाड़न,']
+ > Processing time: 0.20112204551696777
+ > Real-time factor: 0.17941306468953414
+ > Text splitted to sentences.
+['वो बा जब हम बहुते चोटे पार्टिकल्स के पार्टिकल्स के पार्टिकल्स बाड़न,']
+ > Processing time: 0.19951868057250977
+ > Real-time factor: 0.18321274616392083
+ > Text splitted to sentences.
+['त स्मॉल पार्टिकल्स,']
+ > Processing time: 0.3574399948120117
+ > Real-time factor: 0.43750305362547337
+ > Text splitted to sentences.
+['अउर स्मॉल याने का,']
+ > Processing time: 0.2547566890716553
+ > Real-time factor: 0.2945164035510466
+ > Text splitted to sentences.
+['त स्मॉल याने रउआ समझ ले,']
+ > Processing time: 0.20090055465698242
+ > Real-time factor: 0.16727773077184213
+ > Text splitted to sentences.
+['मॉलिकल्स बाड़न, आटम्स बाड़न,']
+ > Processing time: 0.20030951499938965
+ > Real-time factor: 0.18950758278087954
+ > Text splitted to sentences.
+['नुक्लियाम्स बाड़न,']
+ > Processing time: 0.2654900550842285
+ > Real-time factor: 0.31871555232200305
+ > Text splitted to sentences.
+['प्रोटॉन्स बाड़न, नूट्रॉन्स बाड़न,']
+ > Processing time: 0.2560915946960449
+ > Real-time factor: 0.26212036304610536
+ > Text splitted to sentences.
+['इलिक्रॉन्स बाड़न,']
+ > Processing time: 0.20102190971374512
+ > Real-time factor: 0.24132282078480807
+ > Text splitted to sentences.
+['जब चोटे पार्टिकल्स के बार करते बाड़न,']
+ > Processing time: 0.20010805130004883
+ > Real-time factor: 0.15818818284588843
+ > Text splitted to sentences.
+['त ऊाँ पर सिर हमारे ये जे']
+ > Processing time: 0.19739770889282227
+ > Real-time factor: 0.19563697610785163
+ > Text splitted to sentences.
+['क्लैसिकल्स के अमारे रूल्स बलए हमें,']
+ > Processing time: 0.19719338417053223
+ > Real-time factor: 0.17845555128554952
+ > Text splitted to sentences.
+['लॉर्ट बलए हमें,']
+ > Processing time: 0.2602524757385254
+ > Real-time factor: 0.33153181622742084
+ > Text splitted to sentences.
+['उनसे केम ना चरूता,']
+ > Processing time: 0.2006680965423584
+ > Real-time factor: 0.24089807508086244
+ > Text splitted to sentences.
+['अउर यहां त']
+ > Processing time: 0.19910049438476562
+ > Real-time factor: 0.2301739819477059
+ > Text splitted to sentences.
+['आमॉल चुल परिवर्दन करल बाड़न वरता बाड़न,']
+ > Processing time: 0.2010502815246582
+ > Real-time factor: 0.16305781145552165
+ > Text splitted to sentences.
+['विलिटिविटी में तोड़ा']
+ > Processing time: 0.25468993186950684
+ > Real-time factor: 0.3179649586385853
+ > Text splitted to sentences.
+['स्पेस्टाइम को समझने में']
+ > Processing time: 0.2048320770263672
+ > Real-time factor: 0.2557204457258017
+ > Text splitted to sentences.
+['तोड़ा बेसिक प्रब्लेम बाड़न,']
+ > Processing time: 0.20233702659606934
+ > Real-time factor: 0.2526055263371652
+ > Text splitted to sentences.
+['अउर उसको अबहलक से बुझल वरता बाड़न,']
+ > Processing time: 0.19939208030700684
+ > Real-time factor: 0.19452885883610424
+ > Text splitted to sentences.
+['बाकी यहां त पूरी के पूरी']
+ > Processing time: 0.2005157470703125
+ > Real-time factor: 0.19872720225006196
+ > Text splitted to sentences.
+['फ्लॉसर्भी ही बदल जाते बाड़न,']
+ > Processing time: 0.20112371444702148
+ > Real-time factor: 0.2128293274571656
+ > Text splitted to sentences.
+['अउर तोब जे वो जे थ्योरी निकल करते आई बाड़न,']
+ > Processing time: 0.20084333419799805
+ > Real-time factor: 0.18442914067768415
+ > Text splitted to sentences.
+['जिससे हम उन स्माल पार्टिकल्स के बारे में,']
+ > Processing time: 0.20040273666381836
+ > Real-time factor: 0.17625570506932134
+ > Text splitted to sentences.
+['उनके भ्यावार के बारे में,']
+ > Processing time: 0.26340627670288086
+ > Real-time factor: 0.2885063271663536
+ > Text splitted to sentences.
+['प्रेडिक्षन्स करते बाड़न,']
+ > Processing time: 0.2038130760192871
+ > Real-time factor: 0.2446735606474035
+ > Text splitted to sentences.
+['उसको समझते बाड़न,']
+ > Processing time: 0.19929957389831543
+ > Real-time factor: 0.23474625900861654
+ > Text splitted to sentences.
+['त वो बाड़न हमारा पार्टिकल्स']
+ > Processing time: 0.20061445236206055
+ > Real-time factor: 0.2455501252901598
+ > Text splitted to sentences.
+['त एक बहुते चुलत्य पूर्ण केम होगा,']
+ > Processing time: 0.25882506370544434
+ > Real-time factor: 0.19712495331717012
+ > Text splitted to sentences.
+['कि हम अपनी सारी सोच को पड़ल डाले,']
+ > Processing time: 0.20277690887451172
+ > Real-time factor: 0.1783438072774949
+ > Text splitted to sentences.
+['आसान ना होगा इ,']
+ > Processing time: 0.19798994064331055
+ > Real-time factor: 0.2288901047899544
+ > Text splitted to sentences.
+['अउर इसले बहुते सारी,']
+ > Processing time: 0.1982581615447998
+ > Real-time factor: 0.2097969963437035
+ > Text splitted to sentences.
+['बहुते सारी दिशकृषन्स करने होगे,']
+बहुते सारी दिशकृषन्स करने होगे,
+ [!] Character 'ृ' not found in the vocabulary. Discarding it.
+ > Processing time: 0.25052380561828613
+ > Real-time factor: 0.26967040432538875
+ > Text splitted to sentences.
+['बहुते सारी बाते करनी होगी,']
+ > Processing time: 0.1997995376586914
+ > Real-time factor: 0.19801738122764265
+ > Text splitted to sentences.
+['वाद विवाद करने होगे,']
+ > Processing time: 0.19941401481628418
+ > Real-time factor: 0.24408080148871994
+ > Text splitted to sentences.
+['उसको सिंक करने के लिए दिवाद के अंदर में,']
+ > Processing time: 0.1999056339263916
+ > Real-time factor: 0.16005254918045764
+ > Text splitted to sentences.
+['कि हम का कह रहे बाड़न ये सब,']
+ > Processing time: 0.20096993446350098
+ > Real-time factor: 0.16299264757785967
+ > Text splitted to sentences.
+['जे कि विलकुल खांटर इंटॉटिटिव बा,']
+ > Processing time: 0.2054753303527832
+ > Real-time factor: 0.1509737915891133
+ > Text splitted to sentences.
+['अउर अलग कसम के चीजे बाड़न,']
+ > Processing time: 0.19929027557373047
+ > Real-time factor: 0.20069514156468327
+ > Text splitted to sentences.
+['बेसिकली हमारे जे बहुते मुल भुत सिरहलन्त,']
+ > Processing time: 0.19916391372680664
+ > Real-time factor: 0.16807081327156678
+ > Text splitted to sentences.
+['अमने अपने दिमार में बिठाये बाड़न,']
+अमने अपने दिमार में बिठाये बाड़न,
+ [!] Character 'ठ' not found in the vocabulary. Discarding it.
+ > Processing time: 0.25369691848754883
+ > Real-time factor: 0.1980459941354792
+ > Text splitted to sentences.
+['वो भी यहां बर्बरते बाड़न बर्बरते बाड़न,']
+ > Processing time: 0.20127058029174805
+ > Real-time factor: 0.15910717809624353
+ > Text splitted to sentences.
+['बिजान बाड़न, विज्यान के केई प्रयोग करल बाड़न,']
+ > Processing time: 0.19948601722717285
+ > Real-time factor: 0.19462050461187597
+ > Text splitted to sentences.
+['त अगर रउआ एक प्रयोग करकेोगे,']
+ > Processing time: 0.19957542419433594
+ > Real-time factor: 0.19171510489369448
+ > Text splitted to sentences.
+['अउर एक प्रिलम मिलेगा,']
+ > Processing time: 0.1988353729248047
+ > Real-time factor: 0.2433725494795651
+ > Text splitted to sentences.
+['अउर उससी प्रयोग को तीक तीक उससी प्रकार होगे,']
+ > Processing time: 0.20148205757141113
+ > Real-time factor: 0.17474593024406862
+ > Text splitted to sentences.
+['त ऊी प्रिलम मिलेगा,']
+ > Processing time: 0.2005751132965088
+ > Real-time factor: 0.2362486611266299
+ > Text splitted to sentences.
+['आइडिन्टिकल एकस्परिमेंट्स विल्गे लिए रउआ आइडिन्टिकल प्रिजाल्स,']
+ > Processing time: 0.20197105407714844
+ > Real-time factor: 0.17277250134914324
+ > Text splitted to sentences.
+['ये भी यहां बर साहिदी होखल,']
+ > Processing time: 0.20148324966430664
+ > Real-time factor: 0.1723552178479954
+ > Text splitted to sentences.
+['आइडिन्टिकल एकस्परिमेंट्स विल्गे आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्ग']
+ > Processing time: 0.2679767608642578
+ > Real-time factor: 0.18805386727316337
+ > Text splitted to sentences.
+['आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइ�']
+आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे लिए आइ�
+ [!] Character '�' not found in the vocabulary. Discarding it.
+ > Processing time: 0.2683446407318115
+ > Real-time factor: 0.18622112472714192
+ > Text splitted to sentences.
+['जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी']
+ > Processing time: 0.2665219306945801
+ > Real-time factor: 0.18292514117678796
+ > Text splitted to sentences.
+['विल्गे लिए आइडिन्टिकल विल्गे लिए आइडिन्टिकल विल्गे जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिर']
+ > Processing time: 0.2681567668914795
+ > Real-time factor: 0.14076470702964802
+ > Text splitted to sentences.
+['जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी जिरी।']
+ > Processing time: 0.26465630531311035
+ > Real-time factor: 0.19913943213928545
+ > Text splitted to sentences.
+['अपको परावर्तित बी होती हैं।']
+ > Processing time: 0.20128369331359863
+ > Real-time factor: 0.22046406715618688
+ > Text splitted to sentences.
+['अपको परावर्तित बीन परावर्तित होती हैं।']
+ > Processing time: 0.2013111114501953
+ > Real-time factor: 0.1770546274847804
+ > Text splitted to sentences.
+['अपको परावर्तित बीन परावर्तित होती हैं।']
+ > Processing time: 0.20429396629333496
+ > Real-time factor: 0.19931118662764388
+ > Text splitted to sentences.
+['अपको परावर्तित बीन परावर्तित होती हैं।']
+ > Processing time: 0.19997310638427734
+ > Real-time factor: 0.1981894017683621
+ > Text splitted to sentences.
+['अपको परावर्तित बीन परावर्तित होती हैं।']
+ > Processing time: 0.19977736473083496
+ > Real-time factor: 0.19799540607614963
+ > Text splitted to sentences.
+['अपको परावर्तित बीन परावर्तित होती हैं।']
+ > Processing time: 0.2000584602355957
+ > Real-time factor: 0.20817737797668648
+ > Text splitted to sentences.
+['अपको परावर्तित बीन परावर्तित होती हैं।']
+ > Processing time: 0.1998920440673828
+ > Real-time factor: 0.16211844612115392
+ > Text splitted to sentences.
+['अपको परावर्तित बीन परावर्तित होती हैं।']
+ > Processing time: 0.19965076446533203
+ > Real-time factor: 0.18333403532170067
+2026-04-21 21:40:38,684 [INFO] Device: cuda
+2026-04-21 21:40:38,686 [INFO] Loaded embedding: outputs/speaker_embedding.pt  shape=torch.Size([256])
+2026-04-21 21:40:38,687 [INFO] Loaded professor prosody: F0=(51665,), E=(51665,)
+2026-04-21 21:40:38,687 [INFO] Computing MCD...
+2026-04-21 21:40:38,886 [INFO] MCD = 499.56 ± 196.05 dB  (threshold < 8.0)  ❌ FAIL
+2026-04-21 21:40:38,888 [INFO] MCD report saved: outputs/mcd_report.json
+2026-04-21 21:40:38,888 [INFO] ============================================================
+2026-04-21 21:40:38,888 [INFO] PART 3 COMPLETE
+2026-04-21 21:40:38,888 [INFO]   Speaker embedding : outputs/speaker_embedding.pt
+2026-04-21 21:40:38,888 [INFO]   Professor F0      : outputs/f0_professor.npy
+2026-04-21 21:40:38,888 [INFO]   Warped F0         : outputs/f0_warped.npy
+2026-04-21 21:40:38,888 [INFO]   Synthesized audio : outputs/output_LRL_cloned.wav
+2026-04-21 21:40:38,888 [INFO]   MCD report        : outputs/mcd_report.json
+2026-04-21 21:40:38,888 [INFO] ============================================================
+Part 3 finished at Tue Apr 21 21:40:39 IST 2026
