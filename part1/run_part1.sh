@@ -6,8 +6,8 @@
 #SBATCH --partition=fat                 # Choose the appropriate partition
 #SBATCH --nodes=1                       # Run all processes on a single node
 #SBATCH --ntasks=1                      # Run a single task
-#SBATCH --cpus-per-task=8               # Number of CPU cores per task
-#SBATCH --gres=gpu:2                    # Include 1 GPU for the task
+#SBATCH --cpus-per-task=4               # Number of CPU cores per task
+#SBATCH --gres=gpu:1                    # Include 1 GPU for the task
 #SBATCH --mem=32gb                      # Total memory limit
 #SBATCH --time=09:00:00                 # Time limit hrs:min:sec
 #SBATCH --output=part1_log%j.log          # Standard output and error log
@@ -21,7 +21,7 @@ mkdir -p logs outputs
 
 python part1_transcription.py \
     --audio  ../data/lecture_segment.wav \
-    --mode   full \
+    --mode   lid \
     --whisper_model large-v3
 
 echo "Part 1 finished at $(date)"

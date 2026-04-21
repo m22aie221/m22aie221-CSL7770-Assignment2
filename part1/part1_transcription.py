@@ -258,6 +258,10 @@ class FrameLevelFeatureExtractor(nn.Module):
         Returns:
             features: (batch, T_frames, 3*n_mfcc)
         """
+        # torchaudio transforms hold internal buffers (filterbank, window)
+        # created on CPU at __init__ time — move them to match input device
+        self.mfcc_transform = self.mfcc_transform.to(waveform.device)
+
         mfcc     = self.mfcc_transform(waveform)        # (batch, n_mfcc, T)
         features = self.compute_deltas(mfcc)             # (batch, 3*n_mfcc, T)
         features = features.permute(0, 2, 1)             # (batch, T, 3*n_mfcc)
@@ -518,9 +522,11 @@ class SyntheticLIDDataset(Dataset):
         win_samples = int(window_sec * sample_rate)
         hop_samples = int(hop_sec    * sample_rate)
 
+        # Always keep dataset segments on CPU — DataLoader workers are CPU-only.
+        # The training loop moves batches to DEVICE after collation.
         self.segments = []
         for start in range(0, waveform.shape[-1] - win_samples, hop_samples):
-            seg = waveform[:, start: start + win_samples]
+            seg = waveform[:, start: start + win_samples].cpu()
             self.segments.append(seg)
 
     def _pseudo_label(self, segment: torch.Tensor) -> torch.Tensor:
@@ -529,14 +535,22 @@ class SyntheticLIDDataset(Dataset):
         Hindi vowels → lower spectral centroid on average.
         This is a BOOTSTRAP only — replace with real labels.
         """
+        device = segment.device
+        n_fft  = 512
+
+        # Window must be on the same device as the input
+        window = torch.hann_window(n_fft, device=device)
+
         spec = torch.stft(
             segment.squeeze(0),
-            n_fft      = 512,
-            hop_length = 160,
+            n_fft          = n_fft,
+            hop_length     = 160,
+            window         = window,
             return_complex = True,
         )
         magnitude = spec.abs()                          # (freq, T)
-        freqs     = torch.linspace(0, self.sample_rate / 2, magnitude.shape[0])
+        # freqs must also be on the same device as magnitude
+        freqs     = torch.linspace(0, self.sample_rate / 2, magnitude.shape[0], device=device)
         centroid  = (freqs.unsqueeze(-1) * magnitude).sum(0) / (magnitude.sum(0) + 1e-8)
 
         # Threshold: lower centroid → more Hindi-like
