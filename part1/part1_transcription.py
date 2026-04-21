@@ -150,67 +150,159 @@ class SpectralSubtraction:
         return denoised
 
 
-def denoise_with_deepfilternet(waveform: torch.Tensor, sample_rate: int) -> torch.Tensor:
+def get_available_gpu_memory_gb() -> float:
+    """Return free GPU memory in GB, or 0 if no GPU."""
+    if not torch.cuda.is_available():
+        return 0.0
+    free, _ = torch.cuda.mem_get_info()
+    return free / (1024 ** 3)
+
+
+def denoise_with_deepfilternet_chunked(
+    waveform:    torch.Tensor,
+    sample_rate: int,
+    chunk_sec:   int = 30,
+) -> torch.Tensor:
     """
-    Try DeepFilterNet first; fall back to SpectralSubtraction if unavailable.
+    Chunked DeepFilterNet denoising — processes chunk_sec seconds at a time
+    so GPU memory stays bounded regardless of audio length.
+
+    Strategy:
+      1. Resample to 48kHz on CPU
+      2. Split into overlapping 30s chunks
+      3. Enhance each chunk on GPU, immediately move result back to CPU
+      4. Overlap-add chunks, resample back to target SR
     """
     try:
-        from df.enhance import enhance, init_df, load_audio, save_audio
-        from df.io import resample
-
-        logger.info("DeepFilterNet found. Using it for denoising.")
-        model, df_state, _ = init_df()
-
-        # DeepFilterNet needs 48kHz
-        if sample_rate != 48000:
-            resampler  = T.Resample(orig_freq=sample_rate, new_freq=48000)
-            waveform   = resampler(waveform)
-
-        enhanced   = enhance(model, df_state, waveform)
-
-        # Resample back
-        resampler  = T.Resample(orig_freq=48000, new_freq=sample_rate)
-        enhanced   = resampler(enhanced)
-        return enhanced
-
+        from df.enhance import enhance, init_df
     except ImportError:
         logger.warning("DeepFilterNet not installed. Falling back to Spectral Subtraction.")
-        ss = SpectralSubtraction(sample_rate=sample_rate)
-        return ss(waveform)
+        return SpectralSubtraction(sample_rate=sample_rate)(waveform.cpu())
+
+    logger.info(f"DeepFilterNet chunked denoising | chunk={chunk_sec}s")
+
+    DF_SR        = 48000
+    overlap_sec  = 1
+    fade_samples = DF_SR * overlap_sec
+
+    # All resampling on CPU
+    waveform_cpu = waveform.cpu()
+    if sample_rate != DF_SR:
+        wav48 = T.Resample(orig_freq=sample_rate, new_freq=DF_SR)(waveform_cpu)
+    else:
+        wav48 = waveform_cpu
+
+    # Load model on CPU first — we move it per-chunk
+    model, df_state, _ = init_df()
+    model = model.cpu()
+
+    chunk_samples   = DF_SR * chunk_sec
+    total_samples   = wav48.shape[-1]
+    n_chunks        = (total_samples // chunk_samples) + 1
+    enhanced_chunks = []
+
+    logger.info(f"Processing {total_samples/DF_SR:.1f}s in {n_chunks} chunks...")
+
+    for i, start in enumerate(range(0, total_samples, chunk_samples)):
+        end   = min(start + chunk_samples + fade_samples, total_samples)
+        chunk = wav48[:, start:end].to(DEVICE)
+        model = model.to(DEVICE)
+
+        with torch.no_grad():
+            enhanced = enhance(model, df_state, chunk)
+
+        # Pull back to CPU immediately — free VRAM
+        enhanced = enhanced.cpu()
+        model    = model.cpu()
+        del chunk
+        torch.cuda.empty_cache()
+
+        # Trim overlap: skip fade at start (except first chunk)
+        if start > 0:
+            enhanced = enhanced[:, fade_samples:]
+        # Trim overlap at end (except last chunk)
+        if end < total_samples:
+            enhanced = enhanced[:, :chunk_samples]
+
+        enhanced_chunks.append(enhanced)
+        logger.info(f"  Chunk {i+1}/{n_chunks} done | "
+                    f"GPU mem free: {get_available_gpu_memory_gb():.1f}GB")
+
+    enhanced48 = torch.cat(enhanced_chunks, dim=-1)
+
+    # Resample back to original SR on CPU
+    if sample_rate != DF_SR:
+        enhanced = T.Resample(orig_freq=DF_SR, new_freq=sample_rate)(enhanced48)
+    else:
+        enhanced = enhanced48
+
+    # Trim/pad to original length
+    orig_len = waveform_cpu.shape[-1]
+    if enhanced.shape[-1] > orig_len:
+        enhanced = enhanced[:, :orig_len]
+    elif enhanced.shape[-1] < orig_len:
+        enhanced = F.pad(enhanced, (0, orig_len - enhanced.shape[-1]))
+
+    logger.info("DeepFilterNet chunked denoising complete.")
+    return enhanced
 
 
-def load_and_denoise(audio_path: str, output_path: str = "denoised_output.wav") -> Tuple[torch.Tensor, int]:
+def denoise_with_spectral_subtraction(waveform: torch.Tensor, sample_rate: int) -> torch.Tensor:
+    """Pure CPU spectral subtraction — no GPU needed, no OOM risk."""
+    logger.info("Running Spectral Subtraction (CPU)...")
+    ss = SpectralSubtraction(sample_rate=sample_rate)
+    return ss(waveform.cpu())
+
+
+def load_and_denoise(
+    audio_path:  str,
+    output_path: str = "denoised_output.wav",
+    method:      str = "auto",
+    chunk_sec:   int = 30,
+) -> Tuple[torch.Tensor, int]:
     """
     Load audio, resample to 16kHz, denoise, save output.
 
-    Returns:
-        (waveform, sample_rate)
+    Args:
+        method: "auto"       -> DeepFilterNet if >=2GB free, else spectral
+                "deepfilter" -> Force DeepFilterNet chunked
+                "spectral"   -> Force Spectral Subtraction (CPU, safest)
+        chunk_sec: seconds per DeepFilterNet chunk (lower = less VRAM)
     """
     logger.info(f"Loading audio: {audio_path}")
     waveform, sr = torchaudio.load(audio_path)
 
-    # Mix down to mono
+    # Mix down to mono on CPU
     if waveform.shape[0] > 1:
         waveform = waveform.mean(dim=0, keepdim=True)
 
     # Resample to 16kHz
     if sr != SAMPLE_RATE:
-        logger.info(f"Resampling from {sr}Hz to {SAMPLE_RATE}Hz")
-        resampler = T.Resample(orig_freq=sr, new_freq=SAMPLE_RATE)
-        waveform  = resampler(waveform)
-        sr        = SAMPLE_RATE
+        logger.info(f"Resampling {sr}Hz -> {SAMPLE_RATE}Hz")
+        waveform = T.Resample(orig_freq=sr, new_freq=SAMPLE_RATE)(waveform)
+        sr       = SAMPLE_RATE
 
-    # Normalize amplitude
     waveform = waveform / (waveform.abs().max() + 1e-8)
 
-    logger.info("Denoising audio...")
-    waveform = denoise_with_deepfilternet(waveform, sr)
+    # Auto-select denoising method based on free VRAM
+    free_gb = get_available_gpu_memory_gb()
+    dur_min = waveform.shape[-1] / sr / 60
+    logger.info(f"Audio: {dur_min:.1f} min | Free GPU: {free_gb:.1f} GB | Method: {method}")
 
-    # Normalize again after denoising
+    if method == "auto":
+        method = "deepfilter" if free_gb >= 2.0 else "spectral"
+        logger.info(f"Auto-selected method: {method}")
+
+    if method == "deepfilter":
+        waveform = denoise_with_deepfilternet_chunked(waveform, sr, chunk_sec=chunk_sec)
+    else:
+        waveform = denoise_with_spectral_subtraction(waveform, sr)
+
+    waveform = waveform.cpu()
     waveform = waveform / (waveform.abs().max() + 1e-8)
 
     torchaudio.save(output_path, waveform, sr)
-    logger.info(f"Denoised audio saved to: {output_path}")
+    logger.info(f"Saved denoised audio: {output_path}")
 
     return waveform, sr
 
@@ -843,9 +935,49 @@ class ConstrainedWhisperDecoder:
         except ImportError:
             raise ImportError("Install openai-whisper: pip install openai-whisper")
 
-        logger.info(f"Loading Whisper {model_name}...")
+        # Whisper model VRAM requirements (approximate):
+        #   large-v3 : ~6.0 GB   medium : ~3.0 GB
+        #   small    : ~1.0 GB   base   : ~0.5 GB
+        WHISPER_VRAM = {
+            "large-v3": 6.0, "large-v2": 6.0, "large": 6.0,
+            "medium":   3.0, "medium.en": 3.0,
+            "small":    1.0, "small.en":  1.0,
+            "base":     0.5, "base.en":   0.5,
+            "tiny":     0.2, "tiny.en":   0.2,
+        }
+
+        free_gb     = get_available_gpu_memory_gb()
+        needed_gb   = WHISPER_VRAM.get(model_name, 6.0)
+        load_device = DEVICE
+
+        logger.info(f"Whisper {model_name} needs ~{needed_gb:.1f}GB | "
+                    f"Free GPU: {free_gb:.1f}GB")
+
+        # If not enough VRAM, downgrade model size automatically
+        if free_gb < needed_gb:
+            fallback_order = ["medium", "small", "base", "tiny"]
+            original_name  = model_name
+            for candidate in fallback_order:
+                if free_gb >= WHISPER_VRAM[candidate]:
+                    model_name = candidate
+                    logger.warning(
+                        f"Not enough VRAM for {original_name} "
+                        f"({needed_gb:.1f}GB needed, {free_gb:.1f}GB free). "
+                        f"Auto-downgraded to Whisper-{model_name}."
+                    )
+                    break
+            else:
+                # Even tiny won't fit — load on CPU
+                load_device = torch.device("cpu")
+                logger.warning(
+                    f"Insufficient VRAM even for tiny Whisper. "
+                    f"Loading on CPU (slower but will work)."
+                )
+
+        logger.info(f"Loading Whisper {model_name} on {load_device}...")
         self.whisper     = whisper
-        self.model       = whisper.load_model(model_name, device=DEVICE)
+        self.model       = whisper.load_model(model_name, device=load_device)
+        self.load_device = load_device
         self.ngram_lm    = ngram_lm
         self.lid_preds   = lid_preds
         self.tokenizer   = whisper.tokenizer.get_tokenizer(
@@ -936,16 +1068,33 @@ class ConstrainedWhisperDecoder:
         logger.info(f"Transcribing: {audio_path}")
         audio = whisper.load_audio(audio_path)
 
+        # Determine dominant language from LID predictions for Whisper hint
+        # For code-switched audio, "hi" works better than None because Whisper
+        # auto-detect on 30s windows often locks onto English for Hinglish
+        whisper_lang = None
+        if self.lid_preds:
+            lang_counts = Counter(p["language"] for p in self.lid_preds)
+            total       = sum(lang_counts.values())
+            hindi_frac  = lang_counts.get("hindi", 0) / max(total, 1)
+            if hindi_frac >= 0.40:
+                # Majority or near-majority Hindi → hint Whisper with "hi"
+                # This prevents Whisper from treating Devanagari as noise
+                whisper_lang = "hi"
+                logger.info(f"LID: {hindi_frac:.0%} Hindi → setting Whisper lang='hi'")
+            else:
+                whisper_lang = "en"
+                logger.info(f"LID: {1-hindi_frac:.0%} English → setting Whisper lang='en'")
+
         # Use Whisper's built-in VAD + chunking
         result = self.model.transcribe(
             audio,
-            language          = None,      # auto-detect per segment
-            beam_size         = BEAM_SIZE,
-            best_of           = 5,
-            temperature       = 0.0,
+            language                   = whisper_lang,
+            beam_size                  = BEAM_SIZE,
+            best_of                    = 5,
+            temperature                = 0.0,
             condition_on_previous_text = True,
-            word_timestamps   = True,
-            verbose           = False,
+            word_timestamps            = True,
+            verbose                    = False,
         )
 
         # Enrich segments with LID information
@@ -957,12 +1106,21 @@ class ConstrainedWhisperDecoder:
             json.dump(result, f, indent=2, ensure_ascii=False)
 
         with open(output_txt, "w", encoding="utf-8") as f:
+            f.write("# Code-Switched Transcript\n")
+            f.write("# Format: [start → end | LANG (hi%)] text  {CS} if code-switched\n\n")
             for seg in result["segments"]:
-                start = seg["start"]
-                end   = seg["end"]
-                text  = seg["text"].strip()
-                lang  = seg.get("dominant_language", "?")
-                f.write(f"[{start:.2f}s → {end:.2f}s | {lang}] {text}\n")
+                start      = seg["start"]
+                end        = seg["end"]
+                text       = seg["text"].strip()
+                lang       = seg.get("dominant_language", "?")
+                hi_ratio   = seg.get("hindi_ratio", 0.0)
+                is_cs      = seg.get("is_code_switched", False)
+                n_switches = len(seg.get("switch_points", []))
+                cs_tag     = f"  {{CS:{n_switches} switches}}" if is_cs else ""
+                f.write(
+                    f"[{start:.2f}s → {end:.2f}s | {lang.upper()} "
+                    f"(hi={hi_ratio:.0%})] {text}{cs_tag}\n"
+                )
 
         logger.info(f"Transcript saved to: {output_json} and {output_txt}")
 
@@ -974,27 +1132,77 @@ class ConstrainedWhisperDecoder:
 
     def _enrich_with_lid(self, result: Dict) -> Dict:
         """
-        Attach LID language label to each Whisper segment
-        based on majority vote from LID frame predictions.
+        Attach LID language label to each Whisper segment using
+        majority vote over all LID frames that fall within the segment.
+
+        Uses direct time-range lookup (not binning) for accuracy.
+        Applies a confidence-weighted vote so low-confidence frames
+        contribute less to the final label.
+
+        Also computes:
+          - dominant_language : "english" | "hindi"
+          - is_code_switched  : True if >20% frames are the minority language
+          - hindi_ratio       : fraction of frames labelled Hindi
+          - switch_points     : timestamps (sec) where language switches occur
         """
-        lid_lookup = defaultdict(list)
-        for p in self.lid_preds:
-            t_bin = int(p["start_sec"] * 10)   # 100ms buckets
-            lid_lookup[t_bin].append(p["language"])
+        # Build a sorted list for range queries — faster than dict binning
+        lid_sorted = sorted(self.lid_preds, key=lambda x: x["start_sec"])
 
         for seg in result["segments"]:
-            start_bin = int(seg["start"] * 10)
-            end_bin   = int(seg["end"]   * 10)
-            langs     = []
-            for b in range(start_bin, end_bin + 1):
-                langs.extend(lid_lookup[b])
+            seg_start = seg["start"]
+            seg_end   = seg["end"]
 
-            if langs:
-                seg["dominant_language"] = Counter(langs).most_common(1)[0][0]
-                seg["is_code_switched"]  = len(set(langs)) > 1
-            else:
-                seg["dominant_language"] = "unknown"
+            # Collect all LID frames that overlap this segment
+            en_weight = 0.0
+            hi_weight = 0.0
+            switch_points = []
+            prev_lang = None
+
+            for frame in lid_sorted:
+                fs = frame["start_sec"]
+                fe = frame["end_sec"]
+
+                # Skip frames entirely outside the segment
+                if fe < seg_start:
+                    continue
+                if fs > seg_end:
+                    break
+
+                lang = frame["language"]
+                conf = frame.get("confidence", 1.0)
+
+                if lang == "english":
+                    en_weight += conf
+                else:
+                    hi_weight += conf
+
+                # Collect switch points with ±200ms precision (assignment req)
+                if prev_lang is not None and lang != prev_lang:
+                    switch_points.append(round(fs, 3))
+                prev_lang = lang
+
+            total_weight = en_weight + hi_weight
+
+            if total_weight == 0:
+                # No LID frames found for this segment — use Whisper's detection
+                seg["dominant_language"] = seg.get("language", "unknown")
                 seg["is_code_switched"]  = False
+                seg["hindi_ratio"]       = 0.0
+                seg["switch_points"]     = []
+                continue
+
+            hindi_ratio = hi_weight / total_weight
+            english_ratio = en_weight / total_weight
+
+            # Dominant language by weighted majority vote
+            seg["dominant_language"] = "hindi" if hindi_ratio >= 0.5 else "english"
+
+            # Code-switched if minority language > 20% of segment
+            minority_ratio = min(hindi_ratio, english_ratio)
+            seg["is_code_switched"]  = minority_ratio > 0.20
+
+            seg["hindi_ratio"]   = round(hindi_ratio, 3)
+            seg["switch_points"] = switch_points
 
         return result
 
@@ -1097,7 +1305,7 @@ def train_lid_model(waveform: torch.Tensor, sample_rate: int, epochs: int = 30) 
     return model
 
 
-def run_part1(audio_path: str, mode: str = "full", skip_lid_train: bool = False):
+def run_part1(audio_path: str, mode: str = "full", skip_lid_train: bool = False, denoise_method: str = "auto", chunk_sec: int = 30, whisper_model: str = "large-v3"):
     """
     Master function for Part I.
 
@@ -1116,7 +1324,7 @@ def run_part1(audio_path: str, mode: str = "full", skip_lid_train: bool = False)
 
     # ── Step 1: Denoise ──────────────────────────────────────
     if mode in ("full", "denoise"):
-        waveform, sr = load_and_denoise(audio_path, denoised_path)
+        waveform, sr = load_and_denoise(audio_path, denoised_path, method=denoise_method, chunk_sec=chunk_sec)
     else:
         waveform, sr = torchaudio.load(denoised_path if os.path.exists(denoised_path) else audio_path)
         if sr != SAMPLE_RATE:
@@ -1139,6 +1347,14 @@ def run_part1(audio_path: str, mode: str = "full", skip_lid_train: bool = False)
         lid_model = lid_model.to(DEVICE)
         lid_preds = run_lid_inference(waveform, sr, lid_model, lid_json)
 
+        # ── Explicitly free LID model from GPU before loading Whisper ──
+        lid_model.cpu()
+        del lid_model
+        torch.cuda.empty_cache()
+        torch.cuda.synchronize()
+        free_gb = get_available_gpu_memory_gb()
+        logger.info(f"GPU memory freed after LID. Free: {free_gb:.1f} GB")
+
     # ── Step 3: N-gram LM ─────────────────────────────────────
     ngram_lm = None
     if mode in ("full", "transcribe"):
@@ -1156,7 +1372,7 @@ def run_part1(audio_path: str, mode: str = "full", skip_lid_train: bool = False)
         audio_for_transcription = denoised_path if os.path.exists(denoised_path) else audio_path
 
         decoder = ConstrainedWhisperDecoder(
-            model_name = "large-v3",
+            model_name = whisper_model,
             ngram_lm   = ngram_lm,
             lid_preds  = lid_preds,
         )
@@ -1199,6 +1415,15 @@ if __name__ == "__main__":
         "--whisper_model", type=str, default="large-v3",
         help="Whisper model size (default: large-v3)"
     )
+    parser.add_argument(
+        "--denoise_method", type=str, default="auto",
+        choices=["auto", "deepfilter", "spectral"],
+        help="Denoising method: auto (default) | deepfilter | spectral (CPU, no OOM)"
+    )
+    parser.add_argument(
+        "--chunk_sec", type=int, default=30,
+        help="DeepFilterNet chunk size in seconds (default 30, reduce if OOM)"
+    )
 
     args = parser.parse_args()
 
@@ -1206,4 +1431,7 @@ if __name__ == "__main__":
         audio_path     = args.audio,
         mode           = args.mode,
         skip_lid_train = args.skip_lid_train,
+        denoise_method = args.denoise_method,
+        chunk_sec      = args.chunk_sec,
+        whisper_model  = args.whisper_model,
     )

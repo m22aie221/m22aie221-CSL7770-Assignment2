@@ -1,0 +1,22 @@
+cpu-bind=MASK - cn25, task  0  0 [2882261]: mask 0x6000000000000000000000006000000000000 set
+2026-04-21 05:59:43,963 [INFO] Using device: cuda
+2026-04-21 05:59:44,007 [INFO] Preparing LID training data (pseudo-labels)...
+2026-04-21 05:59:44,650 [INFO] Training LID model for 40 epochs...
+2026-04-21 05:59:54,708 [INFO] Epoch   5/40 | Loss: 0.1777 | Macro-F1: 0.9402 | En-F1: 0.9317 | Hi-F1: 0.9486
+2026-04-21 05:59:54,724 [INFO]   → New best model saved (F1=0.9402)
+2026-04-21 06:00:05,001 [INFO] Epoch  10/40 | Loss: 0.1507 | Macro-F1: 0.9497 | En-F1: 0.9410 | Hi-F1: 0.9585
+2026-04-21 06:00:05,016 [INFO]   → New best model saved (F1=0.9497)
+2026-04-21 06:00:14,741 [INFO] Epoch  15/40 | Loss: 0.1328 | Macro-F1: 0.9524 | En-F1: 0.9452 | Hi-F1: 0.9596
+2026-04-21 06:00:14,755 [INFO]   → New best model saved (F1=0.9524)
+2026-04-21 06:00:24,807 [INFO] Epoch  20/40 | Loss: 0.1227 | Macro-F1: 0.9582 | En-F1: 0.9519 | Hi-F1: 0.9645
+2026-04-21 06:00:24,822 [INFO]   → New best model saved (F1=0.9582)
+2026-04-21 06:00:34,801 [INFO] Epoch  25/40 | Loss: 0.1191 | Macro-F1: 0.9598 | En-F1: 0.9529 | Hi-F1: 0.9666
+2026-04-21 06:00:34,817 [INFO]   → New best model saved (F1=0.9598)
+2026-04-21 06:00:44,551 [INFO] Epoch  30/40 | Loss: 0.1080 | Macro-F1: 0.9602 | En-F1: 0.9545 | Hi-F1: 0.9659
+2026-04-21 06:00:44,567 [INFO]   → New best model saved (F1=0.9602)
+2026-04-21 06:00:54,552 [INFO] Epoch  35/40 | Loss: 0.1041 | Macro-F1: 0.9577 | En-F1: 0.9514 | Hi-F1: 0.9639
+2026-04-21 06:01:04,636 [INFO] Epoch  40/40 | Loss: 0.0982 | Macro-F1: 0.9579 | En-F1: 0.9508 | Hi-F1: 0.9650
+2026-04-21 06:01:05,434 [INFO] Final LID Metrics: {'macro_f1': 0.9597833602296592, 'english_f1': 0.9538083805533901, 'hindi_f1': 0.9657583399059282, 'accuracy': 0.9606710671067107}
+2026-04-21 06:01:18,098 [INFO] LID predictions saved to: outputs/lid_predictions.json
+2026-04-21 06:01:18,106 [INFO] LID Summary — English frames: 24743, Hindi frames: 35208, Language switches: 4784
+Part 1 finished at Tue Apr 21 06:01:18 IST 2026

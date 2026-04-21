@@ -19,9 +19,11 @@ set -e
 # ── Create output/log dirs ──────────────────────────────────
 mkdir -p logs outputs
 
-python part1_transcription.py \
-    --audio  ../data/lecture_segment.wav \
-    --mode   lid \
-    --whisper_model large-v3
+# Config
+AUDIO="../data/lecture_segment.wav"
+MODE="full"
+WHISPER_MODEL="medium"
 
-echo "Part 1 finished at $(date)"
+echo "Starting Part 1 pipeline at $(date)"
+# Run pipeline
+python part1_transcription.py --audio "$AUDIO" --mode "$MODE" --whisper_model "$WHISPER_MODEL" --skip_lid_train --denoise_method spectral
