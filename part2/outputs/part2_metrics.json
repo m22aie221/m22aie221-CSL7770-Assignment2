@@ -5,18 +5,18 @@
     "threshold": 500
   },
   "g2p_stats": {
-    "total_words": 1112,
-    "corpus_hits": 300,
-    "english_words": 84,
-    "hindi_words": 610,
-    "corpus_coverage": 0.2698
+    "total_words": 1577,
+    "corpus_hits": 488,
+    "english_words": 10,
+    "hindi_words": 879,
+    "corpus_coverage": 0.3094
   },
   "translation_stats": {
-    "total_tokens": 994,
+    "total_tokens": 1377,
     "by_method": {
-      "unchanged": 659,
-      "corpus": 300,
-      "morphological": 35
+      "unchanged": 859,
+      "corpus": 488,
+      "morphological": 30
     }
   }
 }

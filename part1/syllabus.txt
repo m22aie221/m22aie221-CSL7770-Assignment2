@@ -1,0 +1,40 @@
+HC Verma Concepts of Physics quantum mechanics modern physics.
+Quantum theory wave particle duality de Broglie wavelength hypothesis.
+Photoelectric effect photon energy frequency threshold work function.
+Heisenberg uncertainty principle position momentum energy time.
+Schrodinger wave equation wavefunction probability amplitude.
+Superposition principle interference diffraction double slit experiment.
+Identical particles fermions bosons Pauli exclusion principle.
+Hydrogen atom Bohr model energy levels orbital angular momentum.
+Quantum numbers principal azimuthal magnetic spin quantum number.
+Electron configuration shell subshell orbital degeneracy.
+Radioactivity alpha beta gamma decay nuclear fission fusion.
+Nucleus proton neutron binding energy mass defect.
+Special relativity reference frame inertial frame time dilation.
+Length contraction Lorentz transformation mass energy equivalence.
+Einstein equation E equals m c squared rest mass energy.
+Electric field magnetic field electromagnetic induction Faraday law.
+Coulomb law Gauss law capacitor electric potential voltage.
+Ohm law resistance conductance current voltage power.
+Magnetic force Lorentz force solenoid electromagnet.
+Optics refraction reflection total internal reflection Snell law.
+Lens mirror focal length magnification image formation.
+Interference coherent light Young double slit fringe width.
+Diffraction grating wavelength resolution Rayleigh criterion.
+Polarization Brewster angle transverse wave electromagnetic spectrum.
+Thermodynamics first law second law entropy heat engine efficiency.
+Ideal gas kinetic theory pressure temperature Boltzmann constant.
+Carnot cycle reversible irreversible process free energy.
+Simple harmonic motion oscillation amplitude period frequency phase.
+Wave motion transverse longitudinal standing wave resonance.
+Sound speed intensity decibel Doppler effect beats superposition.
+Gravitation Newton law gravitational potential escape velocity orbit.
+Kepler laws planetary motion angular momentum conservation.
+Rotational motion moment of inertia torque angular velocity.
+Linear momentum conservation collision elastic inelastic.
+Work energy theorem kinetic energy potential energy conservation.
+Friction coefficient normal force tension compression stress strain.
+Fluid pressure buoyancy Archimedes principle viscosity Bernoulli.
+Classical physics mechanics electromagnetism statistical mechanics.
+Modern physics quantum electrodynamics semiconductor band theory.
+Experiment observation hypothesis theory law scientific method.

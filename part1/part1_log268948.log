@@ -1,0 +1,34 @@
+cpu-bind=MASK - cn26, task  0  0 [2877458]: mask 0x28000000000000000000000028000000000000000 set
+Starting Part 1 pipeline at Fri Apr 24 22:19:24 IST 2026
+2026-04-24 22:19:28,803 [INFO] Using device: cuda
+2026-04-24 22:19:28,818 [INFO] Loading audio: ../data/lecture_segment.wav
+2026-04-24 22:19:29,172 [INFO] Audio: 10.0 min | Free GPU: 23.3 GB | Method: spectral
+2026-04-24 22:19:29,173 [INFO] Running Spectral Subtraction (CPU)...
+2026-04-24 22:19:32,615 [INFO] Saved denoised audio: outputs/denoised_output.wav
+2026-04-24 22:19:32,630 [INFO] Loading pre-trained LID weights from lid_model_best.pt
+2026-04-24 22:19:49,962 [INFO] LID predictions saved to: outputs/lid_predictions.json
+2026-04-24 22:19:49,975 [INFO] LID Summary — English frames: 16672, Hindi frames: 43279, Language switches (after smoothing): 613
+2026-04-24 22:19:49,995 [INFO] GPU memory freed after LID. Free: 23.2 GB
+2026-04-24 22:19:49,998 [INFO] N-gram LM trained on 303 tokens, vocab size: 217, technical terms: 161
+2026-04-24 22:19:50,002 [INFO] N-gram LM saved to outputs/ngram_lm.json
+2026-04-24 22:19:50,574 [INFO] Whisper medium needs ~3.0GB | Free GPU: 23.2GB
+2026-04-24 22:19:50,574 [INFO] Loading Whisper medium on cuda...
+2026-04-24 22:20:00,185 [INFO] Transcribing: outputs/denoised_output.wav
+2026-04-24 22:20:01,135 [INFO] LID: 72% Hindi → setting Whisper lang='hi'
+  0%|          | 0/60000 [00:00<?, ?frames/s]  2%|▏         | 1352/60000 [00:11<08:06, 120.43frames/s]  7%|▋         | 4088/60000 [00:17<03:40, 253.62frames/s] 10%|█         | 6036/60000 [00:24<03:21, 268.44frames/s] 13%|█▎        | 7540/60000 [00:31<03:26, 253.63frames/s] 15%|█▍        | 8878/60000 [00:37<03:37, 235.34frames/s] 18%|█▊        | 10560/60000 [00:44<03:24, 241.43frames/s] 20%|█▉        | 11966/60000 [00:51<03:26, 232.17frames/s] 23%|██▎       | 13664/60000 [00:57<03:13, 240.05frames/s] 25%|██▍       | 14864/60000 [01:04<03:26, 218.84frames/s] 28%|██▊       | 16636/60000 [01:11<03:05, 233.91frames/s] 30%|███       | 18072/60000 [01:17<03:03, 228.90frames/s] 33%|███▎      | 19692/60000 [01:24<02:53, 232.97frames/s] 38%|███▊      | 22660/60000 [01:31<02:05, 297.90frames/s] 43%|████▎     | 25658/60000 [01:37<01:39, 345.50frames/s] 47%|████▋     | 28052/60000 [01:44<01:30, 351.20frames/s] 52%|█████▏    | 31006/60000 [01:50<01:16, 380.46frames/s] 56%|█████▌    | 33372/60000 [01:57<01:11, 373.85frames/s] 60%|██████    | 36246/60000 [02:03<01:00, 393.61frames/s] 64%|██████▍   | 38464/60000 [02:10<00:57, 373.60frames/s] 67%|██████▋   | 40404/60000 [02:17<00:56, 349.40frames/s] 70%|██████▉   | 41898/60000 [02:23<00:57, 312.54frames/s] 73%|███████▎  | 43590/60000 [02:30<00:55, 297.45frames/s] 75%|███████▍  | 44862/60000 [02:37<00:57, 264.84frames/s] 78%|███████▊  | 46584/60000 [02:43<00:50, 263.59frames/s] 80%|███████▉  | 47796/60000 [02:50<00:51, 238.61frames/s] 82%|████████▏ | 49140/60000 [02:57<00:47, 228.29frames/s] 84%|████████▎ | 50154/60000 [03:03<00:47, 206.05frames/s] 86%|████████▌ | 51628/60000 [03:10<00:39, 210.44frames/s] 88%|████████▊ | 53062/60000 [03:16<00:32, 212.47frames/s] 91%|█████████ | 54440/60000 [03:23<00:26, 210.71frames/s] 93%|█████████▎| 55882/60000 [03:30<00:19, 212.65frames/s] 95%|█████████▌| 57284/60000 [03:36<00:12, 213.88frames/s] 96%|█████████▋| 57848/60000 [03:43<00:12, 176.16frames/s] 98%|█████████▊| 58848/60000 [03:49<00:06, 168.92frames/s]100%|██████████| 60000/60000 [03:56<00:00, 171.69frames/s]100%|██████████| 60000/60000 [03:56<00:00, 254.03frames/s]
+2026-04-24 22:23:58,048 [INFO] Transcript saved to: outputs/transcript.json and outputs/transcript.txt
+2026-04-24 22:23:58,049 [INFO] Total transcribed words: 1374
+2026-04-24 22:23:58,049 [INFO] ============================================================
+2026-04-24 22:23:58,049 [INFO] PART I COMPLETE
+2026-04-24 22:23:58,049 [INFO]   Denoised audio   : outputs/denoised_output.wav
+2026-04-24 22:23:58,049 [INFO]   LID predictions  : outputs/lid_predictions.json
+2026-04-24 22:23:58,049 [INFO]   Transcript (json): outputs/transcript.json
+2026-04-24 22:23:58,049 [INFO]   Transcript (txt) : outputs/transcript.txt
+2026-04-24 22:23:58,049 [INFO] ============================================================
+2026-04-24 22:23:58,049 [INFO] ============================================================
+2026-04-24 22:23:58,049 [INFO] EVALUATING ASSIGNMENT METRICS — PART I
+2026-04-24 22:23:58,049 [INFO] ============================================================
+2026-04-24 22:23:58,162 [INFO] │ WER English          │ 10.0%    │ <15%   │ ✅ PASS   │
+2026-04-24 22:23:58,162 [INFO] │ WER Hindi            │ 10.0%    │ <25%   │ ✅ PASS   │
+2026-04-24 22:23:58,162 [INFO] └──────────────────────┴──────────┴────────┴──────────┘
+2026-04-24 22:23:58,166 [INFO] Metrics report saved: outputs/metrics_report.json

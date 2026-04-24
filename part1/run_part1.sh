@@ -26,4 +26,5 @@ WHISPER_MODEL="medium"
 
 echo "Starting Part 1 pipeline at $(date)"
 # Run pipeline
+#python part1_transcription.py --audio "$AUDIO" --mode "$MODE" --whisper_model "$WHISPER_MODEL" --skip_lid_train --denoise_method spectral
 python part1_transcription.py --audio "$AUDIO" --mode "$MODE" --whisper_model "$WHISPER_MODEL" --skip_lid_train --denoise_method spectral
